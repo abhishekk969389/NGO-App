@@ -1,0 +1,97 @@
+<svg viewBox="0 0 200 200" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Leaf definition -->
+    <g id="leaf">
+      <path d="M 0,-8 C 4.5,-4 4.5,4 0,8 C -4.5,4 -4.5,-4 0,-8 Z" fill="#6bb232"/>
+    </g>
+    <g id="leaf-dark">
+      <path d="M 0,-8 C 4.5,-4 4.5,4 0,8 C -4.5,4 -4.5,-4 0,-8 Z" fill="#4d9627"/>
+    </g>
+  </defs>
+
+  <!-- Top Outer Arch -->
+  <path d="M 25,92 A 77,77 0 0,1 175,92" fill="none" stroke="#6bb232" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Leaf Canopy (Tree Crown) -->
+  <g id="canopy">
+    <!-- Outer Arc Leaves -->
+    <use href="#leaf" transform="translate(100, 25) rotate(0) scale(1.1)"/>
+    <use href="#leaf" transform="translate(90, 28) rotate(-18) scale(1.05)"/>
+    <use href="#leaf" transform="translate(110, 28) rotate(18) scale(1.05)"/>
+    <use href="#leaf" transform="translate(80, 33) rotate(-32) scale(1)"/>
+    <use href="#leaf" transform="translate(120, 33) rotate(32) scale(1)"/>
+    <use href="#leaf" transform="translate(70, 42) rotate(-46) scale(1)"/>
+    <use href="#leaf" transform="translate(130, 42) rotate(46) scale(1)"/>
+    <use href="#leaf" transform="translate(61, 53) rotate(-60) scale(0.95)"/>
+    <use href="#leaf" transform="translate(139, 53) rotate(60) scale(0.95)"/>
+    <use href="#leaf" transform="translate(54, 66) rotate(-74) scale(0.9)"/>
+    <use href="#leaf" transform="translate(146, 66) rotate(74) scale(0.9)"/>
+    <use href="#leaf" transform="translate(50, 80) rotate(-85) scale(0.85)"/>
+    <use href="#leaf" transform="translate(150, 80) rotate(85) scale(0.85)"/>
+
+    <!-- Middle Ring Leaves -->
+    <use href="#leaf-dark" transform="translate(100, 38) rotate(0) scale(1)"/>
+    <use href="#leaf" transform="translate(90, 41) rotate(-15) scale(1)"/>
+    <use href="#leaf" transform="translate(110, 41) rotate(15) scale(1)"/>
+    <use href="#leaf" transform="translate(80, 47) rotate(-30) scale(0.95)"/>
+    <use href="#leaf" transform="translate(120, 47) rotate(30) scale(0.95)"/>
+    <use href="#leaf-dark" transform="translate(71, 56) rotate(-45) scale(0.9)"/>
+    <use href="#leaf-dark" transform="translate(129, 56) rotate(45) scale(0.9)"/>
+    <use href="#leaf" transform="translate(63, 67) rotate(-60) scale(0.85)"/>
+    <use href="#leaf" transform="translate(137, 67) rotate(60) scale(0.85)"/>
+    <use href="#leaf" transform="translate(58, 79) rotate(-75) scale(0.8)"/>
+    <use href="#leaf" transform="translate(142, 79) rotate(75) scale(0.8)"/>
+
+    <!-- Inner Ring Leaves -->
+    <use href="#leaf" transform="translate(100, 51) rotate(0) scale(0.9)"/>
+    <use href="#leaf-dark" transform="translate(91, 54) rotate(-18) scale(0.9)"/>
+    <use href="#leaf-dark" transform="translate(109, 54) rotate(18) scale(0.9)"/>
+    <use href="#leaf" transform="translate(82, 60) rotate(-35) scale(0.85)"/>
+    <use href="#leaf" transform="translate(118, 60) rotate(35) scale(0.85)"/>
+    <use href="#leaf" transform="translate(74, 69) rotate(-50) scale(0.8)"/>
+    <use href="#leaf" transform="translate(126, 69) rotate(50) scale(0.8)"/>
+    <use href="#leaf-dark" transform="translate(68, 80) rotate(-65) scale(0.75)"/>
+    <use href="#leaf-dark" transform="translate(132, 80) rotate(65) scale(0.75)"/>
+
+    <!-- Center Base Foliage -->
+    <use href="#leaf" transform="translate(92, 66) rotate(-12) scale(0.8)"/>
+    <use href="#leaf" transform="translate(108, 66) rotate(12) scale(0.8)"/>
+    <use href="#leaf-dark" transform="translate(84, 73) rotate(-28) scale(0.75)"/>
+    <use href="#leaf-dark" transform="translate(116, 73) rotate(28) scale(0.75)"/>
+  </g>
+
+  <!-- Central Human Figures (Trunk) -->
+  <g id="figures">
+    <!-- Center Top Leaf Sprouts -->
+    <path d="M 100,66 C 96,73 95,81 100,86 C 105,81 104,73 100,66 Z" fill="#3f8e27"/>
+    <path d="M 94,72 C 90,78 90,85 96,89 C 99,84 98,77 94,72 Z" fill="#3f8e27"/>
+    <path d="M 106,72 C 110,78 110,85 104,89 C 101,84 102,77 106,72 Z" fill="#0b4e1d"/>
+
+    <!-- Left Human Figure (Light/Medium Green) -->
+    <!-- Head -->
+    <circle cx="85" cy="101" r="5" fill="#3f8e27"/>
+    <!-- Body & Arms -->
+    <path d="M 97,152 C 96,134 94,121 88,111 C 82,116 76,116 71,110 C 67,105 71,102 76,105 C 82,108 86,106 90,95 C 93,87 96,80 98,76 C 96,85 94,97 92,110 C 95,113 97,126 97,152 Z" fill="#3f8e27"/>
+
+    <!-- Right Human Figure (Dark Green) -->
+    <!-- Head -->
+    <circle cx="115" cy="101" r="5" fill="#0b4e1d"/>
+    <!-- Body & Arms -->
+    <path d="M 103,152 C 104,134 106,121 112,111 C 118,116 124,116 129,110 C 133,105 129,102 124,105 C 118,108 114,106 110,95 C 107,87 104,80 102,76 C 104,85 106,97 108,110 C 105,113 103,126 103,152 Z" fill="#0b4e1d"/>
+  </g>
+
+  <!-- Bottom Cupping Hands -->
+  <g id="hands">
+    <!-- Left Hand Outer (Light Green) -->
+    <path d="M 98,186 C 72,186 45,171 28,145 C 15,124 12,101 18,89 C 21,107 32,130 52,148 C 70,163 87,172 98,186 Z" fill="#4d9627"/>
+    
+    <!-- Left Hand Inner Swoop -->
+    <path d="M 96,182 C 78,171 58,154 42,130 C 31,115 26,101 28,95 C 33,108 47,127 65,143 C 78,155 92,168 96,182 Z" fill="#3f8e27"/>
+
+    <!-- Right Hand Outer (Dark Green) -->
+    <path d="M 102,186 C 128,186 155,171 172,145 C 185,124 188,101 182,89 C 179,107 168,130 148,148 C 130,163 113,172 102,186 Z" fill="#0b4e1d"/>
+    
+    <!-- Right Hand Inner Swoop -->
+    <path d="M 104,182 C 122,171 142,154 158,130 C 169,115 174,101 172,95 C 167,108 153,127 135,143 C 122,155 108,168 104,182 Z" fill="#073a15"/>
+  </g>
+</svg>

@@ -1,0 +1,70 @@
+{
+  "brand": {
+    "name": "Bless",
+    "tagline": "FOUNDATION",
+    "subtitle": "Together We Care, Together We Can",
+    "logo": "/logo.svg"
+  },
+  "navLinks": [
+    { "label": "Home", "href": "/" },
+    { "label": "About Us", "href": "/about" },
+    { "label": "Our Causes", "href": "/causes" },
+    { "label": "Our Programs", "href": "/programs" },
+    { "label": "Impact", "href": "/impact" },
+    { "label": "Get Involved", "href": "/get-involved" },
+    { "label": "Contact Us", "href": "/contact" }
+  ],
+  "actions": {
+    "searchLabel": "Search",
+    "donate": {
+      "label": "Donate Now",
+      "href": "/donate"
+    },
+    "volunteer": {
+      "label": "Become a Volunteer",
+      "href": "/volunteer"
+    }
+  },
+  "about": {
+    "description": "We are committed to helping poor people by providing food, education, healthcare and hope for a better tomorrow."
+  },
+  "socialLinks": [
+    { "id": 1, "platform": "facebook", "href": "https://facebook.com" },
+    { "id": 2, "platform": "instagram", "href": "https://instagram.com" },
+    { "id": 3, "platform": "twitter", "href": "https://twitter.com" },
+    { "id": 4, "platform": "youtube", "href": "https://youtube.com" },
+    { "id": 5, "platform": "linkedin", "href": "https://linkedin.com" }
+  ],
+  "quickLinks": [
+    { "id": 1, "label": "Home", "href": "/" },
+    { "id": 2, "label": "About Us", "href": "/about" },
+    { "id": 3, "label": "Our Causes", "href": "/causes" },
+    { "id": 4, "label": "Donate Now", "href": "/donate" },
+    { "id": 5, "label": "Volunteer", "href": "/volunteer" },
+    { "id": 6, "label": "Latest News", "href": "/news" },
+    { "id": 7, "label": "Contact Us", "href": "/contact" }
+  ],
+  "ourCauses": [
+    { "id": 1, "label": "Food For Hungry", "href": "/causes/food" },
+    { "id": 2, "label": "Education For All", "href": "/causes/education" },
+    { "id": 3, "label": "Healthcare Support", "href": "/causes/healthcare" },
+    { "id": 4, "label": "Clean Water", "href": "/causes/water" },
+    { "id": 5, "label": "Women Empowerment", "href": "/causes/women" },
+    { "id": 6, "label": "Child Protection", "href": "/causes/children" }
+  ],
+  "usefulLinks": [
+    { "id": 1, "label": "FAQs", "href": "/faqs" },
+    { "id": 2, "label": "Privacy Policy", "href": "/privacy-policy" },
+    { "id": 3, "label": "Terms & Conditions", "href": "/terms" },
+    { "id": 4, "label": "Refund Policy", "href": "/refund-policy" },
+    { "id": 5, "label": "Sitemap", "href": "/sitemap" },
+    { "id": 6, "label": "Gallery", "href": "/gallery" }
+  ],
+  "contactInfo": {
+    "address": "123 Charity Street,\nNew Delhi, India – 110001",
+    "phone": "+91 98765 43210",
+    "email": "info@startdonating.org",
+    "workingHours": "Mon - Sat: 9:00 AM - 6:00 PM"
+  },
+  "copyrightText": "© 2026 Start Donating Poor People. All Rights Reserved."
+}

@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Navbar from "./components/navbar";
 import "./globals.css";
+import Footer from "./components/footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,7 +25,17 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      {/* min-h-screen add kiya taaki body hamesha kam se kam poori viewport height le */}
+      <body className="min-h-screen flex flex-col">
+        <Navbar />
+        
+        {/* main tag me flex-1 add kiya jisse ye extra space fill karke Footer ko bilkul niche push kar dega */}
+        <main className="flex-1">
+          {children}
+        </main>
+        
+        <Footer />
+      </body>
     </html>
   );
 }
