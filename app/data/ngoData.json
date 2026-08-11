@@ -2,16 +2,322 @@
   "brand": {
     "name": "Bless",
     "tagline": "FOUNDATION",
-    "subtitle": "Together We Care, Together We Can",
     "logo": "/logo.svg"
+  },
+  "banner": {
+    "tagline": "TOGETHER WE CARE, TOGETHER WE CAN",
+    "heading": "Building a Better\nTomorrow",
+    "description": "At Bless Foundation, we are committed to uplifting lives, empowering communities, and creating lasting change for a better tomorrow.",
+    "backgroundImage": "/banner_bg.png",
+    "buttons": {
+      "donate": {
+        "label": "Donate Now",
+        "href": "/donate"
+      },
+      "volunteer": {
+        "label": "Join as Volunteer",
+        "href": "/volunteer"
+      }
+    },
+    "stats": [
+      {
+        "id": 1,
+        "value": "12,000+",
+        "label": "Lives Impacted",
+        "icon": "smiley"
+      },
+      {
+        "id": 2,
+        "value": "350+",
+        "label": "Volunteers",
+        "icon": "heart"
+      },
+      {
+        "id": 3,
+        "value": "120+",
+        "label": "Projects Completed",
+        "icon": "projects"
+      }
+    ]
+  },
+  "aboutSection": {
+    "tagline": "Start Donating, Change Lives",
+    "heading": "Donate Support To Giving Make A Difference",
+    "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy.",
+    "quote": "Lorem Ipsum Dolor Sit Amet Consectetur Convallis Ultrices Sociis Fermentum Orci Convallis.",
+    "images": {
+      "main": "/about_main.png",
+      "circle": "/about_circle.png"
+    },
+    "features": [
+      { "id": 1, "text": "Giving Hope, Changing Lives", "icon": "heart-hand" },
+      { "id": 2, "text": "Together We Can", "icon": "heart-sprout" },
+      { "id": 3, "text": "Every Act Counts", "icon": "users" },
+      { "id": 4, "text": "Empower Through Charity", "icon": "sprout" },
+      { "id": 5, "text": "Healing Communities", "icon": "heart" },
+      { "id": 6, "text": "Compassion In Action", "icon": "hands" }
+    ],
+    "button": {
+      "label": "About Us",
+      "href": "/about"
+    }
+  },
+  "ourMission": {
+    "badge": "OUR MISSION",
+    "heading": "Services That Bring Hope Change Lives",
+    "description": "We are committed to providing essential support and resources to uplift lives and build a better tomorrow.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Child Support",
+        "description": "We provide care, education and protection to children in need for a brighter future.",
+        "icon": "child",
+        "href": "/services/child-support"
+      },
+      {
+        "id": 2,
+        "title": "Safe Shelter",
+        "description": "We offer safe and secure housing to individuals and families in crisis.",
+        "icon": "shelter",
+        "href": "/services/safe-shelter"
+      },
+      {
+        "id": 3,
+        "title": "Quality Education",
+        "description": "We empower through education and skills to help build a strong and independent future.",
+        "icon": "education",
+        "href": "/services/education"
+      },
+      {
+        "id": 4,
+        "title": "Food & Nutrition",
+        "description": "We provide nutritious meals and promote healthy living for all communities.",
+        "icon": "food",
+        "href": "/services/food-nutrition"
+      }
+    ]
+  },
+  "smileCauses": {
+    "heading": "Be The Reason Of Someone Smiles Causes",
+    "description": "Your support can brighten lives and create a better tomorrow for those who need it most.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Give Health Support",
+        "description": "Ensure good health and well-being for underprivileged communities.",
+        "category": "Health",
+        "categoryIcon": "heart",
+        "centerIcon": "heart-hand",
+        "image": "/causes_health.png",
+        "href": "/causes/health"
+      },
+      {
+        "id": 2,
+        "title": "Children We Work With",
+        "description": "Empowering children through education and skills for a brighter future.",
+        "category": "Education",
+        "categoryIcon": "graduation",
+        "centerIcon": "book",
+        "image": "/causes_education_1.png",
+        "href": "/causes/children"
+      },
+      {
+        "id": 3,
+        "title": "Help For Education",
+        "description": "Provide quality education and resources to help every child learn and grow.",
+        "category": "Education",
+        "categoryIcon": "book",
+        "centerIcon": "users",
+        "image": "/causes_education_2.png",
+        "href": "/causes/education"
+      },
+      {
+        "id": 4,
+        "title": "Help For Food",
+        "description": "Fight hunger and provide nutritious meals to those in need.",
+        "category": "Food",
+        "categoryIcon": "food",
+        "centerIcon": "food-bowl",
+        "image": "/causes_food.png",
+        "href": "/causes/food"
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": {
+      "prefix": "Our Valuable",
+      "highlight": "Customer",
+      "suffix": "Awesome Feedback"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "name": "Ruby Klara",
+        "designation": "Cloth Store Inc.",
+        "feedback": "Charity is the voluntary act of giving help, typically in the form of money, time, or resources, to those in need. Charitable organizations aim to solve social, environmental, and economic challenges by addressing issues like poverty.",
+        "rating": 5,
+        "image": "/author_1.png",
+        "themeColor": "#0c4d1e"
+      },
+      {
+        "id": 2,
+        "name": "Bishu Kiev",
+        "designation": "Tech Solutions Inc.",
+        "feedback": "Supporting underprivileged communities brings hope and meaningful change. Their dedication to child education and shelter is truly inspiring and impactful for future generations.",
+        "rating": 5,
+        "image": "/author_2.png",
+        "themeColor": "#0c4d1e"
+      },
+      {
+        "id": 3,
+        "name": "Michel Smith",
+        "designation": "Hope & Care Foundation",
+        "feedback": "Working together with this NGO has shown me how genuine compassion can transform lives. Every contribution directly reaches those who need it most with complete honesty.",
+        "rating": 5,
+        "image": "/author_3.png",
+        "themeColor": "#0c4d1e"
+      },
+      {
+        "id": 4,
+        "name": "Sophia Alva",
+        "designation": "Green Future Org",
+        "feedback": "Providing meals and education to children is the best way to uplift society. Highly transparent and dedicated team working tirelessly with true passion for community empowerment.",
+        "rating": 5,
+        "image": "/author_1.png",
+        "themeColor": "#0c4d1e"
+      },
+      {
+        "id": 5,
+        "name": "Carlos Mendez",
+        "designation": "Community Care Initiative",
+        "feedback": "Amazing initiative and seamless execution. The transparency in their work gives donors full confidence that every single penny is being transformed into direct support.",
+        "rating": 5,
+        "image": "/author_2.png",
+        "themeColor": "#0c4d1e"
+      },
+      {
+        "id": 6,
+        "name": "Emily Watson",
+        "designation": "Bright Minds Academy",
+        "feedback": "Their commitment to providing quality education to rural children is phenomenal. Proud to be associated with such a noble mission that builds brighter tomorrows.",
+        "rating": 5,
+        "image": "/author_3.png",
+        "themeColor": "#0c4d1e"
+      }
+    ]
+  },
+  "blogsSection": {
+    "badge": "Our Blog",
+    "heading": "Latest From Our Blog",
+    "button": {
+      "label": "View All Blogs",
+      "href": "/blog"
+    },
+    "posts": [
+      {
+        "id": 1,
+        "title": "How Education Can Change A Child's Future",
+        "description": "Education is the most powerful tool to break the cycle of poverty and build a better future for generations to come.",
+        "category": "Education",
+        "categoryIcon": "sprout",
+        "date": {
+          "day": "20",
+          "month": "MAY",
+          "year": "2024"
+        },
+        "image": "/blog_1.png",
+        "href": "/blog/education-future"
+      },
+      {
+        "id": 2,
+        "title": "Planting Trees For A Better Tomorrow",
+        "description": "Trees are the lungs of our planet. Planting today ensures a cleaner, greener and healthier tomorrow for all.",
+        "category": "Environment",
+        "categoryIcon": "sprout",
+        "date": {
+          "day": "15",
+          "month": "MAY",
+          "year": "2024"
+        },
+        "image": "/blog_2.png",
+        "href": "/blog/planting-trees"
+      },
+      {
+        "id": 3,
+        "title": "Providing Nutritious Meals To Those In Need",
+        "description": "No one should go to bed hungry. Together, we can provide meals and hope to the families who need it most.",
+        "category": "Food",
+        "categoryIcon": "sprout",
+        "date": {
+          "day": "10",
+          "month": "MAY",
+          "year": "2024"
+        },
+        "image": "/blog_3.png",
+        "href": "/blog/nutritious-meals"
+      }
+    ]
+  },
+  "homeCta": {
+    "heading": "Be A Part Of Something Bigger Than Yourself",
+    "description": "Your support can bring hope, change lives and create a better tomorrow for those who need it most.",
+    "buttons": {
+      "donate": {
+        "label": "Donate Now",
+        "href": "/donate",
+        "icon": "heart"
+      },
+      "volunteer": {
+        "label": "Become a Volunteer",
+        "href": "/volunteer",
+        "icon": "user"
+      }
+    }
   },
   "navLinks": [
     { "label": "Home", "href": "/" },
-    { "label": "About Us", "href": "/about" },
-    { "label": "Our Causes", "href": "/causes" },
-    { "label": "Our Programs", "href": "/programs" },
+    {
+      "label": "About Us",
+      "href": "/about",
+      "children": [
+        { "label": "Mission", "href": "/about#mission" },
+        { "label": "Vision", "href": "/about#vision" },
+        { "label": "Why Choose Us", "href": "/about#why-choose-us" },
+        { "label": "Our Team", "href": "/about#team" },
+        { "label": "Awards & Certifications", "href": "/about#awards" },
+        { "label": "Sitemap", "href": "/sitemap" }
+      ]
+    },
+    {
+      "label": "Our Causes",
+      "href": "/causes",
+      "children": [
+        { "label": "Services", "href": "/causes/services" },
+        { "label": "CSR", "href": "/causes/csr" },
+        { "label": "Support", "href": "/causes/support" }
+      ]
+    },
+    {
+      "label": "Our Programs",
+      "href": "/programs",
+      "children": [
+        { "label": "Portfolio / Projects", "href": "/programs/portfolio" },
+        { "label": "Case Study", "href": "/programs/case-study" },
+        { "label": "Events", "href": "/programs/events" },
+        { "label": "Media", "href": "/programs/media" }
+      ]
+    },
     { "label": "Impact", "href": "/impact" },
-    { "label": "Get Involved", "href": "/get-involved" },
+    {
+      "label": "Get Involved",
+      "href": "/get-involved",
+      "children": [
+        { "label": "Career", "href": "/get-involved/career" },
+        { "label": "Partners", "href": "/get-involved/partners" },
+        { "label": "Enquiry Now", "href": "/get-involved/enquiry" },
+        { "label": "Brochure", "href": "/get-involved/brochure" }
+      ]
+    },
     { "label": "Contact Us", "href": "/contact" }
   ],
   "actions": {
@@ -65,6 +371,12 @@
     "phone": "+91 98765 43210",
     "email": "info@startdonating.org",
     "workingHours": "Mon - Sat: 9:00 AM - 6:00 PM"
+  },
+  "footerHeadings": {
+    "quickLinks": "Quick Links",
+    "ourCauses": "Our Causes",
+    "usefulLinks": "Useful Links",
+    "contactInfo": "Contact Us"
   },
   "copyrightText": "© 2026 Start Donating Poor People. All Rights Reserved."
 }
