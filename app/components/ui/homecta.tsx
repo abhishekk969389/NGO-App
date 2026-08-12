@@ -19,7 +19,7 @@ export default function HomeCta() {
     }
   };
 
-  return (
+  return (  
     <section className="my-6 overflow-hidden">
       <div className="mx-auto max-w-[1350px] px-4 sm:px-6 lg:px-8">
         

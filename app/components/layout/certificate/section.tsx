@@ -1,0 +1,63 @@
+import Image from 'next/image';
+import ngoDataJson from '@/app/data/ngoData.json';
+import type { NgoData } from '@/app/type/ngo';
+
+const data = ngoDataJson as NgoData;
+
+export default function CertificateSection() {
+  const { certificateSection } = data;
+
+  if (!certificateSection) return null;
+
+  return (
+    <section className=" mt-4 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
+      <div className="mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-12">
+
+        {/* Grid for Certificates Cards */}
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {certificateSection.certificates.map((certificate) => {
+            const certificateImage = (certificate as { image?: string }).image || certificateSection.cardImage;
+
+            return (
+              <div
+                key={certificate.id}
+                className="group border border-gray-100/90 rounded-2xl bg-white p-5 sm:p-6 shadow-2xs transition-all duration-300 hover:shadow-md flex flex-col justify-between"
+              >
+                {/* Certificate Frame Image Container */}
+                <div className="relative aspect-[4/3] w-full overflow-hidden rounded-xl bg-[#f8f9fa] p-3 flex items-center justify-center">
+                  <div className="relative h-full w-full overflow-hidden rounded-lg">
+                    <Image
+                      src={certificateImage}
+                      alt={certificate.title}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-contain transition duration-500 group-hover:scale-102"
+                      priority
+                    />
+                  </div>
+                </div>
+
+                {/* Content Details */}
+                <div className="mt-5 flex flex-col items-start">
+                  {/* Title */}
+                  <h3 className="text-base sm:text-lg font-bold text-[#0d3319] font-sans tracking-tight">
+                    {certificate.title}
+                  </h3>
+
+                  {/* Green Accent Line Below Title */}
+                  <div className="w-8 h-[2px] bg-[#1f5e2e] rounded-full mt-1.5 mb-2.5" />
+
+                  {/* Subtitle / Description */}
+                  <p className="text-xs sm:text-sm leading-relaxed text-gray-500 font-sans">
+                    {certificate.subtitle}
+                  </p>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+
+      </div>
+    </section>
+  );
+}

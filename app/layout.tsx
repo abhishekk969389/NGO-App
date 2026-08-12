@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono, Playfair_Display } from "next/font/google";
-import Navbar from "./components/navbar";
+import Navbar from "./components/ui/navbar";
 import "./globals.css";
-import Footer from "./components/footer";
+import Footer from "./components/ui/footer";
+import SmoothScroll from "./components/ui/smoothscroll";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${geistSans.variable} ${geistMono.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-screen flex flex-col">
+           <SmoothScroll>
         <Navbar />
 
         {/* main tag me flex-1 add kiya jisse ye extra space fill karke Footer ko bilkul niche push kar dega */}
@@ -39,6 +41,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </main>
 
         <Footer />
+        </SmoothScroll>
       </body>
     </html>
   );

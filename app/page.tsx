@@ -1,10 +1,10 @@
-import Banner from "./components/banner";
-import About from "./components/about";
-import OurMission from "./components/ourmission";
-import SmileCauses from "./components/smilecauses";
-import Testinomial from "./components/testinomial";
-import OurBlog from "./components/ourblog";
-import HomeCta from "./components/homecta";
+import Banner from "./components/homelayout/banner";
+import About from "./components/homelayout/about";
+import OurMission from "./components/homelayout/ourmission";
+import SmileCauses from "./components/homelayout/smilecauses";
+import Testinomial from "./components/homelayout/testinomial";
+import OurBlog from "./components/homelayout/ourblog";
+import HomeCta from "./components/ui/homecta";
 
 export default function Home() {
   return (
