@@ -40,6 +40,429 @@
       }
     ]
   },
+  "pageBanners": {
+    "about": {
+      "title": "About us",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Volunteers and children planting a sapling together",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "About Us",
+          "isCurrent": true
+        }
+      ]
+    },
+    "mission": {
+      "title": "Our Mission",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Volunteers and children planting a sapling together",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Our Mission",
+          "isCurrent": true
+        }
+      ]
+    },
+    "vision": {
+      "title": "Our Vision",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Volunteers and children planting a sapling together",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Our Vision",
+          "isCurrent": true
+        }
+      ]
+    },
+    "ourteam": {
+      "title": "Our Team",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Our dedicated team background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Our Team",
+          "isCurrent": true
+        }
+      ]
+    },
+    "certificateaward": {
+      "title": "Awards & Certifications",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Awards and certifications background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Awards & Certifications",
+          "isCurrent": true
+        }
+      ]
+    },
+    "causes": {
+      "title": "Our Causes",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Community support causes background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Our Causes",
+          "isCurrent": true
+        }
+      ]
+    },
+    "contact": {
+      "title": "Contact Us",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Contact us background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Contact Us",
+          "isCurrent": true
+        }
+      ]
+    },
+    "services": {
+      "title": "Our Services",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Services background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Our Services",
+          "isCurrent": true
+        }
+      ]
+    },
+    "donate": {
+      "title": "Donate Now",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Donate background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Donate",
+          "isCurrent": true
+        }
+      ]
+    },
+    "sitemap": {
+      "title": "Sitemap",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Sitemap background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Sitemap",
+          "isCurrent": true
+        }
+      ]
+    },
+    "default": {
+      "title": "About us",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Banner background image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "About Us",
+          "isCurrent": true
+        }
+      ]
+    }
+  },
+  "sitemapSection": {
+    "heading": "Site Map",
+    "description": "Explore the structure of our website and find exactly what you\u2019re looking for. Navigate easily to the information and resources that matter to you.",
+    "categories": [
+      {
+        "id": 1,
+        "title": "Home",
+        "icon": "home",
+        "links": [
+          {
+            "id": 1,
+            "label": "Overview",
+            "href": "/"
+          },
+          {
+            "id": 2,
+            "label": "Our Mission",
+            "href": "/mission"
+          },
+          {
+            "id": 3,
+            "label": "Impact Highlights",
+            "href": "/impact"
+          },
+          {
+            "id": 4,
+            "label": "Latest Updates",
+            "href": "/blog"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "About Us",
+        "icon": "users",
+        "links": [
+          {
+            "id": 1,
+            "label": "Our Story",
+            "href": "/about"
+          },
+          {
+            "id": 2,
+            "label": "Our Team",
+            "href": "/ourteam"
+          },
+          {
+            "id": 3,
+            "label": "Our Values",
+            "href": "/about"
+          },
+          {
+            "id": 4,
+            "label": "Careers",
+            "href": "/careers"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Our Initiatives",
+        "icon": "sparkles",
+        "links": [
+          {
+            "id": 1,
+            "label": "Education",
+            "href": "/programs/education"
+          },
+          {
+            "id": 2,
+            "label": "Environment",
+            "href": "/programs/environment"
+          },
+          {
+            "id": 3,
+            "label": "Community",
+            "href": "/programs/community"
+          },
+          {
+            "id": 4,
+            "label": "Health",
+            "href": "/programs/health"
+          },
+          {
+            "id": 5,
+            "label": "Sustainability",
+            "href": "/programs/sustainability"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "News & Media",
+        "icon": "newspaper",
+        "links": [
+          {
+            "id": 1,
+            "label": "Newsroom",
+            "href": "/newsroom"
+          },
+          {
+            "id": 2,
+            "label": "Press Releases",
+            "href": "/press"
+          },
+          {
+            "id": 3,
+            "label": "Media Coverage",
+            "href": "/media"
+          },
+          {
+            "id": 4,
+            "label": "Blog",
+            "href": "/blog"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Gallery",
+        "icon": "image",
+        "links": [
+          {
+            "id": 1,
+            "label": "Image Gallery",
+            "href": "/gallery"
+          },
+          {
+            "id": 2,
+            "label": "Videos",
+            "href": "/videos"
+          },
+          {
+            "id": 3,
+            "label": "Events",
+            "href": "/events"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Get Involved",
+        "icon": "hands",
+        "links": [
+          {
+            "id": 1,
+            "label": "Volunteer",
+            "href": "/volunteer"
+          },
+          {
+            "id": 2,
+            "label": "Donate",
+            "href": "/donate"
+          },
+          {
+            "id": 3,
+            "label": "Partnerships",
+            "href": "/partners"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Help & Support",
+        "icon": "help-circle",
+        "links": [
+          {
+            "id": 1,
+            "label": "FAQs",
+            "href": "/faq"
+          },
+          {
+            "id": 2,
+            "label": "Contact Us",
+            "href": "/contact"
+          },
+          {
+            "id": 3,
+            "label": "Support Center",
+            "href": "/support"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Contact Us",
+        "icon": "phone",
+        "links": [
+          {
+            "id": 1,
+            "label": "Our Branches",
+            "href": "/branches"
+          },
+          {
+            "id": 2,
+            "label": "Send us a Message",
+            "href": "/contact"
+          }
+        ]
+      }
+    ]
+  },
+  "legalSection": {
+    "heading": "Legal",
+    "description": "Review our policies and terms to understand how we protect your privacy and keep our platform secure.",
+    "links": [
+      {
+        "id": 1,
+        "label": "Privacy Policy",
+        "href": "/privacy-policy"
+      },
+      {
+        "id": 2,
+        "label": "Terms of Use",
+        "href": "/terms-of-use"
+      },
+      {
+        "id": 3,
+        "label": "Cookie Policy",
+        "href": "/cookie-policy"
+      }
+    ]
+  },
   "aboutSection": {
     "tagline": "Start Donating, Change Lives",
     "heading": "Donate Support To Giving Make A Difference",
@@ -50,16 +473,541 @@
       "circle": "/about_circle.png"
     },
     "features": [
-      { "id": 1, "text": "Giving Hope, Changing Lives", "icon": "heart-hand" },
-      { "id": 2, "text": "Together We Can", "icon": "heart-sprout" },
-      { "id": 3, "text": "Every Act Counts", "icon": "users" },
-      { "id": 4, "text": "Empower Through Charity", "icon": "sprout" },
-      { "id": 5, "text": "Healing Communities", "icon": "heart" },
-      { "id": 6, "text": "Compassion In Action", "icon": "hands" }
+      {
+        "id": 1,
+        "text": "Giving Hope, Changing Lives",
+        "icon": "heart-hand"
+      },
+      {
+        "id": 2,
+        "text": "Together We Can",
+        "icon": "heart-sprout"
+      },
+      {
+        "id": 3,
+        "text": "Every Act Counts",
+        "icon": "users"
+      },
+      {
+        "id": 4,
+        "text": "Empower Through Charity",
+        "icon": "sprout"
+      },
+      {
+        "id": 5,
+        "text": "Healing Communities",
+        "icon": "heart"
+      },
+      {
+        "id": 6,
+        "text": "Compassion In Action",
+        "icon": "hands"
+      }
     ],
     "button": {
       "label": "About Us",
       "href": "/about"
+    }
+  },
+  "aboutStorySection": {
+    "badge": "OUR STORY",
+    "badgeIcon": "sprout",
+    "heading": "Every Change Begins with Compassion",
+    "highlight": {
+      "title": "Small Actions Today,",
+      "subtitle": "Stronger Tomorrow",
+      "icon": "hand-heart"
+    },
+    "paragraphs": [
+      "Bless Foundation was born out of a simple belief — that small acts of kindness can create a ripple of change that transforms lives and communities.",
+      "We work alongside communities to provide education, healthcare, and essential support to those who need it most. Together, we build opportunities where hope grows and futures are brighter.",
+      "Every step we take is fueled by compassion, driven by collaboration, and focused on creating a better tomorrow for all."
+    ],
+    "images": {
+      "main": "/about_main.png",
+      "circle": "/about_circle.png"
+    }
+  },
+  "whatWeDoSection": {
+    "badge": "WHAT WE DO",
+    "badgeIcon": "sprout-circle",
+    "headingPrefix": "Manage All Activities From Our ",
+    "headingHighlight": "Foundation",
+    "description": "We work every day to bring hope and positive change in the lives of children and communities in need. Our foundation is committed to creating a better, healthier and brighter future for everyone.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Care & Protection",
+        "description": "Ensuring safety, care and protection for those in need.",
+        "icon": "heart-hand"
+      },
+      {
+        "id": 2,
+        "title": "Water Delivery",
+        "description": "Providing clean and safe drinking water.",
+        "icon": "droplets"
+      },
+      {
+        "id": 3,
+        "title": "Education Help",
+        "description": "Supporting education for a better tomorrow.",
+        "icon": "graduation"
+      },
+      {
+        "id": 4,
+        "title": "Medical Help",
+        "description": "Offering medical assistance and healthcare support.",
+        "icon": "medical"
+      },
+      {
+        "id": 5,
+        "title": "Support Families",
+        "description": "Standing with families during tough times.",
+        "icon": "users"
+      },
+      {
+        "id": 6,
+        "title": "Food Support",
+        "description": "Providing nutritious food to fight hunger.",
+        "icon": "food"
+      }
+    ],
+    "images": {
+      "girl": "/causes_education_1.png",
+      "education": "/causes_education_2.png",
+      "food": "/causes_food.png",
+      "planting": "/banner_bg.png"
+    }
+  },
+  "missionPageSection": {
+    "badge": "OUR MISSION",
+    "heading": {
+      "line1": "Building Stronger Communities.",
+      "line2": "Creating Brighter Futures."
+    },
+    "description": "Our mission is to empower individuals and uplift communities by providing access to education, healthcare, and essential resources. We are committed to creating opportunities that inspire hope, restore dignity, and drive lasting change.",
+    "pillars": [
+      {
+        "id": 1,
+        "title": "Educate",
+        "description": "We provide quality education and learning opportunities that help children break barriers and build a better tomorrow.",
+        "icon": "educate",
+        "themeColor": "#2c7a3f",
+        "bgColor": "#e6f4ea"
+      },
+      {
+        "id": 2,
+        "title": "Heal",
+        "description": "We promote good health and well-being by ensuring access to healthcare and spreading awareness in communities.",
+        "icon": "heal",
+        "themeColor": "#e06d2d",
+        "bgColor": "#fde9d9"
+      },
+      {
+        "id": 3,
+        "title": "Support",
+        "description": "We stand beside those in need with compassion, providing essential resources and emotional support to help them move forward.",
+        "icon": "support",
+        "themeColor": "#3b7bc4",
+        "bgColor": "#dcebfd"
+      },
+      {
+        "id": 4,
+        "title": "Empower",
+        "description": "We empower individuals and communities to become self-reliant and create lasting change for a better future.",
+        "icon": "empower",
+        "themeColor": "#8a4bb8",
+        "bgColor": "#ebdcf8"
+      }
+    ],
+    "badgeTagline": "Small Steps.\nBig Change.",
+    "images": {
+      "main": "/about_main.png",
+      "circle": "/about_circle.png"
+    }
+  },
+  "visionPageSection": {
+    "badge": "OUR VISION",
+    "heading": {
+      "line1": "A Better Tomorrow,",
+      "line2": "For Every Life."
+    },
+    "description": "We envision a world where every individual has the opportunity to live with dignity, access quality education, healthcare, and resources — and the chance to build a better future for themselves and their communities.",
+    "pillars": [
+      {
+        "id": 1,
+        "title": "Inclusive World",
+        "description": "Where no one is left behind, and everyone belongs.",
+        "icon": "inclusive"
+      },
+      {
+        "id": 2,
+        "title": "Endless Opportunities",
+        "description": "Where education and skills open doors to endless possibilities.",
+        "icon": "opportunities"
+      },
+      {
+        "id": 3,
+        "title": "Healthy Communities",
+        "description": "Where good health and care are accessible to all, always.",
+        "icon": "healthy"
+      },
+      {
+        "id": 4,
+        "title": "Stronger Together",
+        "description": "Where communities come together to uplift, inspire, and grow.",
+        "icon": "stronger"
+      }
+    ],
+    "quote": {
+      "prefix": "We dream of a world filled with hope, equality, and opportunity — ",
+      "italicText": "where every life can shine and every voice matters."
+    },
+    "visionCard": {
+      "title": "Our Vision",
+      "description": "A just, healthy, and empowered society where compassion drives change and every person thrives with hope and opportunity."
+    },
+    "images": {
+      "main": "/about_main.png"
+    }
+  },
+  "certificateSection": {
+    "badge": "CERTIFICATES",
+    "heading": "Awards & Certifications",
+    "description": "Our dedication to impact and quality has been recognized through awards and certifications that reflect trust, transparency, and excellence.",
+    "heroImage": "/certificate.jpg",
+    "heroAlt": "Certification awards display",
+    "cardImage": "/certificate.jpg",
+    "certificates": [
+      {
+        "id": 1,
+        "label": "National Excellence Award",
+        "title": "National Excellence Award 2024",
+        "subtitle": "For outstanding performance and remarkable contribution in achieving exceptional social impact."
+      },
+      {
+        "id": 2,
+        "label": "Certificate of Appreciation",
+        "title": "Certificate of Appreciation",
+        "subtitle": "In recognition of our efforts in community service and impactful development programs."
+      },
+      {
+        "id": 3,
+        "label": "Industry Leadership Award",
+        "title": "Industry Leadership Award 2023",
+        "subtitle": "For setting high standards of innovation and leadership in the NGO sector."
+      },
+      {
+        "id": 4,
+        "label": "ISO Quality Certification",
+        "title": "ISO 9001:2015 Certified",
+        "subtitle": "Certified for meeting the requirements of ISO 9001:2015 for quality management systems."
+      },
+      {
+        "id": 5,
+        "label": "Certificate of Excellence",
+        "title": "Certificate of Excellence",
+        "subtitle": "For delivering innovative solutions and exemplary service quality that drives positive change."
+      },
+      {
+        "id": 6,
+        "label": "Client Satisfaction Award",
+        "title": "Client Satisfaction Award 2024",
+        "subtitle": "For consistently achieving high levels of client satisfaction and building long-term relationships."
+      }
+    ]
+  },
+  "certificateAchievementSection": {
+    "iconName": "trophy",
+    "tag": "Recognition",
+    "title": "Recognition Drives Us Forward",
+    "description": "These achievements inspire us to keep improving and delivering the best for our communities every day.",
+    "button": {
+      "label": "View All Achievements",
+      "href": "/certificateaward"
+    }
+  },
+  "teamSection": {
+    "badge": "OUR TEAM",
+    "heading": "The Heart Behind Our Mission",
+    "description": "A passionate group of changemakers dedicated to creating a better tomorrow for children and communities.",
+    "detailLabels": {
+      "experience": "Experience",
+      "education": "Education",
+      "email": "Email",
+      "phone": "Phone",
+      "location": "Location",
+      "joined": "Joined",
+      "expertise": "Expertise",
+      "coreValues": "Core Values",
+      "achievements": "Key Achievements",
+      "quote": "Quote",
+      "connect": "Connect with",
+      "notFound": "Team member not found.",
+      "back": "Back to Team"
+    },
+    "members": [
+      {
+        "id": 1,
+        "name": "Anita Deshmukh",
+        "role": "Founder & CEO",
+        "bio": "Visionary leader with 12+ years of experience in driving social impact and community change.",
+        "experience": "12+ Years",
+        "education": "Master in Social Work (MSW)",
+        "email": "anita.deshmukh@blessfoundation.org",
+        "phone": "+91 98765 43210",
+        "location": "Pune, Maharashtra, India",
+        "joined": "January 2016",
+        "expertise": [
+          "Community Development",
+          "Program Management",
+          "Team Leadership",
+          "Stakeholder Relations"
+        ],
+        "coreValues": [
+          "Compassion",
+          "Integrity",
+          "Collaboration",
+          "Empowerment",
+          "Sustainability"
+        ],
+        "achievements": "Led 50+ community projects impacting 25,000+ lives across rural and urban communities.",
+        "quote": "I believe that small acts, when multiplied by millions of people, can transform the world.",
+        "image": "/author_1.png",
+        "socials": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com"
+          },
+          {
+            "platform": "email",
+            "href": "mailto:anita@startdonating.org"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Rohit Sharma",
+        "role": "Program Director",
+        "bio": "Passionate about education and community development with 10+ years of experience.",
+        "experience": "10+ Years",
+        "education": "MBA in Nonprofit Management",
+        "email": "rohit.sharma@blessfoundation.org",
+        "phone": "+91 98765 43211",
+        "location": "Mumbai, Maharashtra, India",
+        "joined": "March 2018",
+        "expertise": [
+          "Program Strategy",
+          "Partnership Building",
+          "Outcome Measurement",
+          "Capacity Building"
+        ],
+        "coreValues": [
+          "Accountability",
+          "Transparency",
+          "Innovation",
+          "Respect",
+          "Empathy"
+        ],
+        "achievements": "Delivered scalable programs that increased beneficiary reach by 40%.",
+        "quote": "Good partnerships create a stronger, more sustainable path for change.",
+        "image": "/author_2.png",
+        "socials": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com"
+          },
+          {
+            "platform": "email",
+            "href": "mailto:rohit@startdonating.org"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Meera Iyer",
+        "role": "Impact Lead",
+        "bio": "Expert in monitoring impact and measuring outcomes for sustainable growth.",
+        "experience": "11+ Years",
+        "education": "MA in Social Policy",
+        "email": "meera.iyer@blessfoundation.org",
+        "phone": "+91 98765 43212",
+        "location": "Bengaluru, Karnataka, India",
+        "joined": "May 2017",
+        "expertise": [
+          "Impact Measurement",
+          "Data Analysis",
+          "Learning & Evaluation",
+          "Sustainable Growth"
+        ],
+        "coreValues": [
+          "Quality",
+          "Learning",
+          "Inclusivity",
+          "Collaboration",
+          "Ethics"
+        ],
+        "achievements": "Established an impact dashboard used by 20+ partner organizations.",
+        "quote": "Data helps us improve lives more effectively and with greater responsibility.",
+        "image": "/author_3.png",
+        "socials": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com"
+          },
+          {
+            "platform": "email",
+            "href": "mailto:meera@startdonating.org"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Vikram Patel",
+        "role": "Partnership Manager",
+        "bio": "Builds meaningful partnerships that help us expand reach and create lasting impact.",
+        "experience": "9+ Years",
+        "education": "PG Diploma in Development Studies",
+        "email": "vikram.patel@blessfoundation.org",
+        "phone": "+91 98765 43213",
+        "location": "Ahmedabad, Gujarat, India",
+        "joined": "September 2019",
+        "expertise": [
+          "Stakeholder Engagement",
+          "Funding Partnerships",
+          "Strategy Execution",
+          "Relationship Management"
+        ],
+        "coreValues": [
+          "Trust",
+          "Collaboration",
+          "Commitment",
+          "Reliability",
+          "Growth"
+        ],
+        "achievements": "Secured long-term partnerships that expanded project funding by 30%.",
+        "quote": "Strong partnerships are the backbone of our long-term impact.",
+        "image": "/author_2.png",
+        "socials": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com"
+          },
+          {
+            "platform": "email",
+            "href": "mailto:vikram@startdonating.org"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Pooja Nair",
+        "role": "Finance Manager",
+        "bio": "Ensures financial transparency and efficient utilization of resources.",
+        "experience": "8+ Years",
+        "education": "CA with CSR Specialization",
+        "email": "pooja.nair@blessfoundation.org",
+        "phone": "+91 98765 43214",
+        "location": "Chennai, Tamil Nadu, India",
+        "joined": "February 2020",
+        "expertise": [
+          "Financial Planning",
+          "Auditing",
+          "Grant Management",
+          "Compliance"
+        ],
+        "coreValues": [
+          "Integrity",
+          "Responsibility",
+          "Accuracy",
+          "Transparency",
+          "Stewardship"
+        ],
+        "achievements": "Streamlined financial processes that improved budget efficiency by 18%.",
+        "quote": "Responsibility starts with transparent use of every resource entrusted to us.",
+        "image": "/author_1.png",
+        "socials": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com"
+          },
+          {
+            "platform": "email",
+            "href": "mailto:pooja@startdonating.org"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Arjun Mehta",
+        "role": "Communications Lead",
+        "bio": "Shares our stories and connects our mission with the world through meaningful content.",
+        "experience": "7+ Years",
+        "education": "MA in Communication",
+        "email": "arjun.mehta@blessfoundation.org",
+        "phone": "+91 98765 43215",
+        "location": "Delhi, India",
+        "joined": "June 2021",
+        "expertise": [
+          "Storytelling",
+          "Media Relations",
+          "Campaign Strategy",
+          "Brand Communication"
+        ],
+        "coreValues": [
+          "Clarity",
+          "Authenticity",
+          "Engagement",
+          "Empathy",
+          "Creativity"
+        ],
+        "achievements": "Led campaigns that increased volunteer applications by 45%.",
+        "quote": "Every story we tell carries a voice of hope and action.",
+        "image": "/author_3.png",
+        "socials": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com"
+          },
+          {
+            "platform": "email",
+            "href": "mailto:arjun@startdonating.org"
+          }
+        ]
+      }
+    ],
+    "ctaBanner": {
+      "title": "We're Stronger Together",
+      "description": "Our team works hand-in-hand with volunteers, partners and communities to create real, lasting change.",
+      "ctaTitle": "Want to join our mission?",
+      "button": {
+        "label": "Join Our Team",
+        "href": "/volunteer"
+      }
     }
   },
   "ourMission": {
@@ -275,50 +1223,114 @@
     }
   },
   "navLinks": [
-    { "label": "Home", "href": "/" },
     {
-      "label": "About Us",
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "label": "About",
       "href": "/about",
       "children": [
-        { "label": "Mission", "href": "/about#mission" },
-        { "label": "Vision", "href": "/about#vision" },
-        { "label": "Why Choose Us", "href": "/about#why-choose-us" },
-        { "label": "Our Team", "href": "/about#team" },
-        { "label": "Awards & Certifications", "href": "/about#awards" },
-        { "label": "Sitemap", "href": "/sitemap" }
+        {
+          "label": "About Us",
+          "href": "/about"
+        },
+        {
+          "label": "Mission",
+          "href": "/mission"
+        },
+        {
+          "label": "Vision",
+          "href": "/vision"
+        },
+        {
+          "label": "Why Choose Us",
+          "href": "/about"
+        },
+        {
+          "label": "Our Team",
+          "href": "/ourteam"
+        },
+        {
+          "label": "Awards & Certifications",
+          "href": "/certificateaward"
+        },
+        {
+          "label": "Sitemap",
+          "href": "/sitemap"
+        }
       ]
     },
     {
       "label": "Our Causes",
       "href": "/causes",
       "children": [
-        { "label": "Services", "href": "/causes/services" },
-        { "label": "CSR", "href": "/causes/csr" },
-        { "label": "Support", "href": "/causes/support" }
+        {
+          "label": "Services",
+          "href": "/causes/services"
+        },
+        {
+          "label": "CSR",
+          "href": "/causes/csr"
+        },
+        {
+          "label": "Support",
+          "href": "/causes/support"
+        }
       ]
     },
     {
       "label": "Our Programs",
       "href": "/programs",
       "children": [
-        { "label": "Portfolio / Projects", "href": "/programs/portfolio" },
-        { "label": "Case Study", "href": "/programs/case-study" },
-        { "label": "Events", "href": "/programs/events" },
-        { "label": "Media", "href": "/programs/media" }
+        {
+          "label": "Portfolio / Projects",
+          "href": "/programs/portfolio"
+        },
+        {
+          "label": "Case Study",
+          "href": "/programs/case-study"
+        },
+        {
+          "label": "Events",
+          "href": "/programs/events"
+        },
+        {
+          "label": "Media",
+          "href": "/programs/media"
+        }
       ]
     },
-    { "label": "Impact", "href": "/impact" },
+    {
+      "label": "Impact",
+      "href": "/impact"
+    },
     {
       "label": "Get Involved",
       "href": "/get-involved",
       "children": [
-        { "label": "Career", "href": "/get-involved/career" },
-        { "label": "Partners", "href": "/get-involved/partners" },
-        { "label": "Enquiry Now", "href": "/get-involved/enquiry" },
-        { "label": "Brochure", "href": "/get-involved/brochure" }
+        {
+          "label": "Career",
+          "href": "/get-involved/career"
+        },
+        {
+          "label": "Partners",
+          "href": "/get-involved/partners"
+        },
+        {
+          "label": "Enquiry Now",
+          "href": "/get-involved/enquiry"
+        },
+        {
+          "label": "Brochure",
+          "href": "/get-involved/brochure"
+        }
       ]
     },
-    { "label": "Contact Us", "href": "/contact" }
+    {
+      "label": "Contact Us",
+      "href": "/contact"
+    }
   ],
   "actions": {
     "searchLabel": "Search",
@@ -335,36 +1347,132 @@
     "description": "We are committed to helping poor people by providing food, education, healthcare and hope for a better tomorrow."
   },
   "socialLinks": [
-    { "id": 1, "platform": "facebook", "href": "https://facebook.com" },
-    { "id": 2, "platform": "instagram", "href": "https://instagram.com" },
-    { "id": 3, "platform": "twitter", "href": "https://twitter.com" },
-    { "id": 4, "platform": "youtube", "href": "https://youtube.com" },
-    { "id": 5, "platform": "linkedin", "href": "https://linkedin.com" }
+    {
+      "id": 1,
+      "platform": "facebook",
+      "href": "https://facebook.com"
+    },
+    {
+      "id": 2,
+      "platform": "instagram",
+      "href": "https://instagram.com"
+    },
+    {
+      "id": 3,
+      "platform": "twitter",
+      "href": "https://twitter.com"
+    },
+    {
+      "id": 4,
+      "platform": "youtube",
+      "href": "https://youtube.com"
+    },
+    {
+      "id": 5,
+      "platform": "linkedin",
+      "href": "https://linkedin.com"
+    }
   ],
   "quickLinks": [
-    { "id": 1, "label": "Home", "href": "/" },
-    { "id": 2, "label": "About Us", "href": "/about" },
-    { "id": 3, "label": "Our Causes", "href": "/causes" },
-    { "id": 4, "label": "Donate Now", "href": "/donate" },
-    { "id": 5, "label": "Volunteer", "href": "/volunteer" },
-    { "id": 6, "label": "Latest News", "href": "/news" },
-    { "id": 7, "label": "Contact Us", "href": "/contact" }
+    {
+      "id": 1,
+      "label": "Home",
+      "href": "/"
+    },
+    {
+      "id": 2,
+      "label": "About Us",
+      "href": "/about"
+    },
+    {
+      "id": 3,
+      "label": "Our Causes",
+      "href": "/causes"
+    },
+    {
+      "id": 4,
+      "label": "Donate Now",
+      "href": "/donate"
+    },
+    {
+      "id": 5,
+      "label": "Volunteer",
+      "href": "/volunteer"
+    },
+    {
+      "id": 6,
+      "label": "Latest News",
+      "href": "/news"
+    },
+    {
+      "id": 7,
+      "label": "Contact Us",
+      "href": "/contact"
+    }
   ],
   "ourCauses": [
-    { "id": 1, "label": "Food For Hungry", "href": "/causes/food" },
-    { "id": 2, "label": "Education For All", "href": "/causes/education" },
-    { "id": 3, "label": "Healthcare Support", "href": "/causes/healthcare" },
-    { "id": 4, "label": "Clean Water", "href": "/causes/water" },
-    { "id": 5, "label": "Women Empowerment", "href": "/causes/women" },
-    { "id": 6, "label": "Child Protection", "href": "/causes/children" }
+    {
+      "id": 1,
+      "label": "Food For Hungry",
+      "href": "/causes/food"
+    },
+    {
+      "id": 2,
+      "label": "Education For All",
+      "href": "/causes/education"
+    },
+    {
+      "id": 3,
+      "label": "Healthcare Support",
+      "href": "/causes/healthcare"
+    },
+    {
+      "id": 4,
+      "label": "Clean Water",
+      "href": "/causes/water"
+    },
+    {
+      "id": 5,
+      "label": "Women Empowerment",
+      "href": "/causes/women"
+    },
+    {
+      "id": 6,
+      "label": "Child Protection",
+      "href": "/causes/children"
+    }
   ],
   "usefulLinks": [
-    { "id": 1, "label": "FAQs", "href": "/faqs" },
-    { "id": 2, "label": "Privacy Policy", "href": "/privacy-policy" },
-    { "id": 3, "label": "Terms & Conditions", "href": "/terms" },
-    { "id": 4, "label": "Refund Policy", "href": "/refund-policy" },
-    { "id": 5, "label": "Sitemap", "href": "/sitemap" },
-    { "id": 6, "label": "Gallery", "href": "/gallery" }
+    {
+      "id": 1,
+      "label": "FAQs",
+      "href": "/faqs"
+    },
+    {
+      "id": 2,
+      "label": "Privacy Policy",
+      "href": "/privacy-policy"
+    },
+    {
+      "id": 3,
+      "label": "Terms & Conditions",
+      "href": "/terms"
+    },
+    {
+      "id": 4,
+      "label": "Refund Policy",
+      "href": "/refund-policy"
+    },
+    {
+      "id": 5,
+      "label": "Sitemap",
+      "href": "/sitemap"
+    },
+    {
+      "id": 6,
+      "label": "Gallery",
+      "href": "/gallery"
+    }
   ],
   "contactInfo": {
     "address": "123 Charity Street,\nNew Delhi, India – 110001",
