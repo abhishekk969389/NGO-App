@@ -315,6 +315,282 @@ export interface MissionPageSection {
   };
 }
 
+export interface NgoServiceItem {
+  id: number;
+  title: string;
+  description: string;
+  icon: string;
+  accent: string;
+}
+
+export interface NgoServicesSection {
+  badge: string;
+  heading: {
+    line1: string;
+    line2: string;
+  };
+  description: string;
+  centerImage: string;
+  items: NgoServiceItem[];
+}
+
+export interface NgoImpactStat {
+  id: number;
+  value: string;
+  label: string;
+  description: string;
+  icon: string;
+}
+
+export interface NgoImpactHighlight {
+  title: string;
+  text: string;
+}
+
+export interface NgoImpactSection {
+  badge: string;
+  heading: {
+    line1: string;
+    line2: string;
+    line3: string;
+  };
+  description: string;
+  stats: NgoImpactStat[];
+  showcase: {
+    mainImage: string;
+    secondaryImages: string[];
+    quote: NgoImpactHighlight;
+  };
+}
+
+export interface NgoImpactGlanceStat {
+  id: number;
+  value: string;
+  label: string;
+  description: string;
+  icon: string;
+}
+
+export interface NgoImpactGlanceSection {
+  badge: string;
+  heading: string;
+  stats: NgoImpactGlanceStat[];
+}
+
+export interface NgoFocusAreaCard {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  icon: string;
+}
+
+export interface NgoFocusAreaSection {
+  badge?: string;
+  heading: string;
+  cards: NgoFocusAreaCard[];
+}
+
+export interface NgoCsrInitiativeItem {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  icon: string;
+}
+
+export interface NgoCsrInitiativesSection {
+  badge: string;
+  heading: string;
+  items: NgoCsrInitiativeItem[];
+}
+
+export interface NgoGoalItem {
+  id: number;
+  code: string;
+  title: string;
+  accent: string;
+  icon: string;
+}
+
+export interface NgoGoalsSection {
+  badge?: string;
+  heading: string;
+  items: NgoGoalItem[];
+}
+
+export interface NgoCommitmentSection {
+  title: string;
+  description: string;
+  quote: {
+    text: string;
+    author: string;
+  };
+}
+
+export interface NgoArticleCard {
+  id: number;
+  title: string;
+  description: string;
+  icon: string;
+  href: string;
+}
+
+export interface NgoArticlesSection {
+  heading: string;
+  description: string;
+  button: {
+    label: string;
+    href: string;
+  };
+  cards: NgoArticleCard[];
+}
+
+export interface NgoSupportContactMethod {
+  id: number;
+  label: string;
+  value: string;
+  href?: string;
+  icon: string;
+}
+
+export interface NgoSupportContactFieldOption {
+  value: string;
+  label: string;
+}
+
+export interface NgoSupportContactField {
+  id: number;
+  name: string;
+  type: 'text' | 'email' | 'select' | 'textarea';
+  placeholder: string;
+  icon?: string;
+  options?: NgoSupportContactFieldOption[];
+}
+
+export interface NgoSupportContactForm {
+  heading: string;
+  fields: NgoSupportContactField[];
+  buttonLabel: string;
+}
+
+export interface NgoContactSection {
+  title: string;
+  subtitle: string;
+  description: string;
+  contactMethods: NgoSupportContactMethod[];
+  form: NgoSupportContactForm;
+}
+
+export interface NgoPortfolioCard {
+  id: number;
+  title: string;
+  description: string;
+  image: string;
+  icon: string;
+  buttonLabel: string;
+  href: string;
+  themeClass: string;
+}
+
+export interface NgoPortfolioSection {
+  badge: string;
+  heading: {
+    line1: string;
+    line2: string;
+  };
+  description: string;
+  cards: NgoPortfolioCard[];
+}
+
+export interface NgoCaseStudyCategory {
+  id: number;
+  label: string;
+  value: string;
+}
+
+export interface NgoCaseStudyCard {
+  id: number;
+  title: string;
+  category: string;
+  description: string;
+  image: string;
+  icon: string;
+  buttonLabel: string;
+  href: string;
+  accent: string;
+}
+
+export interface NgoCaseStudySection {
+  badge: string;
+  heading: string;
+  description: string;
+  categories: NgoCaseStudyCategory[];
+  cards: NgoCaseStudyCard[];
+}
+
+export interface NgoEventCard {
+  id: number;
+  title: string;
+  date: {
+    day: number;
+    month: string;
+  };
+  location: string;
+  time: string;
+  description: string;
+  image: string;
+  buttonLabel: string;
+  href: string;
+}
+
+export interface NgoUpcomingEventCard {
+  id: number;
+  title: string;
+  date: {
+    day: number;
+    month: string;
+  };
+  location: string;
+  time: string;
+  description: string;
+  image: string;
+  buttonLabel: string;
+  href: string;
+}
+
+export interface NgoEventSection {
+  badge: string;
+  heading: string;
+  subheading: string;
+  featuredTitle: string;
+  arrowButtons: {
+    prev: string;
+    next: string;
+  };
+  cards: NgoEventCard[];
+  upcomingTitle: string;
+  viewMoreLabel: string;
+  upcomingCards: NgoUpcomingEventCard[];
+}
+
+export interface NgoHelpCard {
+  id: number;
+  title: string;
+  description: string;
+  button: string;
+  icon: string;
+}
+
+export interface NgoHelpSection {
+  heading: {
+    line1: string;
+    line2: string;
+  };
+  subheading: string;
+  cards: NgoHelpCard[];
+}
+
 export interface VisionPagePillar {
   id: number;
   title: string;
@@ -413,6 +689,19 @@ export interface NgoData {
   aboutStorySection?: NgoAboutStorySection;
   whatWeDoSection?: NgoWhatWeDoSection;
   missionPageSection?: MissionPageSection;
+  servicesSection?: NgoServicesSection;
+  impactSection?: NgoImpactSection;
+  impactGlanceSection?: NgoImpactGlanceSection;
+  focusAreaSection?: NgoFocusAreaSection;
+  csrInitiativesSection?: NgoCsrInitiativesSection;
+  goalsSection?: NgoGoalsSection;
+  commitmentSection?: NgoCommitmentSection;
+  articlesSection?: NgoArticlesSection;
+  contactSection?: NgoContactSection;
+  portfolioSection?: NgoPortfolioSection;
+  caseStudySection?: NgoCaseStudySection;
+  eventSection?: NgoEventSection;
+  helpSection?: NgoHelpSection;
   visionPageSection?: VisionPageSection;
   certificateSection: NgoCertificateSection;
   certificateAchievementSection: NgoCertificateAchievementSection;
