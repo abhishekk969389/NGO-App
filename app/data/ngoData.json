@@ -221,6 +221,96 @@
         }
       ]
     },
+    "csr": {
+      "title": "CSR",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "CSR background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Corporate Social Responsibility",
+          "isCurrent": true
+        }
+      ]
+    },
+    "support": {
+      "title": "Support",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Support background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Support",
+          "isCurrent": true
+        }
+      ]
+    },
+       "portfolio": {
+      "title": "Portfolio",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Portfolio background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Portfolio",
+          "isCurrent": true
+        }
+      ]
+    },
+     "casestudy": {
+      "title": "Case Study",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Case Study background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Case Study",
+          "isCurrent": true
+        }
+      ]
+    },
+       "events": {
+      "title": "Events",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Events background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Events",
+          "isCurrent": true
+        }
+      ]
+    },
     "default": {
       "title": "About us",
       "backgroundImage": "/banner_bg.png",
@@ -625,6 +715,734 @@
       "main": "/about_main.png",
       "circle": "/about_circle.png"
     }
+  },
+  "servicesSection": {
+    "badge": "OUR SERVICES",
+    "heading": {
+      "line1": "Different Needs. One Purpose.",
+      "line2": "Lasting Impact."
+    },
+    "description": "We provide meaningful support across key areas to empower individuals, strengthen communities, and build a better tomorrow.",
+    "centerImage": "/about_main.png",
+    "items": [
+      {
+        "id": 1,
+        "title": "Education",
+        "description": "We support quality education and skill development to help individuals learn, grow, and build a brighter future.",
+        "icon": "education",
+        "accent": "#4f9eea"
+      },
+      {
+        "id": 2,
+        "title": "Healthcare",
+        "description": "We promote good health and well-being through access to healthcare, awareness, and support programs.",
+        "icon": "healthcare",
+        "accent": "#67b76d"
+      },
+      {
+        "id": 3,
+        "title": "Community Development",
+        "description": "We work with communities to create opportunities, build leadership, and drive long-term social change.",
+        "icon": "community",
+        "accent": "#7a5de8"
+      },
+      {
+        "id": 4,
+        "title": "Environment",
+        "description": "We protect our environment through tree plantation, clean initiatives, and sustainable living practices.",
+        "icon": "environment",
+        "accent": "#d8b24d"
+      },
+      {
+        "id": 5,
+        "title": "Child Welfare",
+        "description": "We care for children's well-being and development by providing nutrition, education, and protection.",
+        "icon": "child",
+        "accent": "#ef8f62"
+      },
+      {
+        "id": 6,
+        "title": "Disaster Relief",
+        "description": "We respond to crises with relief support, emergency assistance, and rehabilitation for impacted families.",
+        "icon": "disaster",
+        "accent": "#63bac7"
+      },
+      {
+        "id": 7,
+        "title": "Holistic Support",
+        "description": "Addressing key areas for complete well-being and long-term resilience in every community.",
+        "icon": "support",
+        "accent": "#5ec4b6"
+      },
+      {
+        "id": 8,
+        "title": "Community First",
+        "description": "Empowering communities to become self-reliant, resilient, and prepared for a brighter tomorrow.",
+        "icon": "community-first",
+        "accent": "#7d70d9"
+      },
+      {
+        "id": 9,
+        "title": "Sustainable Impact",
+        "description": "Creating long-term change that lasts through practical, measurable, and eco-conscious action.",
+        "icon": "sustainability",
+        "accent": "#5baa62"
+      },
+      {
+        "id": 10,
+        "title": "Every Life Matters",
+        "description": "We serve with compassion, respect, and a commitment to dignity for every life we touch.",
+        "icon": "impact",
+        "accent": "#d66a5c"
+      }
+    ]
+  },
+  "impactSection": {
+    "badge": "OUR IMPACT",
+    "heading": {
+      "line1": "Real People.",
+      "line2": "Real Change.",
+      "line3": "Stronger Communities."
+    },
+    "description": "Every action we take creates a ripple of hope. Together with our supporters and partners, we are transforming lives and building brighter communities for all.",
+    "stats": [
+      {
+        "id": 1,
+        "value": "25K+",
+        "label": "Lives Impacted",
+        "description": "Individuals and families empowered through our programs.",
+        "icon": "users"
+      },
+      {
+        "id": 2,
+        "value": "12K+",
+        "label": "Education Support",
+        "description": "Children provided with quality education and learning resources.",
+        "icon": "book"
+      },
+      {
+        "id": 3,
+        "value": "8K+",
+        "label": "Healthcare Access",
+        "description": "People received healthcare support and wellness care.",
+        "icon": "heart"
+      },
+      {
+        "id": 4,
+        "value": "50K+",
+        "label": "Trees Planted",
+        "description": "Contributing to a greener, cleaner, and healthier environment.",
+        "icon": "leaf"
+      }
+    ],
+    "showcase": {
+      "mainImage": "/about_main.png",
+      "secondaryImages": [
+        "/about_circle.png",
+        "/causes_education_1.png",
+        "/causes_education_2.png"
+      ],
+      "quote": {
+        "title": "The Change We Create",
+        "text": "From communities to families, our efforts create opportunities, restore hope, and empower individuals to build better lives."
+      }
+    }
+  },
+  "impactGlanceSection": {
+    "badge": "OUR IMPACT",
+    "heading": "Our Impact at a Glance",
+    "stats": [
+      {
+        "id": 1,
+        "value": "50,000+",
+        "label": "Lives Impacted",
+        "description": "Across communities and initiatives",
+        "icon": "users"
+      },
+      {
+        "id": 2,
+        "value": "120+",
+        "label": "CSR Projects",
+        "description": "Completed across key focus areas",
+        "icon": "leaf"
+      },
+      {
+        "id": 3,
+        "value": "75+",
+        "label": "Partner Organizations",
+        "description": "Collaborating for greater impact",
+        "icon": "handshake"
+      },
+      {
+        "id": 4,
+        "value": "15+",
+        "label": "States Reached",
+        "description": "Expanding our footprint across India",
+        "icon": "globe"
+      }
+    ]
+  },
+  "focusAreaSection": {
+    "badge": "OUR IMPACT",
+    "heading": "Our Focus Areas",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Education",
+        "description": "Promoting quality education and skill development to empower individuals for a brighter future.",
+        "image": "/about_main.png",
+        "icon": "book"
+      },
+      {
+        "id": 2,
+        "title": "Healthcare",
+        "description": "Improving healthcare access and promoting well-being in underserved communities.",
+        "image": "/banner_bg.png",
+        "icon": "health"
+      },
+      {
+        "id": 3,
+        "title": "Environment",
+        "description": "Protecting our planet through sustainable practices and environmental conservation.",
+        "image": "/causes_education_1.png",
+        "icon": "leaf"
+      },
+      {
+        "id": 4,
+        "title": "Livelihood & Skill Development",
+        "description": "Creating sustainable livelihoods by enhancing skills and employment opportunities.",
+        "image": "/causes_education_2.png",
+        "icon": "users"
+      },
+      {
+        "id": 5,
+        "title": "Community Development",
+        "description": "Building stronger communities by addressing basic needs and fostering social change.",
+        "image": "/banner_bg.png",
+        "icon": "heart"
+      }
+    ]
+  },
+  "csrInitiativesSection": {
+    "badge": "OUR IMPACT",
+    "heading": "Our Key CSR Initiatives",
+    "items": [
+      {
+        "id": 1,
+        "title": "Swachh & Green Initiatives",
+        "description": "Promoting cleanliness, waste management, and tree plantation drives for a cleaner and greener India.",
+        "image": "/about_main.png",
+        "icon": "team"
+      },
+      {
+        "id": 2,
+        "title": "Education Support Programs",
+        "description": "Supporting underprivileged children with school supplies, scholarships, and learning resources.",
+        "image": "/causes_education_2.png",
+        "icon": "book"
+      },
+      {
+        "id": 3,
+        "title": "Health & Wellness Camps",
+        "description": "Organizing free health check-ups, awareness sessions, and wellness programs for underserved communities.",
+        "image": "/about_circle.png",
+        "icon": "health"
+      },
+      {
+        "id": 4,
+        "title": "Women Empowerment",
+        "description": "Empowering women through training, resources, and support for a more equitable society.",
+        "image": "/banner_bg.png",
+        "icon": "users"
+      }
+    ]
+  },
+  "goalsSection": {
+    "badge": "OUR IMPACT",
+    "heading": "Aligned with Sustainable Development Goals",
+    "items": [
+      {
+        "id": 1,
+        "code": "4",
+        "title": "Quality Education",
+        "accent": "#d32f2f",
+        "icon": "book"
+      },
+      {
+        "id": 2,
+        "code": "3",
+        "title": "Good Health\nand Well-being",
+        "accent": "#2e7d32",
+        "icon": "health"
+      },
+      {
+        "id": 3,
+        "code": "5",
+        "title": "Gender Equality",
+        "accent": "#1976d2",
+        "icon": "gender"
+      },
+      {
+        "id": 4,
+        "code": "6",
+        "title": "Clean Water\nand Sanitation",
+        "accent": "#00acc1",
+        "icon": "water"
+      },
+      {
+        "id": 5,
+        "code": "7",
+        "title": "Affordable and Clean Energy",
+        "accent": "#f9a825",
+        "icon": "energy"
+      },
+      {
+        "id": 6,
+        "code": "8",
+        "title": "Decent Work and Economic Growth",
+        "accent": "#ef6c00",
+        "icon": "growth"
+      },
+      {
+        "id": 7,
+        "code": "13",
+        "title": "Climate Action",
+        "accent": "#00897b",
+        "icon": "climate"
+      },
+      {
+        "id": 8,
+        "code": "17",
+        "title": "Partnerships\nfor the Goals",
+        "accent": "#303f9f",
+        "icon": "partnership"
+      }
+    ]
+  },
+  "commitmentSection": {
+    "title": "Our Commitment",
+    "description": "We believe in responsible business practices that create long-term value for society and the environment. Together, we can build a better, more inclusive, and sustainable future for all.",
+    "quote": {
+      "text": "Alone we can do so little; together we can do so much.",
+      "author": "Helen Keller"
+    }
+  },
+  "articlesSection": {
+    "heading": "Popular Articles",
+    "description": "Browse our most common topics and find the information you need.",
+    "button": {
+      "label": "View all articles",
+      "href": "/support/articles"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "title": "Getting started with our platform",
+        "description": "A step-by-step guide for new users to help you get started quickly.",
+        "icon": "rocket",
+        "href": "/support/articles/getting-started"
+      },
+      {
+        "id": 2,
+        "title": "How to reset your password",
+        "description": "Reset your password in a few easy steps.",
+        "icon": "lock",
+        "href": "/support/articles/reset-password"
+      },
+      {
+        "id": 3,
+        "title": "How to update your account details",
+        "description": "Learn how to update your personal information and account settings.",
+        "icon": "user",
+        "href": "/support/articles/update-account"
+      },
+      {
+        "id": 4,
+        "title": "Billing and payment FAQ",
+        "description": "All about payments, invoices and refunds.",
+        "icon": "card",
+        "href": "/support/articles/billing-payment"
+      },
+      {
+        "id": 5,
+        "title": "Understanding your dashboard",
+        "description": "A quick overview of the dashboard and its key features.",
+        "icon": "dashboard",
+        "href": "/support/articles/dashboard"
+      },
+      {
+        "id": 6,
+        "title": "Troubleshooting common issues",
+        "description": "Find solutions to frequently encountered problems.",
+        "icon": "wrench",
+        "href": "/support/articles/troubleshooting"
+      }
+    ]
+  },
+  "contactSection": {
+    "title": "Still need help?",
+    "subtitle": "Contact our support team",
+    "description": "Can't find what you're looking for? Send us a message and we'll get back to you as soon as possible.",
+    "contactMethods": [
+      {
+        "id": 1,
+        "label": "Email Support",
+        "value": "support@yourwebsite.com",
+        "href": "mailto:support@yourwebsite.com",
+        "icon": "mail"
+      },
+      {
+        "id": 2,
+        "label": "Support Hours",
+        "value": "Mon - Fri: 9:00 AM - 6:00 PM (EST)",
+        "icon": "clock"
+      },
+      {
+        "id": 3,
+        "label": "Live Chat",
+        "value": "Available during business hours.",
+        "icon": "chat"
+      }
+    ],
+    "form": {
+      "heading": "Send us a message",
+      "buttonLabel": "Send Message",
+      "fields": [
+        {
+          "id": 1,
+          "name": "name",
+          "type": "text",
+          "placeholder": "Your Name",
+          "icon": "user"
+        },
+        {
+          "id": 2,
+          "name": "email",
+          "type": "email",
+          "placeholder": "Email Address",
+          "icon": "mail"
+        },
+        {
+          "id": 3,
+          "name": "subject",
+          "type": "text",
+          "placeholder": "Subject",
+          "icon": "subject"
+        },
+        {
+          "id": 4,
+          "name": "category",
+          "type": "select",
+          "placeholder": "Select Category",
+          "icon": "list",
+          "options": [
+            {
+              "value": "billing",
+              "label": "Billing"
+            },
+            {
+              "value": "technical",
+              "label": "Technical Support"
+            },
+            {
+              "value": "account",
+              "label": "Account Help"
+            },
+            {
+              "value": "general",
+              "label": "General Inquiry"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "name": "message",
+          "type": "textarea",
+          "placeholder": "Describe your issue...",
+          "icon": "message"
+        }
+      ]
+    }
+  },
+  "portfolioSection": {
+    "badge": "OUR PORTFOLIO",
+    "heading": {
+      "line1": "Stories of Change,",
+      "line2": "Built Together."
+    },
+    "description": "Every project we undertake is a step toward a better tomorrow. Explore some of our impactful initiatives that are transforming lives and communities.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Bright Future Schools",
+        "description": "Setting up quality learning spaces for children in underserved communities to learn, grow, and dream big.",
+        "image": "/portfolio1.jpg",
+        "icon": "school",
+        "buttonLabel": "View Project",
+        "href": "/portfolio/bright-future-schools",
+        "themeClass": "bg-[#edf4ef]"
+      },
+      {
+        "id": 2,
+        "title": "Healthy Communities",
+        "description": "Improving access to healthcare and nutrition for healthier, stronger families and communities.",
+        "image": "/blog_1.png",
+        "icon": "heart",
+        "buttonLabel": "View Project",
+        "href": "/portfolio/healthy-communities",
+        "themeClass": "bg-[#f4efe7]"
+      },
+      {
+        "id": 3,
+        "title": "Clean Water for All",
+        "description": "Providing clean and safe drinking water to build healthier lives and brighter futures.",
+        "image": "/blog_2.png",
+        "icon": "water",
+        "buttonLabel": "View Project",
+        "href": "/portfolio/clean-water",
+        "themeClass": "bg-[#f8f1d8]"
+      },
+      {
+        "id": 4,
+        "title": "Women Empowerment",
+        "description": "Equipping women with skills, resources, and opportunities to become confident independent leaders.",
+        "image": "/blog_3.png",
+        "icon": "women",
+        "buttonLabel": "View Project",
+        "href": "/portfolio/women-empowerment",
+        "themeClass": "bg-[#f5ecf5]"
+      },
+      {
+        "id": 5,
+        "title": "Green Initiatives",
+        "description": "Promoting sustainability through tree plantation, clean energy, and environmental awareness.",
+        "image": "/blog_1.png",
+        "icon": "leaf",
+        "buttonLabel": "View Project",
+        "href": "/portfolio/green-initiatives",
+        "themeClass": "bg-[#edf4ee]"
+      },
+      {
+        "id": 6,
+        "title": "Community Development",
+        "description": "Building stronger communities through infrastructure, education, and livelihood support.",
+        "image": "/blog_2.png",
+        "icon": "community",
+        "buttonLabel": "View Project",
+        "href": "/portfolio/community-development",
+        "themeClass": "bg-[#f6eeea]"
+      }
+    ]
+  },
+  "caseStudySection": {
+    "badge": "OUR CASE STUDIES",
+    "heading": "Real Stories. Real Impact.",
+    "description": "Explore how our initiatives are creating measurable change and building a better tomorrow for communities and the environment.",
+    "categories": [
+      { "id": 1, "label": "All Case Studies", "value": "all" },
+      { "id": 2, "label": "Education", "value": "education" },
+      { "id": 3, "label": "Healthcare", "value": "healthcare" },
+      { "id": 4, "label": "Environment", "value": "environment" },
+      { "id": 5, "label": "Community Development", "value": "community" }
+    ],
+    "cards": [
+      {
+        "id": 1,
+        "title": "Empowering Future Generations",
+        "category": "education",
+        "description": "Providing quality education and resources to underserved children, helping them build a brighter and self-reliant future.",
+        "image": "",
+        "icon": "education",
+        "buttonLabel": "Read Full Story",
+        "href": "/casestudy/education",
+        "accent": "#d9ead5"
+      },
+      {
+        "id": 2,
+        "title": "Healthcare for All",
+        "category": "healthcare",
+        "description": "Delivering essential healthcare services and spreading awareness to build healthier and stronger communities.",
+        "image": "",
+        "icon": "healthcare",
+        "buttonLabel": "Read Full Story",
+        "href": "/casestudy/healthcare",
+        "accent": "#eff5ef"
+      },
+      {
+        "id": 3,
+        "title": "Building a Sustainable Tomorrow",
+        "category": "environment",
+        "description": "Promoting environmental sustainability through afforestation, clean energy, and waste reduction initiatives.",
+        "image": "",
+        "icon": "environment",
+        "buttonLabel": "Read Full Story",
+        "href": "/casestudy/environment",
+        "accent": "#f0f4ec"
+      },
+      {
+        "id": 4,
+        "title": "Stronger Communities, Better Lives",
+        "category": "community",
+        "description": "Creating opportunities and empowering communities through skill development and livelihood support programs.",
+        "image": "",
+        "icon": "community",
+        "buttonLabel": "Read Full Story",
+        "href": "/casestudy/community",
+        "accent": "#f4f1ea"
+      },
+      {
+        "id": 5,
+        "title": "Skill Building for Resilience",
+        "category": "community",
+        "description": "Supporting local youth with practical training and employment opportunities to build sustainable futures.",
+        "image": "",
+        "icon": "community",
+        "buttonLabel": "Read Full Story",
+        "href": "/casestudy/resilience",
+        "accent": "#edf4ee"
+      },
+      {
+        "id": 6,
+        "title": "Healthy Families, Healthy Futures",
+        "category": "healthcare",
+        "description": "Improving health awareness and early support systems for families so they can thrive with dignity.",
+        "image": "",
+        "icon": "healthcare",
+        "buttonLabel": "Read Full Story",
+        "href": "/casestudy/families",
+        "accent": "#f6f0ea"
+      }
+    ]
+  },
+  "eventSection": {
+    "badge": "Events",
+    "heading": "Events",
+    "subheading": "Join our upcoming events and be a part of creating a better tomorrow for communities in need.",
+    "featuredTitle": "Featured Events",
+    "arrowButtons": {
+      "prev": "Previous",
+      "next": "Next"
+    },
+    "cards": [
+      {
+        "id": 1,
+        "title": "Community Clean-Up Drive",
+        "date": { "day": 15, "month": "JUN" },
+        "location": "Central Park, New York, USA",
+        "time": "9:00 AM - 1:00 PM (EST)",
+        "description": "Let’s come together to clean our streets and make our community a cleaner place.",
+        "image": "",
+        "buttonLabel": "Register Now",
+        "href": "/events/community-cleanup"
+      },
+      {
+        "id": 2,
+        "title": "Education for All Workshop",
+        "date": { "day": 22, "month": "JUN" },
+        "location": "Greenwood Community Center, San Francisco, USA",
+        "time": "10:00 AM - 2:00 PM (PST)",
+        "description": "A workshop focused on making quality education accessible for every child.",
+        "image": "",
+        "buttonLabel": "Register Now",
+        "href": "/events/education-workshop"
+      },
+      {
+        "id": 3,
+        "title": "Tree Plantation Event",
+        "date": { "day": 5, "month": "JUL" },
+        "location": "Riverside Park, Austin, USA",
+        "time": "8:00 AM - 12:00 PM (CST)",
+        "description": "Plant trees, protect the environment and build a sustainable future together.",
+        "image": "",
+        "buttonLabel": "Register Now",
+        "href": "/events/tree-plantation"
+      }
+    ],
+    "upcomingTitle": "All Upcoming Events",
+    "viewMoreLabel": "View More Events",
+    "upcomingCards": [
+      {
+        "id": 1,
+        "title": "Food Donation Drive",
+        "date": { "day": 18, "month": "JUN" },
+        "location": "Helping Hands Center, Chicago, USA",
+        "time": "11:00 AM - 3:00 PM (CST)",
+        "description": "Help us fight hunger by donating food and distributing food to those in need.",
+        "image": "",
+        "buttonLabel": "View Details",
+        "href": "/events/food-donation-drive"
+      },
+      {
+        "id": 2,
+        "title": "Free Health Check-Up Camp",
+        "date": { "day": 28, "month": "JUN" },
+        "location": "Hope Community Clinic, Los Angeles, USA",
+        "time": "9:00 AM - 1:00 PM (PST)",
+        "description": "Providing free health check-ups and consultations for the community.",
+        "image": "",
+        "buttonLabel": "View Details",
+        "href": "/events/health-checkup-camp"
+      },
+      {
+        "id": 3,
+        "title": "Animal Care & Adoption Day",
+        "date": { "day": 12, "month": "JUL" },
+        "location": "Paws & Care Shelter, Dallas, USA",
+        "time": "10:00 AM - 2:00 PM (CST)",
+        "description": "Join us in providing love, care and forever homes for animals.",
+        "image": "",
+        "buttonLabel": "View Details",
+        "href": "/events/adoption-day"
+      },
+      {
+        "id": 4,
+        "title": "Flood Relief Support",
+        "date": { "day": 20, "month": "JUL" },
+        "location": "Relief Distribution Center, Houston, USA",
+        "time": "9:00 AM - 5:00 PM (CST)",
+        "description": "Support our relief efforts for families affected by recent floods.",
+        "image": "",
+        "buttonLabel": "View Details",
+        "href": "/events/flood-relief"
+      }
+    ]
+  },
+  "helpSection": {
+    "heading": {
+      "line1": "How can we",
+      "line2": "help you?"
+    },
+    "subheading": "We're here to answer your questions and provide the support you need. Reach out to us through any of the options below.",
+    "cards": [
+      {
+        "id": 1,
+        "title": "Help Articles",
+        "description": "Browse our comprehensive guides and tutorials to find the information you need.",
+        "button": "Learn More",
+        "icon": "articles"
+      },
+      {
+        "id": 2,
+        "title": "FAQs",
+        "description": "Find quick answers to common questions and get the clarity you need.",
+        "button": "Learn More",
+        "icon": "faq"
+      },
+      {
+        "id": 3,
+        "title": "Contact Us",
+        "description": "Get in touch with our support team. We're here to assist you.",
+        "button": "Learn More",
+        "icon": "mail"
+      },
+      {
+        "id": 4,
+        "title": "Remote Support",
+        "description": "Connect with our experts for real-time support and live assistance.",
+        "button": "Learn More",
+        "icon": "support"
+      }
+    ]
   },
   "visionPageSection": {
     "badge": "OUR VISION",
@@ -1267,15 +2085,15 @@
       "children": [
         {
           "label": "Services",
-          "href": "/causes/services"
+          "href": "/services"
         },
         {
           "label": "CSR",
-          "href": "/causes/csr"
+          "href": "/csr"
         },
         {
           "label": "Support",
-          "href": "/causes/support"
+          "href": "/support"
         }
       ]
     },
@@ -1285,15 +2103,15 @@
       "children": [
         {
           "label": "Portfolio / Projects",
-          "href": "/programs/portfolio"
+          "href": "/portfolio"
         },
         {
           "label": "Case Study",
-          "href": "/programs/case-study"
+          "href": "/casestudy"
         },
         {
           "label": "Events",
-          "href": "/programs/events"
+          "href": "/events"
         },
         {
           "label": "Media",

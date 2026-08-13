@@ -1,0 +1,84 @@
+import { BookOpenText, MessageSquareText, Mail, Headphones } from 'lucide-react';
+import ngoDataJson from '@/app/data/ngoData.json';
+import type { NgoData, NgoHelpCard } from '@/app/type/ngo';
+
+const data = ngoDataJson as NgoData;
+
+const iconMap = {
+  articles: BookOpenText,
+  faq: MessageSquareText,
+  mail: Mail,
+  support: Headphones,
+};
+
+export default function Help() {
+  const helpData = data.helpSection;
+
+  if (!helpData) return null;
+
+  const getIcon = (icon: string) => {
+    const IconComponent = iconMap[icon as keyof typeof iconMap] ?? BookOpenText;
+    return <IconComponent className="h-8 w-8 text-[#234b2c] stroke-[1.5]" />;
+  };
+
+  return (
+    <section className="bg-white py-12 sm:py-16">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        
+        {/* Header Section */}
+        <div className="text-center">
+          <h2 className="font-serif text-3xl font-bold tracking-tight text-[#16351d] sm:text-4xl lg:text-[2.6rem]">
+            {helpData.heading.line1}{' '}
+            <span className="text-[#234b2c]">{helpData.heading.line2}</span>
+          </h2>
+
+          {/* Underline Divider */}
+          <div className="mt-3 flex justify-center">
+            <span className="h-[2px] w-12 rounded-full bg-[#3b6043]" />
+          </div>
+
+          <p className="mx-auto mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-[#59665b]">
+            {helpData.subheading}
+          </p>
+        </div>
+
+        {/* 4-Column Cards Grid */}
+        <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {helpData.cards.map((card: NgoHelpCard) => (
+            <div
+              key={card.id}
+              className="flex flex-col items-center justify-between rounded-2xl border border-[#eef2ec] bg-[#f8faf7] p-6 text-center transition-all duration-300 hover:shadow-sm"
+            >
+              <div className="flex flex-col items-center">
+                {/* Soft Light Green Circle for Icon */}
+                <div className="relative flex h-20 w-20 items-center justify-center rounded-full bg-[#e5ebe3]">
+                  {getIcon(card.icon)}
+                </div>
+
+                {/* Subtle Divider under Icon */}
+                <div className="mt-5 h-[2px] w-8 rounded-full bg-[#4a6d51]/40" />
+
+                {/* Card Title */}
+                <h3 className="mt-4 font-serif text-xl font-bold text-[#16351d]">
+                  {card.title}
+                </h3>
+
+                {/* Card Description (Bada Font Size: text-sm -> sm:text-base) */}
+                <p className="mt-3 text-sm sm:text-[0.95rem] leading-relaxed text-[#4d5a4f]">
+                  {card.description}
+                </p>
+              </div>
+
+              {/* Learn More Button (Bada Size & Spacing) */}
+              <button className="mt-8 inline-flex h-10 w-44 items-center justify-center gap-2 rounded-lg border border-[#234b2c] bg-transparent px-5 py-3 text-sm font-semibold text-[#234b2c] transition hover:bg-[#234b2c] hover:text-white">
+                <span>{card.button || 'Learn More'}</span>
+                <span className="text-base">→</span>
+              </button>
+            </div>
+          ))}
+        </div>
+
+      </div>
+    </section>
+  );
+}
