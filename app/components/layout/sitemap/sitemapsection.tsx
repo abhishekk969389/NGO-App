@@ -29,15 +29,15 @@ export default function SitemapSection() {
         <div className="mx-auto max-w-2xl text-center flex flex-col items-center">
           
           {/* Dynamic Heading with Accent Underlines */}
-          <h1 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-[#0d3319] font-serif leading-tight">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight">
             {sitemapSection.heading}
           </h1>
 
           {/* Underline Accent Bar */}
-          <div className="w-12 h-[2.5px] bg-[#1f5e2e] rounded-full mt-2.5 mb-3.5" />
+          <div className="w-12 h-[2.5px] bg-[#2c7a3f] rounded-full mt-2.5 mb-3.5" />
 
           {/* Dynamic Description */}
-          <p className="text-xs sm:text-sm lg:text-base text-gray-600 font-sans leading-relaxed max-w-xl">
+          <p className="text-xs sm:text-sm md:text-base text-gray-600 font-sans leading-relaxed max-w-xl">
             {sitemapSection.description}
           </p>
         </div>

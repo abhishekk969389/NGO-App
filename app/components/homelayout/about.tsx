@@ -33,17 +33,16 @@ export default function About() {
     <section className="bg-white overflow-hidden mt-8 py-4">
       <div className="mx-auto max-w-[1350px] px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 xl:gap-12 items-center">
-          
-          {/* Images Column - Responsive dimensions for 1024px */}
+
           <div className="relative flex justify-center lg:justify-start lg:col-span-5">
-            {/* Outline Heart Graphic */}
+
             <div className="absolute top-4 left-4 z-10 text-[#2c7a3f]/70">
               <Heart className="w-10 h-10 sm:w-12 sm:h-12 stroke-[1.5] -rotate-12 text-[#2c7a3f]" />
             </div>
 
-            {/* Main Rounded Image Container */}
+
             <div className="relative inline-block">
-              {/* Main Card Image - Scaling handled smoothly across breakpoints */}
+
               <div className="relative w-[290px] h-[360px] sm:w-[420px] sm:h-[500px] lg:w-[370px] lg:h-[450px] xl:w-[460px] xl:h-[540px] rounded-[2rem] sm:rounded-[2.5rem] overflow-hidden shadow-lg">
                 <Image
                   src={aboutSection.images.main}
@@ -54,7 +53,7 @@ export default function About() {
                 />
               </div>
 
-              {/* Overlapping Circle Image - Adjusted position & size for 1024px */}
+
               <div className="absolute -bottom-5 -right-3 sm:-bottom-5 sm:-right-5 lg:-bottom-4 lg:-right-4 xl:-bottom-6 xl:-right-6 w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] lg:w-[160px] lg:h-[160px] xl:w-[210px] xl:h-[210px] rounded-full overflow-hidden border-4 sm:border-[5px] border-white shadow-xl z-20">
                 <Image
                   src={aboutSection.images.circle}
@@ -67,26 +66,24 @@ export default function About() {
             </div>
           </div>
 
-          {/* Text Content Column */}
+
           <div className="lg:col-span-7 mt-8 lg:mt-0 flex flex-col justify-center">
-            
-            {/* Tagline Badge */}
+
+
             <div className="flex items-center gap-2 text-base sm:text-lg font-bold text-[#2c7a3f]">
               <HandHeart className="w-8 h-8 sm:w-10 sm:h-10 text-[#2c7a3f]" />
               <span className="font-serif italic tracking-wide">{aboutSection.tagline}</span>
             </div>
 
-            {/* Main Heading */}
             <h2 className="mt-2 text-2xl sm:text-4xl lg:text-3xl xl:text-5xl font-black text-[#0c4d1e] font-serif leading-tight max-w-[600px]">
               {aboutSection.heading}
             </h2>
 
-            {/* Description Paragraph */}
+
             <p className="mt-3 text-sm sm:text-base lg:text-sm xl:text-base text-gray-600 leading-relaxed font-sans">
               {aboutSection.description}
             </p>
 
-            {/* Quote block */}
             <div className="mt-5 flex items-start gap-3 sm:gap-4 p-4 sm:p-5 rounded-2xl bg-white border-l-4 border-[#2c7a3f] shadow-sm">
               <IconQuote className="w-7 h-7 sm:w-8 sm:h-8 text-[#2c7a3f] flex-shrink-0 transform rotate-180 fill-[#e8f5e9]/60" />
               <p className="text-xs sm:text-sm xl:text-base text-gray-700 italic font-serif leading-relaxed">
@@ -94,7 +91,7 @@ export default function About() {
               </p>
             </div>
 
-            {/* Features Grid */}
+
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 mt-5">
               {aboutSection.features.map((feature) => {
                 const IconComponent = getFeatureIcon(feature.icon);
@@ -111,7 +108,7 @@ export default function About() {
               })}
             </div>
 
-            {/* CTA Button */}
+
             <div className="mt-6 sm:mt-8">
               <Link
                 href={aboutSection.button.href}

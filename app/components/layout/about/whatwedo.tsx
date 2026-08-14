@@ -38,7 +38,7 @@ export default function WhatWeDo() {
   };
 
   return (
-    <section className="bg-white mt-6 sm:mt-8 md:mt-10 lg:mt-12 overflow-hidden mb-8 sm:mb-10 lg:mb-12">
+    <section className="bg-white mt-6 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden mb-8 sm:mb-10 lg:mb-12">
       <div className="mx-auto max-w-[1300px] px-4 sm:px-6 lg:px-8">
         
         {/* Main Grid: Mobile single col, LG exact same col-span ratio */}
@@ -62,7 +62,7 @@ export default function WhatWeDo() {
 
             {/* Main Heading with Highlight */}
             <div className="mt-3 sm:mt-4">
-              <h2 className="text-2xl sm:text-4xl lg:text-[2.75rem] font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.15] tracking-tight max-w-2xl">
+              <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight max-w-2xl">
                 {whatWeDoData.headingPrefix}
                 <span className="text-[#2c7a3f]">{whatWeDoData.headingHighlight}</span>
               </h2>
@@ -70,7 +70,7 @@ export default function WhatWeDo() {
             </div>
 
             {/* Description */}
-            <p className="mt-3 sm:mt-4 text-gray-600 text-xs sm:text-base leading-relaxed font-sans max-w-xl">
+            <p className="mt-3 sm:mt-4 text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed font-sans max-w-xl">
               {whatWeDoData.description}
             </p>
 

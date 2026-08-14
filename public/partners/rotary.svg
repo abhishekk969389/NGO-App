@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+  <text x="5" y="33" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#17458f">Rotary</text>
+  <g transform="translate(100, 8)">
+    <circle cx="17" cy="17" r="15" fill="#f7a81b" stroke="#17458f" stroke-width="2"/>
+    <circle cx="17" cy="17" r="7" fill="#17458f"/>
+    <circle cx="17" cy="17" r="3" fill="#ffffff"/>
+    <path d="M 17 2 L 17 32 M 2 17 L 32 17 M 6 6 L 28 28 M 6 28 L 28 6" stroke="#17458f" stroke-width="2"/>
+  </g>
+</svg>

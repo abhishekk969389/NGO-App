@@ -23,10 +23,9 @@ export default function HomeCta() {
     <section className="my-6 overflow-hidden">
       <div className="mx-auto max-w-[1350px] px-4 sm:px-6 lg:px-8">
         
-        {/* Banner Card Container */}
+      
         <div className="relative bg-[#102719] rounded-2xl py-8 px-6 sm:px-10 lg:px-12 shadow-2xl overflow-hidden">
           
-          {/* Decorative Corner Leaf Branch (Right Side) */}
           <div className="absolute right-0 top-0 bottom-0 opacity-20 pointer-events-none hidden lg:block">
             <svg
               className="h-full w-auto text-[#2d7d3e]"
@@ -45,14 +44,11 @@ export default function HomeCta() {
 
           <div className="relative z-10 grid grid-cols-1 lg:grid-cols-12 gap-6 lg:gap-8 items-center">
             
-            {/* Column 1: Large Circle Icon */}
             <div className="flex justify-center lg:justify-start lg:col-span-2">
               <div className="w-20 h-20 sm:w-22 sm:h-22 rounded-full border border-[#2d7d3e]/50 flex items-center justify-center text-[#2d7d3e]  transition-transform duration-300 hover:scale-105">
                 <HandHeart className="w-10 h-10 text-[#FFFFFF] stroke-[1.5]" />
               </div>
             </div>
-
-            {/* Column 2: Heading */}
             <div className="lg:col-span-5 text-center lg:text-left">
               <h2 className="text-2xl sm:text-3xl lg:text-[2.2rem] font-bold text-white font-serif leading-[1.25] tracking-tight">
                 {homeCta.heading.replace("Yourself", "")}
@@ -60,18 +56,15 @@ export default function HomeCta() {
               </h2>
             </div>
 
-            {/* Column 3: Description */}
             <div className="lg:col-span-2 lg:border-l lg:border-white/15 lg:pl-7 text-center lg:text-left">
               <p className="text-xs sm:text-[0.825rem] text-gray-300 leading-relaxed font-sans max-w-xs mx-auto lg:mx-0">
                 {homeCta.description}
               </p>
             </div>
 
-            {/* Column 4: Stacked Single-Line Action Buttons - Fixed Width */}
-            {/* max-w-[220px] ko max-w-[250px] ya max-w-xs (320px) me change kiya */}
+      
             <div className="lg:col-span-3 flex flex-col gap-3 w-full max-w-[260px] mx-auto lg:mx-auto">
               
-              {/* Donate Button */}
               <Link
                 href={homeCta.buttons.donate.href}
                 className="w-full flex items-center justify-between bg-[#2d7d3e] text-white text-xs sm:text-sm font-semibold py-3 px-5 rounded-lg hover:bg-[#236632] transition-all font-sans shadow-md group/btn1"
@@ -83,7 +76,6 @@ export default function HomeCta() {
                 <ArrowRight className="w-4 h-4 transition-transform group-hover/btn1:translate-x-1" />
               </Link>
 
-              {/* Volunteer Button */}
               <Link
                 href={homeCta.buttons.volunteer.href}
                 className="w-full flex items-center justify-between border border-[#2d7d3e] bg-transparent text-white text-xs sm:text-sm font-semibold py-3 px-5 rounded-lg hover:bg-[#2d7d3e]/10 transition-all font-sans group/btn2"

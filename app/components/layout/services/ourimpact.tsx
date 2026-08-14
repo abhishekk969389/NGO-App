@@ -61,7 +61,7 @@ export default function OurImpact() {
               </div>
 
               {/* Main Heading */}
-              <h2 className="text-2xl sm:text-4xl lg:text-[2.65rem] font-bold text-[#141d17] font-serif leading-[1.2] tracking-tight mt-1">
+              <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight mt-1">
                 <span className="block">{impactData.heading.line1}</span>
                 <span className="block">{impactData.heading.line2}</span>
                 <span className="inline-block relative text-[#2c7a3f] italic font-serif">
@@ -78,7 +78,7 @@ export default function OurImpact() {
                 </span>
               </h2>
 
-              <p className="mt-6 max-w-[500px] text-xs leading-6 text-[#5e685e] sm:text-sm sm:leading-7">
+              <p className="mt-4 max-w-[500px] text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
                 {impactData.description}
               </p>
 

@@ -33,18 +33,13 @@ export default function Testinomial() {
   return (
     <section className="bg-white overflow-hidden">
       <div className="mx-auto max-w-[1140px] px-4 sm:px-6 lg:px-8">
-        
-        {/* Header Section */}
         <div className="flex flex-col items-center">
-          
-          {/* Main Heading: dynamic from JSON */}
           <h2 className="text-center text-3xl sm:text-5xl font-black text-[#04240d] font-serif leading-tight">
             {testimonials.heading.prefix} <span className="text-[#2c7a3f]">{testimonials.heading.highlight}</span>
             <br />
             {testimonials.heading.suffix}
           </h2>
 
-          {/* Tagline Divider with Heart */}
           <div className="flex items-center justify-center gap-3 text-xs sm:text-sm font-extrabold tracking-widest text-[#2c7a3f] uppercase font-sans mt-3">
             <div className="w-10 h-[1.5px] bg-[#2c7a3f]/30"></div>
             <Heart className="h-4 w-4 text-[#2c7a3f] fill-current" />
@@ -52,14 +47,12 @@ export default function Testinomial() {
           </div>
 
         </div>
-
-        {/* Sliding Testimonials Track (Hover to pause) */}
         <div
           className="mt-6 overflow-hidden py-8 px-2"
           onMouseEnter={() => setIsPaused(true)}
           onMouseLeave={() => setIsPaused(false)}
         >
-          {/* Horizontal Track with Smooth Slide Transition */}
+        
           <div
             className="flex gap-6 transition-transform duration-700 ease-in-out"
             style={{
@@ -81,10 +74,7 @@ export default function Testinomial() {
                   }`}
                   style={{ borderBottomWidth: '4px', borderBottomColor: activeThemeColor }}
                 >
-                  {/* Card Header & Quote */}
                   <div className="flex flex-col">
-                    
-                    {/* Top Quote Bubble */}
                     <div className="relative flex items-center justify-center -mt-5 mb-4">
                       <div
                         className="absolute inset-x-0 h-[2px] transition-colors duration-500"
@@ -97,22 +87,16 @@ export default function Testinomial() {
                         <IconQuote className="w-4 h-4 text-white" />
                       </div>
                     </div>
-
-                    {/* Star Ratings */}
                     <div className="flex justify-center gap-1 mb-4">
                       {Array.from({ length: card.rating }).map((_, i) => (
                         <IconStarFilled key={i} className="w-3.5 h-3.5 text-[#f59e0b]" />
                       ))}
                     </div>
-
-                    {/* Feedback Text */}
                     <p className="text-xs sm:text-sm text-gray-600 leading-relaxed text-center font-sans tracking-wide">
                       {card.feedback}
                     </p>
 
                   </div>
-
-                  {/* Author Footer */}
                   <div className="flex items-center gap-3 mt-6 border-t border-gray-50 pt-4 justify-center">
                     <div
                       className="relative w-10 h-10 rounded-full overflow-hidden border-2 transition-colors duration-500"

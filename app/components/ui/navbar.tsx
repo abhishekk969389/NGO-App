@@ -21,7 +21,7 @@ export default function Navbar() {
     <header className="w-full bg-white border-b border-gray-200 sticky top-0 z-50">
       <div className="mx-auto flex max-w-[1380px] items-center justify-between px-3 sm:px-6 py-3">
         
-        {/* Brand Logo - 1024px screen par gap & size adjust kiya */}
+     
         <Link href="/" className="flex items-center gap-2 xl:gap-3 flex-shrink-0">
           <div className="relative h-10 w-10 xl:h-12 xl:w-12 flex-shrink-0">
             <Image src={data.brand.logo} alt={`${data.brand.name} logo`} fill className="object-contain" />
@@ -36,23 +36,27 @@ export default function Navbar() {
           </div>
         </Link>
 
-        {/* Desktop Navigation Links - Gap LG (1024px) par tight kiya aur text-xs kar diya */}
+      
         <nav className="hidden lg:flex items-center gap-2.5 xl:gap-6">
           {data.navLinks.map((link) => {
             const hasChildren = link.children && link.children.length > 0;
             return (
               <div key={link.label} className="relative group py-2">
-                <Link
-                  href={link.href}
-                  className="flex items-center gap-0.5 text-xs xl:text-sm font-semibold text-gray-800 hover:text-[#0c4d1e] whitespace-nowrap transition-colors py-1"
-                >
-                  <span>{link.label}</span>
-                  {hasChildren && (
+                {hasChildren ? (
+                  <div className="flex items-center gap-0.5 text-xs xl:text-sm font-semibold text-gray-800 hover:text-[#0c4d1e] whitespace-nowrap transition-colors py-1 cursor-pointer select-none">
+                    <span>{link.label}</span>
                     <ChevronDown className="h-3.5 w-3.5 text-gray-600 group-hover:text-[#0c4d1e] group-hover:rotate-180 transition-transform duration-200" />
-                  )}
-                </Link>
+                  </div>
+                ) : (
+                  <Link
+                    href={link.href}
+                    className="flex items-center gap-0.5 text-xs xl:text-sm font-semibold text-gray-800 hover:text-[#0c4d1e] whitespace-nowrap transition-colors py-1"
+                  >
+                    <span>{link.label}</span>
+                  </Link>
+                )}
 
-                {/* Dropdown Menu Popup */}
+        
                 {hasChildren && (
                   <div className="absolute left-0 top-full pt-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 ease-out z-50 pointer-events-none group-hover:pointer-events-auto min-w-[220px]">
                     <div className="bg-white text-gray-800 rounded-xl p-2 shadow-xl border border-gray-100">
@@ -76,7 +80,6 @@ export default function Navbar() {
           })}
         </nav>
 
-        {/* Action Buttons Header - Padding & Text Size adjusted for 1024px */}
         <div className="flex items-center gap-1.5 xl:gap-3 flex-shrink-0">
           <button
             type="button"
@@ -123,23 +126,26 @@ export default function Navbar() {
 
               return (
                 <div key={link.label} className="border-b border-gray-100 last:border-none pb-2">
-                  <div className="flex items-center justify-between py-1.5">
-                    <Link
-                      href={link.href}
-                      onClick={() => setIsOpen(false)}
-                      className="text-base font-semibold text-gray-800 hover:text-[#0c4d1e]"
+                  {hasChildren ? (
+                    <button
+                      type="button"
+                      onClick={() => toggleMobileDropdown(link.label)}
+                      className="flex items-center justify-between w-full py-1.5 text-base font-semibold text-gray-800 hover:text-[#0c4d1e] text-left focus:outline-none"
                     >
-                      {link.label}
-                    </Link>
-                    {hasChildren && (
-                      <button
-                        onClick={() => toggleMobileDropdown(link.label)}
-                        className="p-1 text-gray-600 focus:outline-none"
+                      <span>{link.label}</span>
+                      <ChevronDown className={`h-5 w-5 text-gray-600 transition-transform duration-200 ${isMobileOpen ? 'rotate-180' : ''}`} />
+                    </button>
+                  ) : (
+                    <div className="flex items-center justify-between py-1.5">
+                      <Link
+                        href={link.href}
+                        onClick={() => setIsOpen(false)}
+                        className="text-base font-semibold text-gray-800 hover:text-[#0c4d1e]"
                       >
-                        <ChevronDown className={`h-5 w-5 transition-transform duration-200 ${isMobileOpen ? 'rotate-180' : ''}`} />
-                      </button>
-                    )}
-                  </div>
+                        {link.label}
+                      </Link>
+                    </div>
+                  )}
 
                   {/* Submenu Mapping */}
                   {hasChildren && isMobileOpen && (

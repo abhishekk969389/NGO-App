@@ -79,7 +79,6 @@ export default function Footer() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-0">
 
-          {/* Column 1: Logo & About (3 cols) */}
           <div className="lg:col-span-3 pr-0 lg:pr-8 flex flex-col justify-between border-b border-gray-200/60 pb-8 lg:pb-0 lg:border-b-0">
             <div>
               <Link href="/" className="flex items-center gap-3 flex-shrink-0">
@@ -119,8 +118,6 @@ export default function Footer() {
               ))}
             </div>
           </div>
-
-          {/* Columns 2, 3, 4: Dynamic Link Sections */}
           {linkSections.map((section, idx) => (
             <div key={idx} className="lg:col-span-2 lg:px-6 lg:border-l lg:border-gray-200 border-b border-gray-200/60 pb-8 lg:pb-0 lg:border-b-0">
               <h3 className="text-lg font-bold text-gray-900 tracking-tight font-serif">{section.title}</h3>
@@ -138,7 +135,6 @@ export default function Footer() {
             </div>
           ))}
 
-          {/* Column 5: Contact Us (3 cols) */}
           <div className="lg:col-span-3 lg:pl-6 lg:border-l lg:border-gray-200 pb-8 lg:pb-0">
             <h3 className="text-lg font-bold text-gray-900 tracking-tight font-serif">{footerData.footerHeadings.contactInfo}</h3>
             <div className="w-6 h-[2px] bg-[#2c7a3f] mt-1 mb-5"></div>
@@ -167,7 +163,6 @@ export default function Footer() {
 
         </div>
 
-        {/* Center Divider with Heart Icon */}
         <div className="relative my-6 flex items-center justify-center">
           <div className="w-full border-t border-[#2c7a3f]"></div>
           <div className="absolute bg-[#fdfdfd] px-4 text-[#2c7a3f]">
@@ -175,7 +170,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Copyright Section */}
         <div className="text-center text-sm mb-5 text-gray-500 font-medium">
           {footerData.copyrightText}
         </div>

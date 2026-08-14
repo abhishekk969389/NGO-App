@@ -54,33 +54,33 @@ export default function CaseStudySection() {
   const highlightedHeading = headingWords.slice(-2).join(' ');
 
   return (
-    <section className="bg-white py-12 sm:py-16 lg:py-20">
-      <div className="mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-8">
+    <section className="mt-6 sm:mt-8 md:mt-10 lg:mt-14">
+      <div className="mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-8 pb-6">
         
         {/* Header Section */}
         <div className="text-center">
           {/* Badge flanked by subtle horizontal lines */}
-          <div className="inline-flex items-center justify-center gap-3 text-xs font-bold uppercase tracking-widest text-[#1d5e2d]">
-            <span className="h-px w-10 bg-[#1d5e2d]/30" />
+          <div className="inline-flex items-center justify-center gap-3 text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#0d3319] font-sans">
+            <span className="h-px w-10 bg-[#2c7a3f]/30" />
             <span className="flex items-center gap-1.5">
-              <Sprout className="h-4 w-4 fill-[#1d5e2d] text-[#1d5e2d]" />
+              <Sprout className="h-4 w-4 fill-[#2c7a3f] text-[#2c7a3f]" />
               {caseStudyData.badge || 'OUR CASE STUDIES'}
             </span>
-            <span className="h-px w-10 bg-[#1d5e2d]/30" />
+            <span className="h-px w-10 bg-[#2c7a3f]/30" />
           </div>
 
           {/* Larger Main Heading */}
-          <h2 className="mt-4 font-serif text-4xl font-bold tracking-tight text-[#16351d] sm:text-5xl lg:text-6xl">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight mt-2 sm:mt-1">
             {primaryHeading && <span>{primaryHeading} </span>}
-            <span className="text-[#1d5e2d]">{highlightedHeading}</span>
+            <span className="inline-block relative text-[#2c7a3f] font-serif">{highlightedHeading}</span>
           </h2>
 
           {/* Underline Bar */}
           <div className="mt-4 flex justify-center">
-            <span className="h-[3px] w-12 rounded-full bg-[#3b6043]" />
+            <span className="h-[2.5px] w-12 rounded-full bg-[#2c7a3f]" />
           </div>
 
-          <p className="mx-auto mt-4 max-w-2xl text-sm sm:text-base leading-relaxed text-[#59665b]">
+          <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
             {caseStudyData.description}
           </p>
         </div>

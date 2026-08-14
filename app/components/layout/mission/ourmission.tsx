@@ -95,7 +95,7 @@ export default function OurMission() {
             </div>
 
             {/* Main Heading */}
-            <h2 className="text-2xl sm:text-4xl lg:text-[2.65rem] font-bold text-[#141d17] font-serif leading-[1.2] tracking-tight mt-1">
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight mt-1">
               <div>{missionData.heading.line1}</div>
               <div className="inline-block relative text-[#2c7a3f] italic font-serif mt-0.5">
                 {missionData.heading.line2}
@@ -112,7 +112,7 @@ export default function OurMission() {
             </h2>
 
             {/* Paragraph Description */}
-            <p className="text-gray-600 text-xs sm:text-base leading-relaxed font-sans mt-4 sm:mt-5 max-w-2xl">
+            <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed font-sans mt-4 sm:mt-5 max-w-2xl">
               {missionData.description}
             </p>
 

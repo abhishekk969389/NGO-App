@@ -10,7 +10,7 @@ export default function CertificateSection() {
   if (!certificateSection) return null;
 
   return (
-    <section className=" mt-4 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
+    <section className="mt-6 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
       <div className="mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-12">
 
         {/* Grid for Certificates Cards */}

@@ -29,14 +29,14 @@ export default function FocusArea() {
         
         {/* Header Section */}
         <div className="text-center">
-          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1b4d2e]">
+          <h2 className="font-serif text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0d3319] leading-[1.2] sm:leading-[1.18]">
             {focusData.heading}
           </h2>
 
           {/* Line + Heart Divider */}
           <div className="mt-2.5 mb-10 flex items-center justify-center gap-2">
             <span className="h-[1px] w-8 sm:w-12 bg-[#b2cbb6]" />
-            <Heart className="h-3.5 w-3.5 fill-[#1b4d2e] text-[#1b4d2e]" />
+            <Heart className="h-3.5 w-3.5 fill-[#2c7a3f] text-[#2c7a3f]" />
             <span className="h-[1px] w-8 sm:w-12 bg-[#b2cbb6]" />
           </div>
         </div>

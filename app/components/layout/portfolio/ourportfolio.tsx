@@ -45,24 +45,24 @@ export default function OurPortfolio() {
   };
 
   return (
-    <section className="bg-white py-12 sm:py-16">
+    <section className="bg-white mt-6 sm:mt-8 md:mt-10 lg:mt-14 pb-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
         <div className="mb-12 text-center">
-          <div className="inline-flex items-center justify-center gap-1.5 text-xs font-bold uppercase tracking-widest text-[#234b2c]">
-            <Sprout className="h-4 w-4 fill-[#234b2c] text-[#234b2c]" />
+          <div className="inline-flex items-center justify-center gap-1.5 text-xs sm:text-sm font-extrabold uppercase tracking-widest text-[#0d3319] font-sans">
+            <Sprout className="h-4 w-4 fill-[#2c7a3f] text-[#2c7a3f]" />
             <span>{portfolioData.badge || 'OUR PORTFOLIO'}</span>
           </div>
 
-          <h2 className="mt-3 font-serif text-3xl font-bold tracking-tight text-[#16351d] sm:text-4xl lg:text-5xl">
+          <h2 className="mt-3 font-serif text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0d3319] leading-[1.2] sm:leading-[1.18]">
             {portfolioData.heading?.line1 || 'Stories of Change,'}
-            <span className="block font-serif italic font-normal text-[#234b2c] mt-1">
+            <span className="block font-serif italic font-normal text-[#2c7a3f] mt-1">
               {portfolioData.heading?.line2 || 'Built Together.'}
             </span>
           </h2>
 
-          <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm leading-relaxed text-[#59665b]">
+          <p className="mx-auto mt-4 max-w-2xl text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
             {portfolioData.description}
           </p>
         </div>

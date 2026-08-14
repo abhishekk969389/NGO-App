@@ -11,7 +11,7 @@ export default function AboutSection() {
   if (!storyData) return null;
 
   return (
-    <section className="mt-4 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden pb-8 sm:pb-12">
+    <section className="mt-6 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden pb-8 sm:pb-12">
       <div className="mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 xl:gap-12 items-center">
 
