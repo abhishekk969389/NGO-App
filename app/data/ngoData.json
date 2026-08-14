@@ -8,7 +8,7 @@
     "tagline": "TOGETHER WE CARE, TOGETHER WE CAN",
     "heading": "Building a Better\nTomorrow",
     "description": "At Bless Foundation, we are committed to uplifting lives, empowering communities, and creating lasting change for a better tomorrow.",
-    "backgroundImage": "/banner_bg.png",
+    "backgroundImage": "/ngo1.jpg",
     "buttons": {
       "donate": {
         "label": "Donate Now",
@@ -16,7 +16,7 @@
       },
       "volunteer": {
         "label": "Join as Volunteer",
-        "href": "/volunteer"
+        "href": "/contactus"
       }
     },
     "stats": [
@@ -257,7 +257,7 @@
         }
       ]
     },
-       "portfolio": {
+    "portfolio": {
       "title": "Portfolio",
       "backgroundImage": "/banner_bg.png",
       "altText": "Portfolio background",
@@ -275,7 +275,7 @@
         }
       ]
     },
-     "casestudy": {
+    "casestudy": {
       "title": "Case Study",
       "backgroundImage": "/banner_bg.png",
       "altText": "Case Study background",
@@ -293,7 +293,7 @@
         }
       ]
     },
-       "events": {
+    "events": {
       "title": "Events",
       "backgroundImage": "/banner_bg.png",
       "altText": "Events background",
@@ -307,6 +307,258 @@
         {
           "id": 2,
           "label": "Events",
+          "isCurrent": true
+        }
+      ]
+    },
+    "media": {
+      "title": "Media Mentions",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Media mentions background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Media",
+          "isCurrent": true
+        }
+      ]
+    },
+    "careers": {
+      "title": "Careers",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Careers background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Careers",
+          "isCurrent": true
+        }
+      ]
+    },
+    "partners": {
+      "title": "Partners",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Partners background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Partners",
+          "isCurrent": true
+        }
+      ]
+    },
+    "enquiry": {
+      "title": "Enquiry",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Enquiry background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Enquiry",
+          "isCurrent": true
+        }
+      ]
+    },
+    "brochure": {
+      "title": "Brochure",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Brochure background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Brochure",
+          "isCurrent": true
+        }
+      ]
+    },
+    "contactus": {
+      "title": "Contactus",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Contactus background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Contactus",
+          "isCurrent": true
+        }
+      ]
+    },
+    "faq": {
+      "title": "FAQ",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "FAQ background image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "FAQ",
+          "isCurrent": true
+        }
+      ]
+    },
+    "privacypolicy": {
+      "title": "Privacy & Policy",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Privacy & Policy background image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Privacy & Policy",
+          "isCurrent": true
+        }
+      ]
+    },
+    "termscondition": {
+      "title": "Terms Of Service",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Terms Of Service background image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Terms Of Service",
+          "isCurrent": true
+        }
+      ]
+    },
+    "refundpolicy": {
+      "title": "Refund Policy",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Refund Policy image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Refund Policy",
+          "isCurrent": true
+        }
+      ]
+    },
+    "donatenow": {
+      "title": "Donate Now",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Donate Now background image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Donate Now",
+          "isCurrent": true
+        }
+      ]
+    },
+    "gallery": {
+      "title": "Gallery",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Gallery background image",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Gallery",
+          "isCurrent": true
+        }
+      ]
+    },
+      "blog": {
+      "title": "Blog",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Blog background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Blog",
+          "isCurrent": true
+        }
+      ]
+    },
+     "branches": {
+      "title": "Branches",
+      "backgroundImage": "/banner_bg.png",
+      "altText": "Branches background",
+      "breadcrumbs": [
+        {
+          "id": 1,
+          "label": "Home",
+          "href": "/",
+          "icon": "home"
+        },
+        {
+          "id": 2,
+          "label": "Branches",
           "isCurrent": true
         }
       ]
@@ -559,8 +811,8 @@
     "description": "Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy.",
     "quote": "Lorem Ipsum Dolor Sit Amet Consectetur Convallis Ultrices Sociis Fermentum Orci Convallis.",
     "images": {
-      "main": "/about_main.png",
-      "circle": "/about_circle.png"
+      "main": "/about1.jpg",
+      "circle": "/about2.jpg"
     },
     "features": [
       {
@@ -1239,11 +1491,31 @@
     "heading": "Real Stories. Real Impact.",
     "description": "Explore how our initiatives are creating measurable change and building a better tomorrow for communities and the environment.",
     "categories": [
-      { "id": 1, "label": "All Case Studies", "value": "all" },
-      { "id": 2, "label": "Education", "value": "education" },
-      { "id": 3, "label": "Healthcare", "value": "healthcare" },
-      { "id": 4, "label": "Environment", "value": "environment" },
-      { "id": 5, "label": "Community Development", "value": "community" }
+      {
+        "id": 1,
+        "label": "All Case Studies",
+        "value": "all"
+      },
+      {
+        "id": 2,
+        "label": "Education",
+        "value": "education"
+      },
+      {
+        "id": 3,
+        "label": "Healthcare",
+        "value": "healthcare"
+      },
+      {
+        "id": 4,
+        "label": "Environment",
+        "value": "environment"
+      },
+      {
+        "id": 5,
+        "label": "Community Development",
+        "value": "community"
+      }
     ],
     "cards": [
       {
@@ -1327,7 +1599,10 @@
       {
         "id": 1,
         "title": "Community Clean-Up Drive",
-        "date": { "day": 15, "month": "JUN" },
+        "date": {
+          "day": 15,
+          "month": "JUN"
+        },
         "location": "Central Park, New York, USA",
         "time": "9:00 AM - 1:00 PM (EST)",
         "description": "Let’s come together to clean our streets and make our community a cleaner place.",
@@ -1338,7 +1613,10 @@
       {
         "id": 2,
         "title": "Education for All Workshop",
-        "date": { "day": 22, "month": "JUN" },
+        "date": {
+          "day": 22,
+          "month": "JUN"
+        },
         "location": "Greenwood Community Center, San Francisco, USA",
         "time": "10:00 AM - 2:00 PM (PST)",
         "description": "A workshop focused on making quality education accessible for every child.",
@@ -1349,7 +1627,10 @@
       {
         "id": 3,
         "title": "Tree Plantation Event",
-        "date": { "day": 5, "month": "JUL" },
+        "date": {
+          "day": 5,
+          "month": "JUL"
+        },
         "location": "Riverside Park, Austin, USA",
         "time": "8:00 AM - 12:00 PM (CST)",
         "description": "Plant trees, protect the environment and build a sustainable future together.",
@@ -1364,7 +1645,10 @@
       {
         "id": 1,
         "title": "Food Donation Drive",
-        "date": { "day": 18, "month": "JUN" },
+        "date": {
+          "day": 18,
+          "month": "JUN"
+        },
         "location": "Helping Hands Center, Chicago, USA",
         "time": "11:00 AM - 3:00 PM (CST)",
         "description": "Help us fight hunger by donating food and distributing food to those in need.",
@@ -1375,7 +1659,10 @@
       {
         "id": 2,
         "title": "Free Health Check-Up Camp",
-        "date": { "day": 28, "month": "JUN" },
+        "date": {
+          "day": 28,
+          "month": "JUN"
+        },
         "location": "Hope Community Clinic, Los Angeles, USA",
         "time": "9:00 AM - 1:00 PM (PST)",
         "description": "Providing free health check-ups and consultations for the community.",
@@ -1386,7 +1673,10 @@
       {
         "id": 3,
         "title": "Animal Care & Adoption Day",
-        "date": { "day": 12, "month": "JUL" },
+        "date": {
+          "day": 12,
+          "month": "JUL"
+        },
         "location": "Paws & Care Shelter, Dallas, USA",
         "time": "10:00 AM - 2:00 PM (CST)",
         "description": "Join us in providing love, care and forever homes for animals.",
@@ -1397,7 +1687,10 @@
       {
         "id": 4,
         "title": "Flood Relief Support",
-        "date": { "day": 20, "month": "JUL" },
+        "date": {
+          "day": 20,
+          "month": "JUL"
+        },
         "location": "Relief Distribution Center, Houston, USA",
         "time": "9:00 AM - 5:00 PM (CST)",
         "description": "Support our relief efforts for families affected by recent floods.",
@@ -1556,6 +1849,7 @@
       "phone": "Phone",
       "location": "Location",
       "joined": "Joined",
+      "joinedTitle": "Joined Bless Foundation",
       "expertise": "Expertise",
       "coreValues": "Core Values",
       "achievements": "Key Achievements",
@@ -1602,6 +1896,10 @@
             "href": "https://twitter.com"
           },
           {
+            "platform": "facebook",
+            "href": "https://facebook.com"
+          },
+          {
             "platform": "email",
             "href": "mailto:anita@startdonating.org"
           }
@@ -1642,6 +1940,10 @@
           {
             "platform": "twitter",
             "href": "https://twitter.com"
+          },
+          {
+            "platform": "facebook",
+            "href": "https://facebook.com"
           },
           {
             "platform": "email",
@@ -1686,6 +1988,10 @@
             "href": "https://twitter.com"
           },
           {
+            "platform": "facebook",
+            "href": "https://facebook.com"
+          },
+          {
             "platform": "email",
             "href": "mailto:meera@startdonating.org"
           }
@@ -1726,6 +2032,10 @@
           {
             "platform": "twitter",
             "href": "https://twitter.com"
+          },
+          {
+            "platform": "facebook",
+            "href": "https://facebook.com"
           },
           {
             "platform": "email",
@@ -1770,6 +2080,10 @@
             "href": "https://twitter.com"
           },
           {
+            "platform": "facebook",
+            "href": "https://facebook.com"
+          },
+          {
             "platform": "email",
             "href": "mailto:pooja@startdonating.org"
           }
@@ -1810,6 +2124,10 @@
           {
             "platform": "twitter",
             "href": "https://twitter.com"
+          },
+          {
+            "platform": "facebook",
+            "href": "https://facebook.com"
           },
           {
             "platform": "email",
@@ -1874,7 +2192,7 @@
         "category": "Health",
         "categoryIcon": "heart",
         "centerIcon": "heart-hand",
-        "image": "/causes_health.png",
+        "image": "/causes1.jpg",
         "href": "/causes/health"
       },
       {
@@ -1884,7 +2202,7 @@
         "category": "Education",
         "categoryIcon": "graduation",
         "centerIcon": "book",
-        "image": "/causes_education_1.png",
+        "image": "/causes2.jpg",
         "href": "/causes/children"
       },
       {
@@ -1894,7 +2212,7 @@
         "category": "Education",
         "categoryIcon": "book",
         "centerIcon": "users",
-        "image": "/causes_education_2.png",
+        "image": "/causes.jpg",
         "href": "/causes/education"
       },
       {
@@ -1904,7 +2222,7 @@
         "category": "Food",
         "categoryIcon": "food",
         "centerIcon": "food-bowl",
-        "image": "/causes_food.png",
+        "image": "/causes4.jpg",
         "href": "/causes/food"
       }
     ]
@@ -1991,7 +2309,7 @@
           "month": "MAY",
           "year": "2024"
         },
-        "image": "/blog_1.png",
+        "image": "/blog1.jpg",
         "href": "/blog/education-future"
       },
       {
@@ -2005,7 +2323,7 @@
           "month": "MAY",
           "year": "2024"
         },
-        "image": "/blog_2.png",
+        "image": "/blog2.jpg",
         "href": "/blog/planting-trees"
       },
       {
@@ -2019,8 +2337,1623 @@
           "month": "MAY",
           "year": "2024"
         },
-        "image": "/blog_3.png",
+        "image": "/blog3.jpg",
         "href": "/blog/nutritious-meals"
+      }
+    ]
+  },
+  "mediaSection": {
+    "badge": "IN THE PRESS",
+    "heading": "Media",
+    "description": "Our work has been featured in leading publications and media outlets across the country. Here are some of our recent media mentions.",
+    "outlets": [
+      {
+        "id": 1,
+        "name": "PUBLIC CHRONICLE",
+        "icon": "feather",
+        "href": "#"
+      },
+      {
+        "id": 2,
+        "name": "NATIONAL LEDGER",
+        "icon": "landmark",
+        "href": "#"
+      },
+      {
+        "id": 3,
+        "name": "MORNING POST",
+        "icon": "sunrise",
+        "href": "#"
+      },
+      {
+        "id": 4,
+        "name": "CIVIC VOICE",
+        "icon": "message-square",
+        "href": "#"
+      },
+      {
+        "id": 5,
+        "name": "IMPACT REVIEW",
+        "icon": "tree",
+        "href": "#"
+      },
+      {
+        "id": 6,
+        "name": "CITY BULLETIN",
+        "icon": "building-2",
+        "href": "#"
+      },
+      {
+        "id": 7,
+        "name": "INSIGHT DAILY",
+        "icon": "chart",
+        "href": "#"
+      },
+      {
+        "id": 8,
+        "name": "GLOBAL HERALD",
+        "icon": "globe",
+        "href": "#"
+      },
+      {
+        "id": 9,
+        "name": "PEOPLE'S JOURNAL",
+        "icon": "users",
+        "href": "#"
+      },
+      {
+        "id": 10,
+        "name": "METRO REPORT",
+        "icon": "metro",
+        "href": "#"
+      },
+      {
+        "id": 11,
+        "name": "VIEWPOINT NEWS",
+        "icon": "viewpoint",
+        "href": "#"
+      },
+      {
+        "id": 12,
+        "name": "COMMUNITY TIMES",
+        "icon": "columns",
+        "href": "#"
+      },
+      {
+        "id": 13,
+        "name": "HORIZON MEDIA",
+        "icon": "mountain",
+        "href": "#"
+      },
+      {
+        "id": 14,
+        "name": "PRESS FORUM",
+        "icon": "pen-nib",
+        "href": "#"
+      },
+      {
+        "id": 15,
+        "name": "THE DAILY STANDARD",
+        "icon": "newspaper",
+        "href": "#"
+      }
+    ]
+  },
+  "careersSection": {
+    "aboutRole": {
+      "title": "About the Role",
+      "description": "As a Program Manager, you will lead the design, implementation, and evaluation of impactful programs. You will work closely with communities, partners, and internal teams to ensure programs are effective, inclusive, and sustainable."
+    },
+    "keyResponsibilities": {
+      "title": "Key Responsibilities",
+      "items": [
+        "Develop, implement, and manage programs aligned with our mission and goals.",
+        "Build strong relationships with communities, partners, and stakeholders.",
+        "Monitor program progress and ensure timely achievement of outcomes.",
+        "Analyze data and prepare reports to measure impact.",
+        "Mentor and support program staff and volunteers.",
+        "Ensure compliance with organizational policies and donor requirements."
+      ]
+    },
+    "qualifications": {
+      "title": "Qualifications",
+      "items": [
+        "Bachelor's degree in Social Work, Development Studies, or related field (Master's preferred).",
+        "3-5 years of experience in program management or related roles.",
+        "Strong understanding of community development and social impact.",
+        "Excellent communication, leadership, and people management skills.",
+        "Proficiency in MS Office and data analysis tools."
+      ]
+    },
+    "whatWeOffer": {
+      "title": "What We Offer",
+      "items": [
+        {
+          "id": 1,
+          "title": "Meaningful Impact",
+          "icon": "heart"
+        },
+        {
+          "id": 2,
+          "title": "Growth & Learning",
+          "icon": "growth"
+        },
+        {
+          "id": 3,
+          "title": "Supportive Culture",
+          "icon": "users"
+        },
+        {
+          "id": 4,
+          "title": "Competitive Benefits",
+          "icon": "shield"
+        },
+        {
+          "id": 5,
+          "title": "Work-life Balance",
+          "icon": "balance"
+        }
+      ]
+    },
+    "callout": {
+      "line1": "Be a part of a team that's creating real change.",
+      "line2": "Apply now and make a difference!",
+      "icon": "sprout"
+    },
+    "sidebar": {
+      "title": "Apply for this Position",
+      "subtitle": "Ready to make an impact?\nWe'd love to hear from you.",
+      "applyButton": {
+        "label": "Apply Now",
+        "href": "/careers/apply"
+      },
+      "dividerText": "or",
+      "saveButton": {
+        "label": "Save Job",
+        "icon": "bookmark"
+      },
+      "jobDetails": [
+        {
+          "id": 1,
+          "label": "Job Title",
+          "value": "Program Manager",
+          "icon": "briefcase"
+        },
+        {
+          "id": 2,
+          "label": "Department",
+          "value": "Programs",
+          "icon": "building"
+        },
+        {
+          "id": 3,
+          "label": "Location",
+          "value": "New Delhi, India",
+          "icon": "map-pin"
+        },
+        {
+          "id": 4,
+          "label": "Job Type",
+          "value": "Full-time",
+          "icon": "briefcase"
+        },
+        {
+          "id": 5,
+          "label": "Experience",
+          "value": "3 - 5 Years",
+          "icon": "clock"
+        },
+        {
+          "id": 6,
+          "label": "Salary",
+          "value": "Competitive",
+          "icon": "shield"
+        },
+        {
+          "id": 7,
+          "label": "Reports To",
+          "value": "Director - Programs",
+          "icon": "user-check"
+        }
+      ],
+      "share": {
+        "title": "Share this opportunity",
+        "links": [
+          {
+            "platform": "linkedin",
+            "href": "https://linkedin.com",
+            "icon": "linkedin"
+          },
+          {
+            "platform": "facebook",
+            "href": "https://facebook.com",
+            "icon": "facebook"
+          },
+          {
+            "platform": "twitter",
+            "href": "https://twitter.com",
+            "icon": "twitter"
+          },
+          {
+            "platform": "whatsapp",
+            "href": "https://whatsapp.com",
+            "icon": "whatsapp"
+          }
+        ]
+      }
+    },
+    "applyForm": {
+      "applicantInfo": {
+        "title": "Applicant Information",
+        "fields": [
+          {
+            "id": "fullName",
+            "name": "fullName",
+            "label": "Full Name",
+            "placeholder": "Enter your full name",
+            "type": "text",
+            "required": true,
+            "colSpan": "full"
+          },
+          {
+            "id": "email",
+            "name": "email",
+            "label": "Email Address",
+            "placeholder": "Enter your email address",
+            "type": "email",
+            "required": true,
+            "colSpan": "half"
+          },
+          {
+            "id": "phone",
+            "name": "phone",
+            "label": "Phone Number",
+            "placeholder": "Enter your phone number",
+            "type": "tel",
+            "required": true,
+            "colSpan": "half"
+          },
+          {
+            "id": "location",
+            "name": "location",
+            "label": "Location",
+            "placeholder": "Select your city",
+            "type": "select",
+            "required": true,
+            "colSpan": "half",
+            "options": [
+              "New Delhi",
+              "Mumbai",
+              "Bengaluru",
+              "Pune",
+              "Kolkata",
+              "Chennai",
+              "Hyderabad",
+              "Ahmedabad",
+              "Other"
+            ]
+          },
+          {
+            "id": "currentDesignation",
+            "name": "currentDesignation",
+            "label": "Current Designation",
+            "placeholder": "Enter your current designation",
+            "type": "text",
+            "required": false,
+            "colSpan": "half"
+          },
+          {
+            "id": "experience",
+            "name": "experience",
+            "label": "Years of Experience",
+            "placeholder": "Select experience",
+            "type": "select",
+            "required": true,
+            "colSpan": "half",
+            "options": [
+              "Fresher / < 1 Year",
+              "1 - 3 Years",
+              "3 - 5 Years",
+              "5 - 8 Years",
+              "8+ Years"
+            ]
+          },
+          {
+            "id": "noticePeriod",
+            "name": "noticePeriod",
+            "label": "Notice Period",
+            "placeholder": "Select notice period",
+            "type": "select",
+            "required": true,
+            "colSpan": "half",
+            "options": [
+              "Immediate Joining",
+              "15 Days",
+              "30 Days",
+              "60 Days",
+              "90 Days"
+            ]
+          }
+        ]
+      },
+      "resumeSection": {
+        "title": "Resume / CV",
+        "subtitle": "Upload your updated resume (PDF, DOC, DOCX) *",
+        "dragDropText": "Drag & drop your file here",
+        "orText": "or",
+        "browseFileText": "Browse File",
+        "maxSizeNote": "Max file size: 5MB"
+      },
+      "coverLetterSection": {
+        "title": "Cover Letter",
+        "label": "Tell us why you're a good fit for this role.",
+        "placeholder": "Write your cover letter here...",
+        "minCharNote": "Min. 50 characters"
+      },
+      "additionalInfoSection": {
+        "title": "Additional Information",
+        "label": "How did you hear about this opportunity?",
+        "placeholder": "Select an option",
+        "options": [
+          "LinkedIn",
+          "Job Portal / Naukri",
+          "Social Media",
+          "Friend / Referral",
+          "Bless Foundation Website",
+          "Other"
+        ]
+      },
+      "confirmation": {
+        "text": "I confirm that the information provided above is true and correct to the best of my knowledge."
+      },
+      "submitButton": {
+        "label": "Submit Application",
+        "icon": "send"
+      },
+      "securityFooter": {
+        "text": "Your information is secure and will be kept confidential.",
+        "icon": "lock"
+      },
+      "successState": {
+        "title": "Application Submitted Successfully!",
+        "message": "Thank you for applying. Our recruitment team will review your application and get in touch with you shortly.",
+        "buttonLabel": "Submit Another Application"
+      }
+    }
+  },
+  "partnersSection": {
+    "heading": "Our Partners",
+    "highlightedText": "Partners",
+    "description": "We are proud to collaborate with leading organizations and global partners who share our vision for a better tomorrow.",
+    "partners": [
+      {
+        "id": 1,
+        "name": "UNICEF",
+        "logo": "/partners/unicef.svg",
+        "href": "#"
+      },
+      {
+        "id": 2,
+        "name": "World Health Organization",
+        "logo": "/partners/who.svg",
+        "href": "#"
+      },
+      {
+        "id": 3,
+        "name": "Save the Children",
+        "logo": "/partners/save_the_children.svg",
+        "href": "#"
+      },
+      {
+        "id": 4,
+        "name": "Rotary",
+        "logo": "/partners/rotary.svg",
+        "href": "#"
+      },
+      {
+        "id": 5,
+        "name": "CARE",
+        "logo": "/partners/care.svg",
+        "href": "#"
+      },
+      {
+        "id": 6,
+        "name": "OXFAM",
+        "logo": "/partners/oxfam.svg",
+        "href": "#"
+      },
+      {
+        "id": 7,
+        "name": "Plan International",
+        "logo": "/partners/plan.svg",
+        "href": "#"
+      },
+      {
+        "id": 8,
+        "name": "Action Against Hunger",
+        "logo": "/partners/action_against_hunger.svg",
+        "href": "#"
+      },
+      {
+        "id": 9,
+        "name": "Habitat for Humanity",
+        "logo": "/partners/habitat.svg",
+        "href": "#"
+      },
+      {
+        "id": 10,
+        "name": "CRS Catholic Relief Services",
+        "logo": "/partners/crs.svg",
+        "href": "#"
+      },
+      {
+        "id": 11,
+        "name": "British Council",
+        "logo": "/partners/british_council.svg",
+        "href": "#"
+      },
+      {
+        "id": 12,
+        "name": "USAID",
+        "logo": "/partners/usaid.svg",
+        "href": "#"
+      },
+      {
+        "id": 13,
+        "name": "The Global Fund",
+        "logo": "/partners/global_fund.svg",
+        "href": "#"
+      },
+      {
+        "id": 14,
+        "name": "KfW",
+        "logo": "/partners/kfw.svg",
+        "href": "#"
+      },
+      {
+        "id": 15,
+        "name": "JICA",
+        "logo": "/partners/jica.svg",
+        "href": "#"
+      },
+      {
+        "id": 16,
+        "name": "Sida",
+        "logo": "/partners/sida.svg",
+        "href": "#"
+      },
+      {
+        "id": 17,
+        "name": "IKEA Foundation",
+        "logo": "/partners/ikea.svg",
+        "href": "#"
+      },
+      {
+        "id": 18,
+        "name": "Google.org",
+        "logo": "/partners/google_org.svg",
+        "href": "#"
+      },
+      {
+        "id": 19,
+        "name": "Microsoft",
+        "logo": "/partners/microsoft.svg",
+        "href": "#"
+      },
+      {
+        "id": 20,
+        "name": "Dell Technologies",
+        "logo": "/partners/dell.svg",
+        "href": "#"
+      },
+      {
+        "id": 21,
+        "name": "Adobe",
+        "logo": "/partners/adobe.svg",
+        "href": "#"
+      },
+      {
+        "id": 22,
+        "name": "TATA TRUSTS",
+        "logo": "/partners/tata_trusts.svg",
+        "href": "#"
+      },
+      {
+        "id": 23,
+        "name": "Reliance Foundation",
+        "logo": "/partners/reliance_foundation.svg",
+        "href": "#"
+      },
+      {
+        "id": 24,
+        "name": "Infosys Foundation",
+        "logo": "/partners/infosys_foundation.svg",
+        "href": "#"
+      },
+      {
+        "id": 25,
+        "name": "WIPRO Applying Thought",
+        "logo": "/partners/wipro.svg",
+        "href": "#"
+      }
+    ]
+  },
+  "partnerCardsSection": {
+    "items": [
+      {
+        "id": 1,
+        "title": "Shared Vision",
+        "description": "Working together for a greater impact",
+        "icon": "handshake"
+      },
+      {
+        "id": 2,
+        "title": "Greater Reach",
+        "description": "Amplifying change beyond boundaries",
+        "icon": "target"
+      },
+      {
+        "id": 3,
+        "title": "Stronger Impact",
+        "description": "Uniting efforts for a healthier planet",
+        "icon": "users"
+      },
+      {
+        "id": 4,
+        "title": "Sustainable Future",
+        "description": "Building a better tomorrow for all",
+        "icon": "leaf"
+      }
+    ]
+  },
+  "becomePartnerSection": {
+    "heading": "Become Our Partner",
+    "highlightedText": "Partner",
+    "description": "Join hands with us to create lasting impact\nand build a better tomorrow.",
+    "button": {
+      "label": "Partner With Us",
+      "href": "/contact",
+      "icon": "users"
+    },
+    "backgroundImage": "/banner_bg.png"
+  },
+  "enquirySection": {
+    "badge": "ENQUIRY",
+    "heading": "We'd Love to Hear From You",
+    "description": "Have a question or need more information?\nFill out the form and our team will get back to you as soon as possible.",
+    "features": [
+      {
+        "id": 1,
+        "title": "Quick Response",
+        "description": "We value your time and respond quickly.",
+        "icon": "headset"
+      },
+      {
+        "id": 2,
+        "title": "Expert Support",
+        "description": "Get professional guidance from our experts.",
+        "icon": "users"
+      },
+      {
+        "id": 3,
+        "title": "Trusted & Reliable",
+        "description": "Your information is safe and secure with us.",
+        "icon": "shield"
+      }
+    ],
+    "getInTouch": {
+      "title": "Get In Touch",
+      "phone": "+91 98765 43210",
+      "email": "info@blessfoundation.org",
+      "address": "123, Dancols Street,\nNew Delhi, India"
+    },
+    "form": {
+      "header": {
+        "title": "Send Us an Enquiry",
+        "subtitle": "Please fill in the details below and we will get back to you.",
+        "icon": "message-square"
+      },
+      "labels": {
+        "fullName": "Full Name *",
+        "email": "Email Address *",
+        "phone": "Phone Number *",
+        "subject": "Subject *",
+        "company": "Company / Organization",
+        "message": "Your Message *"
+      },
+      "placeholders": {
+        "fullName": "Enter your full name",
+        "email": "Enter your email address",
+        "phone": "Enter your phone number",
+        "subject": "Select a subject",
+        "company": "Enter your company or organization name",
+        "message": "Write your message here..."
+      },
+      "subjectOptions": [
+        "General Enquiry",
+        "Partnership & CSR",
+        "Donation & Support",
+        "Volunteering",
+        "Media & Press"
+      ],
+      "maxMessageLength": 500,
+      "infoBox": {
+        "title": "Our team will get back to you",
+        "subtitle": "We typically respond within 24 hours on business days.",
+        "icon": "info"
+      },
+      "submitButton": {
+        "label": "Submit Enquiry",
+        "icon": "send"
+      }
+    }
+  },
+  "brochureSection": {
+    "heading": "Download Our Brochures",
+    "highlightedText": "Brochures",
+    "description": "Explore our brochures to know more about our work, programs and initiatives.",
+    "items": [
+      {
+        "id": 1,
+        "title": "Our Organization Overview",
+        "description": "An overview of our mission, vision, and the impact we create in communities.",
+        "icon": "building",
+        "fileType": "PDF",
+        "fileSize": "2.4 MB",
+        "downloadUrl": "/dummy.pdf",
+        "buttonLabel": "Download"
+      },
+      {
+        "id": 2,
+        "title": "Our Impact & Achievements",
+        "description": "Key milestones and measurable outcomes from our initiatives.",
+        "icon": "chart",
+        "fileType": "PDF",
+        "fileSize": "2.8 MB",
+        "downloadUrl": "/dummy.pdf",
+        "buttonLabel": "Download"
+      },
+      {
+        "id": 3,
+        "title": "Education Programs",
+        "description": "Learn about our education initiatives and how we empower future generations.",
+        "icon": "graduation-cap",
+        "fileType": "PDF",
+        "fileSize": "2.1 MB",
+        "downloadUrl": "/dummy.pdf",
+        "buttonLabel": "Download"
+      },
+      {
+        "id": 4,
+        "title": "Environmental Initiatives",
+        "description": "Our commitment to a greener planet and sustainable future.",
+        "icon": "leaf",
+        "fileType": "PDF",
+        "fileSize": "2.6 MB",
+        "downloadUrl": "/dummy.pdf",
+        "buttonLabel": "Download"
+      },
+      {
+        "id": 5,
+        "title": "Community Support Programs",
+        "description": "Programs that uplift communities and promote stronger together.",
+        "icon": "users",
+        "fileType": "PDF",
+        "fileSize": "2.3 MB",
+        "downloadUrl": "/dummy.pdf",
+        "buttonLabel": "Download"
+      },
+      {
+        "id": 6,
+        "title": "Volunteer Opportunities",
+        "description": "Join hands with us and make a difference in society.",
+        "icon": "heart-hand",
+        "fileType": "PDF",
+        "fileSize": "1.9 MB",
+        "downloadUrl": "/dummy.pdf",
+        "buttonLabel": "Download"
+      }
+    ]
+  },
+  "contactUsSection": {
+    "heading": "We'd Love To Hear From You",
+    "description": "Have a question, want to collaborate, or want to support our mission?\nWe're here to help and would love to connect with you.",
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you as soon as possible.",
+      "placeholders": {
+        "name": "Your Name",
+        "email": "Email Address",
+        "phone": "Phone Number",
+        "subject": "Subject",
+        "message": "Your Message"
+      },
+      "submitButton": {
+        "label": "Send Message",
+        "icon": "arrow-right"
+      }
+    },
+    "info": {
+      "title": "Contact Information",
+      "items": [
+        {
+          "id": 1,
+          "label": "Phone Number",
+          "value": "+44 204 577 0077",
+          "subtext": "Mon - Fri: 9:00 AM - 6:00 PM",
+          "icon": "phone"
+        },
+        {
+          "id": 2,
+          "label": "Email Address",
+          "value": "fandi@gmail.com",
+          "subtext": "We'll reply as soon as possible",
+          "icon": "mail"
+        },
+        {
+          "id": 3,
+          "label": "Office Address",
+          "value": "Washington Ave, NY",
+          "subtext": "New York, USA",
+          "icon": "map-pin"
+        }
+      ]
+    }
+  },
+  "faqSection": {
+    "heading": "Frequently Asked Questions",
+    "description": "Find answers to common questions about our work, contributions,\nand how you can get involved.",
+    "sidebar": {
+      "title": "Can't Find Your Answer?",
+      "description": "We're here to help! Reach out to us and we'll get back to you as soon as possible.",
+      "items": [
+        {
+          "id": 1,
+          "label": "Email Us",
+          "value": "info@blessfoundation.org",
+          "icon": "mail",
+          "href": "mailto:info@blessfoundation.org"
+        },
+        {
+          "id": 2,
+          "label": "Call Us",
+          "value": "+91 98765 43210",
+          "icon": "phone",
+          "href": "tel:+919876543210"
+        },
+        {
+          "id": 3,
+          "label": "Our Support Hours",
+          "value": "Mon - Sat: 9:00 AM - 6:00 PM",
+          "icon": "clock"
+        }
+      ],
+      "button": {
+        "label": "Contact Us",
+        "href": "/contactus",
+        "icon": "arrow-right"
+      }
+    },
+    "faqs": [
+      {
+        "id": 1,
+        "question": "What is Bless Foundation?",
+        "answer": "Bless Foundation is a non-profit organization dedicated to creating sustainable change in communities through education, healthcare, livelihoods, and environmental initiatives."
+      },
+      {
+        "id": 2,
+        "question": "What causes does Bless Foundation support?",
+        "answer": "We support key social causes including quality education, affordable healthcare, clean water, hunger relief, environmental sustainability, and women empowerment."
+      },
+      {
+        "id": 3,
+        "question": "How can I donate to Bless Foundation?",
+        "answer": "You can donate securely through our online donation portal via credit/debit card, UPI, bank transfer, or by contacting our support team directly."
+      },
+      {
+        "id": 4,
+        "question": "Is my donation tax-deductible?",
+        "answer": "Yes, all donations to Bless Foundation are eligible for tax exemption under applicable tax laws (such as 80G in India). You will receive an official tax receipt."
+      },
+      {
+        "id": 5,
+        "question": "How can I become a volunteer?",
+        "answer": "You can sign up through our Volunteer registration page or reach out to us via email. We welcome passionate individuals to join our initiatives."
+      },
+      {
+        "id": 6,
+        "question": "Where does my donation go?",
+        "answer": "Your contributions directly fund our active programs, including educational supplies, medical camps, tree plantation drives, and emergency relief operations."
+      },
+      {
+        "id": 7,
+        "question": "How can I partner with Bless Foundation?",
+        "answer": "We welcome partnerships with corporations, institutions, and NGOs. Visit our Partners page or contact us to explore collaborative opportunities."
+      },
+      {
+        "id": 8,
+        "question": "How can I stay updated about your work?",
+        "answer": "You can subscribe to our newsletter, follow us on our social media platforms, or check our news and blog section for regular updates."
+      }
+    ]
+  },
+  "privacyPolicySection": {
+    "sections": [
+      {
+        "id": 1,
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing or using our website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you must not use our website."
+      },
+      {
+        "id": 2,
+        "title": "2. About Our Services",
+        "content": "We are a non-profit organization dedicated to creating a positive impact in communities. Our website provides information about our programs, events, initiatives, and ways to get involved or support our mission."
+      },
+      {
+        "id": 3,
+        "title": "3. Use of Our Website",
+        "content": "You agree to use our website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site. You must not attempt to gain unauthorized access to any part of our website or its systems."
+      },
+      {
+        "id": 4,
+        "title": "4. User Contributions",
+        "content": "If you submit any information, feedback, or content through our website, you grant us a non-exclusive, royalty-free, worldwide license to use, reproduce, and share that information to advance our mission."
+      },
+      {
+        "id": 5,
+        "title": "5. Donations",
+        "content": "All donations made through our website are voluntary and non-refundable unless required by law. We are committed to using all donations responsibly and in furtherance of our mission."
+      },
+      {
+        "id": 6,
+        "title": "6. Third-Party Links",
+        "content": "Our website may contain links to third-party websites for additional information or resources. We are not responsible for the content, privacy practices, or terms of those external sites."
+      },
+      {
+        "id": 7,
+        "title": "7. Disclaimer of Warranties",
+        "content": "Our website and services are provided on an \"as is\" and \"as available\" basis. We do not guarantee that the website will be error-free, secure, or uninterrupted."
+      },
+      {
+        "id": 8,
+        "title": "8. Limitation of Liability",
+        "content": "To the fullest extent permitted by law, we shall not be liable for any indirect, incidental, or consequential damages arising out of or related to your use of our website or services."
+      },
+      {
+        "id": 9,
+        "title": "9. Changes to These Terms",
+        "content": "We may update these Terms of Service from time to time. Any changes will be posted on this page with the updated effective date. Continued use of our website constitutes your acceptance of the updated terms."
+      },
+      {
+        "id": 10,
+        "title": "10. Contact Us",
+        "content": "If you have any questions about these Terms of Service, please contact us using the information below."
+      }
+    ],
+    "callout": {
+      "title": "Thank you for being a part of our mission.",
+      "subtitle": "By working together, we can create a better and more equitable world for all.",
+      "icon": "shield-check"
+    }
+  },
+  "termsConditionSection": {
+    "sections": [
+      {
+        "id": 1,
+        "title": "1. Acceptance of Terms",
+        "content": "By accessing or using our website and services, you agree to be bound by these Terms of Service and all applicable laws and regulations. If you do not agree with any part of these terms, you must not use our website."
+      },
+      {
+        "id": 2,
+        "title": "2. About Our Services",
+        "content": "We are a non-profit organization dedicated to creating a positive impact in communities. Our website provides information about our programs, events, initiatives, and ways to get involved or support our mission."
+      },
+      {
+        "id": 3,
+        "title": "3. Use of Our Website",
+        "content": "You agree to use our website only for lawful purposes and in a way that does not infringe the rights of others or restrict their use of the site. You must not attempt to gain unauthorized access to any part of our website or its systems."
+      },
+      {
+        "id": 4,
+        "title": "4. User Contributions",
+        "content": "If you submit any information, feedback, or content through our website, you grant us a non-exclusive, royalty-free, worldwide license to use, reproduce, and share that information to advance our mission."
+      },
+      {
+        "id": 5,
+        "title": "5. Donations",
+        "content": "All donations made through our website are voluntary and non-refundable unless required by law. We are committed to using all donations responsibly and in furtherance of our mission."
+      },
+      {
+        "id": 6,
+        "title": "6. Third-Party Links",
+        "content": "Our website may contain links to third-party websites for additional information or resources. We are not responsible for the content, privacy practices, or terms of those external sites."
+      },
+      {
+        "id": 7,
+        "title": "7. Disclaimer of Warranties",
+        "content": "Our website and services are provided on an \"as is\" and \"as available\" basis. We do not guarantee that the website will be error-free, secure, or uninterrupted."
+      },
+      {
+        "id": 8,
+        "title": "8. Limitation of Liability",
+        "content": "To the fullest extent permitted by law, we shall not be liable for any indirect, incidental, or consequential damages arising out of or related to your use of our website or services."
+      },
+      {
+        "id": 9,
+        "title": "9. Changes to These Terms",
+        "content": "We may update these Terms of Service from time to time. Any changes will be posted on this page with the updated effective date. Continued use of our website constitutes your acceptance of the updated terms."
+      },
+      {
+        "id": 10,
+        "title": "10. Contact Us",
+        "content": "If you have any questions about these Terms of Service, please contact us using the information below."
+      }
+    ],
+    "callout": {
+      "title": "Thank you for being a part of our mission.",
+      "subtitle": "By working together, we can create a better and more equitable world for all.",
+      "icon": "shield-check"
+    }
+  },
+  "refundPolicySection": {
+    "sections": [
+      {
+        "id": 1,
+        "title": "1. Donation Policy & Non-Refundable Nature",
+        "content": "All donations made to Bless Foundation are voluntary and non-refundable. As a non-profit organization, funds are immediately committed to ongoing community welfare programs, emergency relief, and charitable initiatives."
+      },
+      {
+        "id": 2,
+        "title": "2. Erroneous or Duplicate Transactions",
+        "content": "In the event of an unintended technical error, duplicate charge, or incorrect amount entered during an online transaction, donors may request a review for a refund within 7 business days of the transaction date."
+      },
+      {
+        "id": 3,
+        "title": "3. Eligibility for Refund",
+        "content": "Refund requests will be evaluated on a case-by-case basis. Refunds are granted solely for proven technical payment glitches or unauthorized fraudulent activity, provided valid proof of transaction is submitted."
+      },
+      {
+        "id": 4,
+        "title": "4. Refund Request Process",
+        "content": "To request a refund review, please send an email to info@blessfoundation.org with your Full Name, Transaction ID, Payment Date, Amount, and a brief description of the issue along with payment confirmation."
+      },
+      {
+        "id": 5,
+        "title": "5. Processing Timeframe",
+        "content": "Once approved, refunds will be processed using the original method of payment within 10 to 14 business days. Depending on your financial institution, it may take additional time for the credit to post."
+      },
+      {
+        "id": 6,
+        "title": "6. Tax Receipt Cancellation",
+        "content": "If a refund is processed for any contribution, any tax exemption certificate (such as 80G receipt) issued for that specific donation will automatically become void and cancelled."
+      },
+      {
+        "id": 7,
+        "title": "7. Event & Program Contributions",
+        "content": "Registrations or sponsorships for charity events, fundraising galas, or workshops are non-refundable unless the event is officially cancelled by Bless Foundation."
+      },
+      {
+        "id": 8,
+        "title": "8. Recurring Donation Cancellation",
+        "content": "Donors with active monthly or recurring donation subscriptions may cancel future recurring charges at any time by contacting our support team prior to the upcoming billing cycle."
+      },
+      {
+        "id": 9,
+        "title": "9. Modifications to This Policy",
+        "content": "Bless Foundation reserves the right to modify or update this Refund Policy at any time without prior notice. Any updates will be published on this page with the revised date."
+      },
+      {
+        "id": 10,
+        "title": "10. Contact Us for Assistance",
+        "content": "If you have any questions, concerns, or payment inquiries regarding our Refund Policy, please get in touch with us at info@blessfoundation.org or call +91 98765 43210."
+      }
+    ],
+    "callout": {
+      "title": "Thank you for being a part of our mission.",
+      "subtitle": "By working together, we can create a better and more equitable world for all.",
+      "icon": "shield-check"
+    }
+  },
+  "donateSection": {
+    "heading": "Make Your Contribution",
+    "description": "Your donation helps us create lasting change and build a better tomorrow.",
+    "form": {
+      "step1": {
+        "title": "1. Choose Your Contribution",
+        "amountPlaceholder": "Enter amount",
+        "currencies": [
+          {
+            "code": "USD",
+            "symbol": "$",
+            "label": "USD ($)"
+          },
+          {
+            "code": "INR",
+            "symbol": "₹",
+            "label": "INR (₹)"
+          },
+          {
+            "code": "EUR",
+            "symbol": "€",
+            "label": "EUR (€)"
+          },
+          {
+            "code": "GBP",
+            "symbol": "£",
+            "label": "GBP (£)"
+          }
+        ],
+        "tiers": [
+          {
+            "id": 1,
+            "title": "Small",
+            "subtext": "Make a start",
+            "amount": 25
+          },
+          {
+            "id": 2,
+            "title": "Medium",
+            "subtext": "Greater impact",
+            "amount": 50,
+            "isDefault": true
+          },
+          {
+            "id": 3,
+            "title": "Large",
+            "subtext": "Transform lives",
+            "amount": 100
+          },
+          {
+            "id": 4,
+            "title": "Custom",
+            "subtext": "Your choice",
+            "amount": 0
+          }
+        ],
+        "recurringLabel": "This is a recurring donation",
+        "frequencies": [
+          "Monthly",
+          "One-time",
+          "Quarterly",
+          "Annually"
+        ]
+      },
+      "step2": {
+        "title": "2. Your Details",
+        "labels": {
+          "fullName": "Full Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "country": "Country",
+          "supportCause": "I'd like my donation to support"
+        },
+        "placeholders": {
+          "fullName": "Full Name",
+          "email": "Email Address",
+          "phone": "Phone Number",
+          "country": "Select Country",
+          "supportCause": "Select Cause"
+        },
+        "countryOptions": [
+          "India",
+          "United States",
+          "United Kingdom",
+          "Canada",
+          "Australia",
+          "Germany"
+        ],
+        "causeOptions": [
+          "Where Most Needed",
+          "Education Programs",
+          "Food & Nutrition",
+          "Healthcare",
+          "Community Support"
+        ],
+        "anonymousLabel": "Make this donation anonymously",
+        "addMessageLabel": "I want to add a message (optional)",
+        "messagePlaceholder": "Write your optional message here...",
+        "submitButton": {
+          "label": "Donate Securely",
+          "icon": "lock"
+        },
+        "securityNotice": {
+          "text": "Secure payments powered by trusted partners.",
+          "icon": "shield-check"
+        }
+      }
+    },
+    "impactSidebar": {
+      "title": "Where Your Donation Goes",
+      "items": [
+        {
+          "id": 1,
+          "title": "Education",
+          "description": "Providing quality education for a brighter future.",
+          "icon": "book-open"
+        },
+        {
+          "id": 2,
+          "title": "Food & Nutrition",
+          "description": "Ensuring no one goes to bed hungry.",
+          "icon": "utensils"
+        },
+        {
+          "id": 3,
+          "title": "Healthcare",
+          "description": "Improving access to essential healthcare services.",
+          "icon": "heart-pulse"
+        },
+        {
+          "id": 4,
+          "title": "Community Support",
+          "description": "Empowering communities to build a better tomorrow.",
+          "icon": "users"
+        }
+      ]
+    }
+  },
+  "togetherDonateSection": {
+    "heading": "Together, We Create Lasting Impact",
+    "stats": [
+      {
+        "id": 1,
+        "value": "25,000+",
+        "label": "Lives Touched",
+        "icon": "heart"
+      },
+      {
+        "id": 2,
+        "value": "150+",
+        "label": "Communities Supported",
+        "icon": "users"
+      },
+      {
+        "id": 3,
+        "value": "10+",
+        "label": "Ongoing Projects",
+        "icon": "heart-hand"
+      },
+      {
+        "id": 4,
+        "value": "50+",
+        "label": "Dedicated Volunteers",
+        "icon": "globe"
+      }
+    ],
+    "generosityBanner": {
+      "title": "Every act of generosity counts.",
+      "description": "Thank you for being a part of our journey\nand helping us build a better, brighter future for all.",
+      "icon": "hand-heart",
+      "button": {
+        "label": "Other Ways to Give",
+        "href": "/get-involved",
+        "icon": "arrow-right"
+      }
+    },
+    "securityFooter": {
+      "text": "Your contribution is safe, secure and makes a real difference.",
+      "icon": "shield-check"
+    }
+  },
+  "gallerySection": {
+    "header": {
+      "title": "Image Gallery",
+      "subtitle": "Explore moments captured from our initiatives, events, and the communities we work with.",
+      "icon": "image"
+    },
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Images"
+      },
+      {
+        "id": "community",
+        "label": "Community Development"
+      },
+      {
+        "id": "education",
+        "label": "Education"
+      },
+      {
+        "id": "healthcare",
+        "label": "Healthcare"
+      },
+      {
+        "id": "environment",
+        "label": "Environment"
+      },
+      {
+        "id": "events",
+        "label": "Events"
+      }
+    ],
+    "images": [
+      {
+        "id": 1,
+        "title": "Classroom Education Session",
+        "category": "education",
+        "image": "/gallery_1.jpg",
+        "alt": "Classroom Education Session",
+        "isFeatured": true
+      },
+      {
+        "id": 2,
+        "title": "Green Sapling Distribution",
+        "category": "education",
+        "image": "/causes_education_1.png",
+        "alt": "Green Sapling Distribution"
+      },
+      {
+        "id": 3,
+        "title": "Rural Medical Checkup Drive",
+        "category": "healthcare",
+        "image": "/causes_health.png",
+        "alt": "Rural Medical Checkup Drive"
+      },
+      {
+        "id": 4,
+        "title": "Tree Plantation Initiative",
+        "category": "environment",
+        "image": "/blog_1.png",
+        "alt": "Tree Plantation Initiative"
+      },
+      {
+        "id": 5,
+        "title": "Renewable Clean Energy Hills",
+        "category": "environment",
+        "image": "/blog_2.png",
+        "alt": "Renewable Clean Energy Hills"
+      },
+      {
+        "id": 6,
+        "title": "Community Relief Event",
+        "category": "events",
+        "image": "/blog_3.png",
+        "alt": "Community Relief Event"
+      },
+      {
+        "id": 7,
+        "title": "Community Outreach Center",
+        "category": "community",
+        "image": "/portfolio1.jpg",
+        "alt": "Community Outreach Center"
+      },
+      {
+        "id": 8,
+        "title": "Food & Nutrition Distribution",
+        "category": "community",
+        "image": "/causes_food.png",
+        "alt": "Food & Nutrition Distribution"
+      },
+      {
+        "id": 9,
+        "title": "Primary School Learning",
+        "category": "education",
+        "image": "/causes_education_2.png",
+        "alt": "Primary School Learning"
+      },
+      {
+        "id": 10,
+        "title": "Medical Camp Support",
+        "category": "healthcare",
+        "image": "/about_main.png",
+        "alt": "Medical Camp Support"
+      },
+      {
+        "id": 11,
+        "title": "Youth Development Drive",
+        "category": "community",
+        "image": "/about_circle.png",
+        "alt": "Youth Development Drive"
+      },
+      {
+        "id": 12,
+        "title": "Community Volunteering Event",
+        "category": "events",
+        "image": "/banner_bg.png",
+        "alt": "Community Volunteering Event"
+      }
+    ],
+    "loadMoreButton": {
+      "label": "Load More Images",
+      "icon": "image"
+    }
+  },
+  "videoGallerySection": {
+    "header": {
+      "title": "Video Gallery",
+      "subtitle": "Watch stories of change, impact, and progress through our videos.",
+      "icon": "video"
+    },
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Videos"
+      },
+      {
+        "id": "initiatives",
+        "label": "Our Initiatives"
+      },
+      {
+        "id": "testimonials",
+        "label": "Testimonials"
+      },
+      {
+        "id": "events",
+        "label": "Events"
+      },
+      {
+        "id": "csr",
+        "label": "CSR Impact"
+      }
+    ],
+    "videos": [
+      {
+        "id": 1,
+        "title": "Empowering Education",
+        "category": "initiatives",
+        "description": "Building a better tomorrow through education.",
+        "thumbnail": "/gallery_1.jpg",
+        "duration": "02:45",
+        "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+        "alt": "Empowering Education Video"
+      },
+      {
+        "id": 2,
+        "title": "Healthcare for All",
+        "category": "initiatives",
+        "description": "Quality healthcare reaching every community.",
+        "thumbnail": "/causes_health.png",
+        "duration": "03:12",
+        "videoUrl": "",
+        "alt": "Healthcare for All Video"
+      },
+      {
+        "id": 3,
+        "title": "Sustainable Future",
+        "category": "csr",
+        "description": "Working today for a greener tomorrow.",
+        "thumbnail": "/blog_1.png",
+        "duration": "02:18",
+        "videoUrl": "",
+        "alt": "Sustainable Future Video"
+      },
+      {
+        "id": 4,
+        "title": "Community Development",
+        "category": "testimonials",
+        "description": "Together we build stronger communities.",
+        "thumbnail": "/causes_education_1.png",
+        "duration": "02:59",
+        "videoUrl": "",
+        "alt": "Community Development Video"
+      },
+      {
+        "id": 5,
+        "title": "Our Journey",
+        "category": "events",
+        "description": "A journey of trust, commitment and impact.",
+        "thumbnail": "/about_main.png",
+        "duration": "01:48",
+        "videoUrl": "",
+        "alt": "Our Journey Video"
+      },
+      {
+        "id": 6,
+        "title": "Environment Initiatives",
+        "category": "csr",
+        "description": "Protecting nature, preserving life.",
+        "thumbnail": "/blog_2.png",
+        "duration": "02:36",
+        "videoUrl": "",
+        "alt": "Environment Initiatives Video"
+      }
+    ]
+  },
+  "blogPageSection": {
+    "header": {
+      "title": "Our Blogs",
+      "subtitle": "Stories, insights, and updates from the field. Stay informed and inspired by the impact we're creating together."
+    },
+    "sidebar": {
+      "title": "More Blogs",
+      "viewAllButton": {
+        "label": "View All Blogs",
+        "href": "/blog"
+      }
+    },
+    "blogs": [
+      {
+        "id": 1,
+        "title": "How Education Is Changing Lives in Rural Communities",
+        "description": "Discover how access to quality education is empowering children and building brighter futures in rural India.",
+        "date": "May 08, 2025",
+        "image": "/gallery_1.jpg",
+        "alt": "Children smiling in school",
+        "readMoreText": "Read More",
+        "href": "/blog/1",
+        "paragraphs": [
+          "Education is one of the most powerful tools for breaking the cycle of poverty and creating opportunities. In rural India, where resources are often limited and challenges are many, access to quality education opens doors to a better tomorrow.",
+          "At Bless Foundation, we work closely with communities to support children's education through learning centers, scholarships, and teacher training programs."
+        ],
+        "sections": [
+          {
+            "heading": "Building Strong Foundations",
+            "content": "We believe every child deserves a chance to learn, dream, and grow. Our programs focus on providing safe learning spaces, essential study materials, and mentorship to help children stay in school and excel."
+          },
+          {
+            "heading": "Real Impact, Real Stories",
+            "content": "From first-generation learners to young girls breaking barriers, we've witnessed countless stories of transformation. These children are not just learning—they are building confidence, aspirations, and a sense of purpose."
+          },
+          {
+            "heading": "A Brighter Future Together",
+            "content": "Change happens when we come together. With the support of our donors, volunteers, and community partners, we are creating a future where every child has the opportunity to thrive."
+          }
+        ],
+        "quote": {
+          "quote": "When a child is educated, an entire community rises.",
+          "author": "Let's continue to invest in education and build stronger, brighter futures—together."
+        }
+      },
+      {
+        "id": 2,
+        "title": "Our New Initiative for a Greener Tomorrow",
+        "description": "We've launched a new environmental program focused on tree plantation and sustainable community development.",
+        "date": "Apr 28, 2025",
+        "image": "/blog_1.png",
+        "alt": "Hands holding green plant sapling",
+        "readMoreText": "Read More",
+        "href": "/blog/2",
+        "paragraphs": [
+          "Environmental sustainability is at the heart of thriving communities. Our new green initiative combines massive sapling plantation with community-led conservation practices.",
+          "Through this initiative, we are working alongside local schools, farmers, and village councils to restore green cover and build climate resilience."
+        ],
+        "sections": [
+          {
+            "heading": "Community-Led Reforestation",
+            "content": "Local volunteers and youth groups take active ownership in planting indigenous trees, caring for saplings, and monitoring soil health across barren land tracts."
+          },
+          {
+            "heading": "Eco-Education in Schools",
+            "content": "We are introducing environmental workshops in rural schools to teach children the vital role biodiversity plays in our ecosystem and everyday well-being."
+          },
+          {
+            "heading": "Sustainable Water Conservation",
+            "content": "Alongside tree planting, rainwater harvesting structures and check dams are being restored to support long-term water tables and organic farming."
+          }
+        ],
+        "quote": {
+          "quote": "He who plants a tree plants a hope for tomorrow.",
+          "author": "Together, we can turn barren lands into lush green sanctuaries for future generations."
+        }
+      },
+      {
+        "id": 3,
+        "title": "Highlights from Our Community Volunteer Event",
+        "description": "A day of teamwork, compassion, and action! Here's how our volunteers made a real difference together.",
+        "date": "Apr 15, 2025",
+        "image": "/banner_bg.png",
+        "alt": "Volunteers celebrating impact",
+        "readMoreText": "Read More",
+        "href": "/blog/3",
+        "paragraphs": [
+          "Over 150 passionate volunteers gathered for our annual Community Impact Day, bringing energy, compassion, and meaningful hands-on support to underserved neighborhoods.",
+          "From painting school classrooms to distributing nutrition kits and conducting health check-up camps, the day was packed with impactful moments."
+        ],
+        "sections": [
+          {
+            "heading": "Uniting for a Common Cause",
+            "content": "Volunteers from various walks of life—students, corporate professionals, and retired elders—worked side by side with local community leaders."
+          },
+          {
+            "heading": "Direct Impact on the Ground",
+            "content": "Over 500 families received essential ration kits, while medical volunteers screened 320+ individuals for basic health indicators and provided free medicines."
+          },
+          {
+            "heading": "The Power of Collective Action",
+            "content": "The enthusiasm and dedication shown by our volunteer force prove that real change begins when ordinary people decide to take extraordinary action."
+          }
+        ],
+        "quote": {
+          "quote": "Alone we can do so little; together we can do so much.",
+          "author": "Thank you to every volunteer whose time and love touched hundreds of lives today."
+        }
+      },
+      {
+        "id": 4,
+        "title": "Building Stronger Communities Through Sustainable Livelihoods",
+        "description": "Explore how skill training and livelihood programs are helping families achieve financial independence.",
+        "date": "Mar 30, 2025",
+        "image": "/portfolio1.jpg",
+        "alt": "Rural home community development",
+        "readMoreText": "Read More",
+        "href": "/blog/4",
+        "paragraphs": [
+          "True empowerment comes from sustainable economic self-reliance. Our vocational training programs equip women and youth with practical, market-ready skills.",
+          "By establishing local micro-enterprises and self-help groups, families are breaking free from generational financial insecurity."
+        ],
+        "sections": [
+          {
+            "heading": "Vocational Skill Development",
+            "content": "Courses in tailoring, organic farming, digital literacy, and handicraft creation provide practical avenues for immediate household income generation."
+          },
+          {
+            "heading": "Women-Led Self-Help Groups",
+            "content": "Women members are trained in financial management, savings groups, and small business planning, fostering leadership across village clusters."
+          },
+          {
+            "heading": "Market Linkages and Mentorship",
+            "content": "We connect local artisans and farmers directly to ethical urban marketplaces and fair-trade distributors, maximizing their earnings."
+          }
+        ],
+        "quote": {
+          "quote": "Give a person a fish and you feed them for a day; teach them how to fish and you feed them for a lifetime.",
+          "author": "Empowering livelihood is the cornerstone of dignified living and community self-reliance."
+        }
+      },
+      {
+        "id": 5,
+        "title": "The Power of Education: Stories of Change",
+        "description": "Real stories from students whose lives have been transformed through education and opportunity.",
+        "date": "Mar 18, 2025",
+        "image": "/causes_education_2.png",
+        "alt": "Student reading book in classroom library",
+        "readMoreText": "Read More",
+        "href": "/blog/5",
+        "paragraphs": [
+          "Every classroom is filled with dreams waiting for an opportunity. In this edition, we shine a spotlight on remarkable students whose lives were transformed by access to learning.",
+          "Through merit scholarships, digital classrooms, and remedial coaching, these young minds are outperforming expectations."
+        ],
+        "sections": [
+          {
+            "heading": "Overcoming Obstacles with Determination",
+            "content": "Pooja, a 14-year-old daughter of a daily wage laborer, topped her district exams after receiving evening coaching and books through our learning center."
+          },
+          {
+            "heading": "Digital Classrooms in Remote Villages",
+            "content": "Introducing smart boards and tablets in remote rural schools has ignited curiosity, making STEM education engaging and accessible to all."
+          },
+          {
+            "heading": "Mentorship That Guides Futures",
+            "content": "Volunteer mentors guide high school students with career counseling, college admission guidance, and life-skills training."
+          }
+        ],
+        "quote": {
+          "quote": "Education is the passport to the future, for tomorrow belongs to those who prepare for it today.",
+          "author": "Every child we support is a beacon of hope for their entire family."
+        }
+      },
+      {
+        "id": 6,
+        "title": "Water, Health, and Hope: Our WASH Initiatives",
+        "description": "Improving access to clean water and sanitation for healthier, happier communities.",
+        "date": "Feb 25, 2025",
+        "image": "/causes_health.png",
+        "alt": "Clean water splashing into hands",
+        "readMoreText": "Read More",
+        "href": "/blog/6",
+        "paragraphs": [
+          "Clean water and sanitation are fundamental human rights. Yet millions still suffer from waterborne illnesses due to inadequate water infrastructure.",
+          "Our WASH (Water, Sanitation, and Hygiene) initiative installs community water filtration plants and hygienic sanitation facilities across rural schools and villages."
+        ],
+        "sections": [
+          {
+            "heading": "Safe Drinking Water for Every Household",
+            "content": "Solar-powered water purification units now provide continuous, potable drinking water to over 12 villages, reducing illnesses drastically."
+          },
+          {
+            "heading": "Dignified Sanitation in Schools",
+            "content": "Constructing separate, hygienic restrooms for girls in government schools has directly improved female attendance and reduced dropouts."
+          },
+          {
+            "heading": "Hygiene Education Workshops",
+            "content": "Interactive hygiene awareness drives teach children the importance of handwashing, clean food handling, and safe water storage."
+          }
+        ],
+        "quote": {
+          "quote": "Water is life, and clean water means health, education, and opportunity.",
+          "author": "Ensuring clean water today safeguards health and well-being for generations."
+        }
       }
     ]
   },
@@ -2035,7 +3968,7 @@
       },
       "volunteer": {
         "label": "Become a Volunteer",
-        "href": "/volunteer",
+        "href": "/contactus",
         "icon": "user"
       }
     }
@@ -2115,7 +4048,7 @@
         },
         {
           "label": "Media",
-          "href": "/programs/media"
+          "href": "/media"
         }
       ]
     },
@@ -2129,25 +4062,25 @@
       "children": [
         {
           "label": "Career",
-          "href": "/get-involved/career"
+          "href": "/careers"
         },
         {
           "label": "Partners",
-          "href": "/get-involved/partners"
+          "href": "/partners"
         },
         {
           "label": "Enquiry Now",
-          "href": "/get-involved/enquiry"
+          "href": "/enquiry"
         },
         {
           "label": "Brochure",
-          "href": "/get-involved/brochure"
+          "href": "/brochure"
         }
       ]
     },
     {
       "label": "Contact Us",
-      "href": "/contact"
+      "href": "/contactus"
     }
   ],
   "actions": {
@@ -2158,7 +4091,7 @@
     },
     "volunteer": {
       "label": "Become a Volunteer",
-      "href": "/volunteer"
+      "href": "/contactus"
     }
   },
   "about": {
@@ -2204,8 +4137,8 @@
     },
     {
       "id": 3,
-      "label": "Our Causes",
-      "href": "/causes"
+      "label": "Branches",
+      "href": "/branches"
     },
     {
       "id": 4,
@@ -2219,13 +4152,13 @@
     },
     {
       "id": 6,
-      "label": "Latest News",
-      "href": "/news"
+      "label": "Blog",
+      "href": "/blog"
     },
     {
       "id": 7,
       "label": "Contact Us",
-      "href": "/contact"
+      "href": "/contactus"
     }
   ],
   "ourCauses": [
@@ -2264,22 +4197,22 @@
     {
       "id": 1,
       "label": "FAQs",
-      "href": "/faqs"
+      "href": "/faq"
     },
     {
       "id": 2,
       "label": "Privacy Policy",
-      "href": "/privacy-policy"
+      "href": "/privacypolicy"
     },
     {
       "id": 3,
       "label": "Terms & Conditions",
-      "href": "/terms"
+      "href": "/termscondition"
     },
     {
       "id": 4,
       "label": "Refund Policy",
-      "href": "/refund-policy"
+      "href": "/refundpolicy"
     },
     {
       "id": 5,
@@ -2297,6 +4230,66 @@
     "phone": "+91 98765 43210",
     "email": "info@startdonating.org",
     "workingHours": "Mon - Sat: 9:00 AM - 6:00 PM"
+  },
+  "branchesSection": {
+    "heading": "Our Branches",
+    "description": "We are present in multiple locations to serve our communities better.\nFind the nearest branch and get in touch with our team.",
+    "branches": [
+      {
+        "id": 1,
+        "title": "Head Office",
+        "city": "New Delhi, India",
+        "address": "123 Greenway Avenue, Suite 400\nConnaught Place, New Delhi 110001, India",
+        "phone": "+91 (11) 5550-0198",
+        "email": "info@yourorganization.org",
+        "hours": "Mon - Fri: 9:00 AM - 6:00 PM (IST)"
+      },
+      {
+        "id": 2,
+        "title": "Mumbai Branch",
+        "city": "Mumbai, India",
+        "address": "456 Nariman Point, Floor 3\nMarine Drive, Mumbai 400021, India",
+        "phone": "+91 (22) 5550-0132",
+        "email": "mumbai@yourorganization.org",
+        "hours": "Mon - Fri: 9:00 AM - 6:00 PM (IST)"
+      },
+      {
+        "id": 3,
+        "title": "Bengaluru Branch",
+        "city": "Bengaluru, India",
+        "address": "789 MG Road, Suite 200\nIndiranagar, Bengaluru 560038, India",
+        "phone": "+91 (80) 5550-0176",
+        "email": "bengaluru@yourorganization.org",
+        "hours": "Mon - Fri: 9:00 AM - 6:00 PM (IST)"
+      },
+      {
+        "id": 4,
+        "title": "Kolkata Branch",
+        "city": "Kolkata, India",
+        "address": "12 Park Street, Floor 5\nCamac Street Area, Kolkata 700016, India",
+        "phone": "+91 (33) 7946-0958",
+        "email": "kolkata@yourorganization.org",
+        "hours": "Mon - Fri: 9:00 AM - 6:00 PM (IST)"
+      },
+      {
+        "id": 5,
+        "title": "Hyderabad Branch",
+        "city": "Hyderabad, India",
+        "address": "Unit 1803, HITEC City Towers\nMadhapur, Hyderabad 500081, India",
+        "phone": "+91 (40) 1234-4567",
+        "email": "hyderabad@yourorganization.org",
+        "hours": "Mon - Thu: 9:00 AM - 6:00 PM (IST)"
+      },
+      {
+        "id": 6,
+        "title": "Chennai Branch",
+        "city": "Chennai, India",
+        "address": "21 Mount Road, #05-01\nGuindy, Chennai 600032, India",
+        "phone": "+91 (44) 6817-1234",
+        "email": "chennai@yourorganization.org",
+        "hours": "Mon - Fri: 9:00 AM - 6:00 PM (IST)"
+      }
+    ]
   },
   "footerHeadings": {
     "quickLinks": "Quick Links",

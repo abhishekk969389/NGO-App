@@ -13,23 +13,19 @@ export default function OurBlog() {
     <section className="py-12 overflow-hidden border-t border-gray-100">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         
-        {/* Header Section */}
+  
         <div className="flex flex-col items-center">
-          
-          {/* Top Tagline Badge: Book icon + Label + Right Line */}
           <div className="flex items-center justify-center gap-2 text-xs sm:text-sm font-semibold text-[#2c7a3f] font-sans">
             <BookOpen className="h-4 w-4 text-[#2c7a3f]" />
             <span>{blogsSection.badge}</span>
             <div className="w-10 h-[1.5px] bg-[#2c7a3f]/40 ml-1"></div>
           </div>
 
-          {/* Main Heading: "Latest From Our Blog" */}
           <h2 className="mt-2 text-center text-3xl sm:text-5xl font-black text-[#04240d] font-serif leading-tight tracking-tight">
             {blogsSection.heading.replace("Blog", "")}
             <span className="text-[#2c7a3f]">Blog</span>
           </h2>
 
-          {/* Center Divider: Leaf with lines on both sides */}
           <div className="flex items-center justify-center gap-3 mt-3">
             <div className="w-10 h-[1.5px] bg-[#2c7a3f]/40"></div>
             <Leaf className="h-4 w-4 text-[#2c7a3f] fill-current" />
@@ -38,7 +34,6 @@ export default function OurBlog() {
 
         </div>
 
-        {/* Blog Posts Grid */}
         <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
           {blogsSection.posts.map((post) => (
             <div
@@ -47,7 +42,6 @@ export default function OurBlog() {
             >
               
               <div>
-                {/* Blog Image & Date Badge Overlay */}
                 <div className="relative h-52 sm:h-56 w-full overflow-hidden rounded-t-2xl">
                   <Image
                     src={post.image}
@@ -55,8 +49,7 @@ export default function OurBlog() {
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                   />
-                  
-                  {/* Green Date Badge Overlay */}
+                
                   <div className="absolute top-4 left-4 z-10 flex flex-col items-center justify-center bg-[#28602c] text-white text-center rounded-xl px-3 py-2 shadow-sm font-sans min-w-[60px]">
                     <span className="text-xl font-bold leading-none">
                       {post.date.day}
@@ -70,28 +63,22 @@ export default function OurBlog() {
                   </div>
                 </div>
 
-                {/* Card Body */}
                 <div className="p-6 sm:p-7 pb-4 flex flex-col items-start">
                   
-                  {/* Category Label */}
                   <div className="flex items-center gap-1.5 text-xs font-semibold text-[#2c7a3f] font-sans mb-2.5">
                     <Leaf className="w-3.5 h-3.5 text-[#2c7a3f]" />
                     <span>{post.category}</span>
                   </div>
 
-                  {/* Title */}
                   <h3 className="text-lg font-bold text-[#0c3b18] font-serif leading-snug group-hover:text-[#2c7a3f] transition-colors line-clamp-2">
                     {post.title}
                   </h3>
-
-                  {/* Description */}
                   <p className="mt-2.5 text-xs sm:text-sm text-gray-600 leading-relaxed font-sans line-clamp-3">
                     {post.description}
                   </p>
                 </div>
               </div>
 
-              {/* Read More Link (Bottom Fixed) */}
               <div className="px-6 sm:px-7 mb-4">
                 <Link
                   href={post.href}
@@ -106,7 +93,6 @@ export default function OurBlog() {
           ))}
         </div>
  
-        {/* View All Blogs Button */}
         <div className="mt-10 flex justify-center">
           <Link
             href={blogsSection.button.href}

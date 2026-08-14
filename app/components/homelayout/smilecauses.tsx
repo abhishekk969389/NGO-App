@@ -85,7 +85,6 @@ export default function SmileCauses() {
     <section className="bg-[#fafcfb] py-10 border-t border-gray-100 overflow-hidden">
       <div className="mx-auto max-w-[1280px] px-4 sm:px-6 lg:px-8">
         
-        {/* Header Section */}
         <div className="flex flex-col items-center">
           
           <h2 className="text-center text-3xl sm:text-5xl font-black text-[#04240d] font-serif leading-tight">
@@ -106,10 +105,8 @@ export default function SmileCauses() {
 
         </div>
 
-        {/* Carousel Container */}
         <div className="relative mt-4 px-2 sm:px-6">
           
-          {/* Arrow Buttons */}
           <button
             onClick={() => handleScroll('left')}
             className="absolute -left-3 sm:-left-5 top-1/2 -translate-y-1/2 z-40 w-10 h-10 rounded-full bg-[#15421d] text-white flex items-center justify-center shadow-md hover:bg-[#1f5e2e] transition-all cursor-pointer"
@@ -125,8 +122,6 @@ export default function SmileCauses() {
           >
             <ArrowRight className="w-4 h-4" />
           </button>
-
-          {/* Cards Container */}
           <div 
             ref={scrollRef}
             className="flex gap-4 lg:gap-5 overflow-x-auto scrollbar-none snap-x snap-mandatory scroll-smooth pb-4 pt-2 justify-start lg:justify-between"
@@ -140,7 +135,6 @@ export default function SmileCauses() {
                   className="group flex-shrink-0 w-full sm:w-[260px] lg:w-[270px] bg-white rounded-2xl overflow-hidden border border-gray-100/80 shadow-sm hover:shadow-md transition-all snap-start flex flex-col justify-between"
                 >
                   
-                  {/* Card Image Area */}
                   <div className="relative h-48 w-full">
                     <div className="relative w-full h-full rounded-t-2xl overflow-hidden">
                       <Image
@@ -151,17 +145,14 @@ export default function SmileCauses() {
                       />
                     </div>
                     
-                    {/* Top Category Badge */}
                     <div className="absolute top-3 left-3 z-10 flex items-center gap-1.5 bg-[#15421d] text-white text-[10px] font-semibold px-2.5 py-1 rounded-full shadow-sm font-sans">
                       {CategoryIcon}
                       <span>{card.category}</span>
                     </div>
                   </div>
 
-                  {/* Card Details Area with Floating Center Circle Icon */}
+            
                   <div className="relative pt-8 pb-5 px-4 flex flex-col items-center text-center flex-grow justify-between bg-white">
-                    
-                    {/* Overlapping Floating Circle Icon */}
                     <div className="absolute -top-7 left-1/2 -translate-x-1/2 z-30 w-14 h-14 rounded-full bg-[#e8f3e8] flex items-center justify-center shadow-md">
                       {CenterIcon}
                     </div>

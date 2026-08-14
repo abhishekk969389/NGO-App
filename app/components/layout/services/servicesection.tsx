@@ -53,14 +53,14 @@ export default function ServiceSection() {
           
           {/* OUR SERVICES Badge + Underline Line */}
           <div className="inline-flex flex-col items-center">
-            <span className="text-[10px] sm:text-xs font-extrabold uppercase tracking-[0.2em] text-[#2d6f3e]">
+            <span className="text-[10px] sm:text-xs font-extrabold uppercase tracking-[0.2em] text-[#2c7a3f]">
               {services.badge}
             </span>
             {/* Line under OUR SERVICES */}
-            <div className="mt-1 h-[2.5px] w-8 sm:w-10 rounded-full bg-[#2d6f3e]" />
+            <div className="mt-1 h-[2.5px] w-8 sm:w-10 rounded-full bg-[#2c7a3f]" />
           </div>
 
-          <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-[2.65rem] font-bold text-[#141d17] font-serif leading-[1.25] sm:leading-[1.2] tracking-tight mt-2 sm:mt-1">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight mt-2 sm:mt-1">
             <span className="block">{services.heading.line1}</span>
             
             {/* Lasting Impact + Curved Brush Line */}
@@ -80,7 +80,7 @@ export default function ServiceSection() {
             </span>
           </h2>
 
-          <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-xs sm:text-sm md:text-base leading-relaxed text-gray-600">
+          <p className="mx-auto mt-3 sm:mt-4 max-w-2xl text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
             {services.description}
           </p>
         </div>

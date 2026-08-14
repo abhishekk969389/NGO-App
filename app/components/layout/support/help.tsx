@@ -22,22 +22,22 @@ export default function Help() {
   };
 
   return (
-    <section className="bg-white py-12 sm:py-16">
+    <section className="bg-white mt-6 sm:mt-8 md:mt-10 lg:mt-14 pb-12">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         {/* Header Section */}
         <div className="text-center">
-          <h2 className="font-serif text-3xl font-bold tracking-tight text-[#16351d] sm:text-4xl lg:text-[2.6rem]">
+          <h2 className="font-serif text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0d3319] leading-[1.2] sm:leading-[1.18]">
             {helpData.heading.line1}{' '}
-            <span className="text-[#234b2c]">{helpData.heading.line2}</span>
+            <span className="text-[#2c7a3f]">{helpData.heading.line2}</span>
           </h2>
 
           {/* Underline Divider */}
           <div className="mt-3 flex justify-center">
-            <span className="h-[2px] w-12 rounded-full bg-[#3b6043]" />
+            <span className="h-[2.5px] w-12 rounded-full bg-[#2c7a3f]" />
           </div>
 
-          <p className="mx-auto mt-4 max-w-xl text-sm sm:text-base leading-relaxed text-[#59665b]">
+          <p className="mx-auto mt-4 max-w-xl text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
             {helpData.subheading}
           </p>
         </div>

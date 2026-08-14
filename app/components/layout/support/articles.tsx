@@ -62,12 +62,12 @@ export default function Articles() {
         {/* Section Header */}
         <div className="mb-10 flex flex-col items-start justify-between gap-4 sm:flex-row sm:items-center">
           <div>
-            <h2 className="font-serif text-3xl font-bold tracking-tight text-[#16351d] sm:text-4xl lg:text-[2.6rem]">
+            <h2 className="font-serif text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0d3319] leading-[1.2] sm:leading-[1.18]">
               {primaryTitle}{' '}
-              {highlightedTitle && <span className="text-[#234b2c]">{highlightedTitle}</span>}
+              {highlightedTitle && <span className="text-[#2c7a3f]">{highlightedTitle}</span>}
             </h2>
-            <div className="mt-2.5 h-[3px] w-10 rounded-full bg-[#3b6043]" />
-            <p className="mt-3 text-xs sm:text-sm text-[#59665b]">
+            <div className="mt-2.5 h-[2.5px] w-10 rounded-full bg-[#2c7a3f]" />
+            <p className="mt-3 text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
               {articlesData.description}
             </p>
           </div>

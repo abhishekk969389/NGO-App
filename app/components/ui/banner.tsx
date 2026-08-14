@@ -29,7 +29,6 @@ export default function Banner({ pageKey = 'about', bannerData, className = '' }
 
   return (
     <div className={`relative w-full h-[360px] sm:h-[420px] lg:h-[490px] bg-[#f7f8f2] overflow-hidden flex items-center ${className}`}>
-      {/* Background Image Container with Soft Left Gradient Fade */}
       <div className="absolute inset-0 w-full h-full">
         {activeData.backgroundImage && (
           <Image
@@ -40,21 +39,14 @@ export default function Banner({ pageKey = 'about', bannerData, className = '' }
             priority
           />
         )}
-
-        {/* Soft Left Fade Gradient ensuring both lady & children's faces stay clear and text is readable */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#f7f8f2] via-[#f7f8f2]/85 sm:via-[#f7f8f2]/65 to-transparent w-full lg:w-[48%] xl:w-[42%]" />
         <div className="absolute inset-0 bg-[#f7f8f2]/30 sm:hidden" />
       </div>
-
-      {/* Main Content Area */}
       <div className="relative mx-auto max-w-[1380px] w-full px-4 sm:px-6 lg:px-12 py-8 sm:py-12 z-10">
         <div className="flex flex-col justify-center max-w-2xl lg:max-w-3xl xl:max-w-4xl">
-          {/* Main Title from JSON */}
           <h1 className="text-3xl sm:text-4xl lg:text-[3.25rem] xl:text-6xl font-bold tracking-tight text-[#1b4d25] font-serif leading-tight whitespace-normal sm:whitespace-nowrap">
             {activeData.title}
           </h1>
-
-          {/* Dynamic Breadcrumbs from JSON */}
           {activeData.breadcrumbs && activeData.breadcrumbs.length > 0 && (
             <nav aria-label="Breadcrumb" className="mt-3 sm:mt-4">
               <ol className="flex flex-wrap items-center gap-2 text-sm sm:text-base font-semibold font-sans">

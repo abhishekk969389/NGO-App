@@ -26,7 +26,7 @@ export default function OurVision() {
   };
 
   return (
-    <section className="mt-4 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
+    <section className="mt-6 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
       <div className="mx-auto max-w-[1350px] px-4 sm:px-6 lg:px-12 mb-10 sm:mb-14">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 sm:gap-10 lg:gap-8 xl:gap-12 items-center">
           
@@ -36,21 +36,21 @@ export default function OurVision() {
             {/* Badge Pill Row */}
             <div className="flex items-center gap-2 mb-2">
               <div className="px-1 py-1 inline-flex items-center justify-center">
-                <span className="text-xs sm:text-sm lg:text-base font-extrabold text-[#1f5e2e] tracking-wider uppercase font-sans relative pb-0.5">
+                <span className="text-xs sm:text-sm font-extrabold text-[#2c7a3f] tracking-wider uppercase font-sans relative pb-0.5">
                   {visionData.badge}
-                  <span className="absolute bottom-0 left-0 w-8 lg:w-10 h-[2.5px] bg-[#1f5e2e] rounded-full" />
+                  <span className="absolute bottom-0 left-0 w-8 lg:w-10 h-[2.5px] bg-[#2c7a3f] rounded-full" />
                 </span>
               </div>
             </div>
 
-            {/* Main Heading (Increased text size on lg) */}
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-serif leading-[1.2] lg:leading-[1.18] tracking-tight mt-1">
-              <div className="text-[#141d17]">{visionData.heading.line1}</div>
-              <div className="inline-block relative text-[#6BB228] font-serif mt-0.5">
+            {/* Main Heading */}
+            <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold font-serif leading-[1.2] sm:leading-[1.18] tracking-tight mt-1">
+              <div className="text-[#0d3319]">{visionData.heading.line1}</div>
+              <div className="inline-block relative text-[#2c7a3f] font-serif mt-0.5">
                 {visionData.heading.line2}
                 {/* Light Green Underline Curve */}
                 <svg 
-                  className="absolute -bottom-2 left-0 w-full h-3 text-[#6BB228]/60" 
+                  className="absolute -bottom-2 left-0 w-full h-3 text-[#2c7a3f]/60" 
                   viewBox="0 0 300 12" 
                   fill="none"
                   aria-hidden="true"
@@ -60,8 +60,8 @@ export default function OurVision() {
               </div>
             </h2>
 
-            {/* Paragraph Description (Increased text size on lg) */}
-            <p className="text-gray-600 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed font-sans mt-4 max-w-2xl">
+            {/* Paragraph Description */}
+            <p className="text-gray-600 text-xs sm:text-sm md:text-base leading-relaxed font-sans mt-4 max-w-2xl">
               {visionData.description}
             </p>
 

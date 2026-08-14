@@ -29,13 +29,13 @@ export default function CsrInitiatives() {
       <div className="mx-auto max-w-[1320px] px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="text-center">
-          <h2 className="font-serif text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-[#1b4d2e]">
+          <h2 className="font-serif text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0d3319] leading-[1.2] sm:leading-[1.18]">
             {initiatives.heading}
           </h2>
 
           <div className="mt-3 flex items-center justify-center gap-2">
             <span className="h-px w-10 bg-[#a3b8a7]/50 sm:w-14" />
-            <Heart className="h-3.5 w-3.5 fill-[#1d5e2d] text-[#1d5e2d]" />
+            <Heart className="h-3.5 w-3.5 fill-[#2c7a3f] text-[#2c7a3f]" />
             <span className="h-px w-10 bg-[#a3b8a7]/50 sm:w-14" />
           </div>
         </div>

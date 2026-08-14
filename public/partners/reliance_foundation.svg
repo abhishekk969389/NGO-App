@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 50" width="170" height="50">
+  <g transform="translate(5, 10)">
+    <circle cx="12" cy="12" r="10" fill="#c8963e"/>
+    <path d="M 12 5 Q 18 12 12 19 Q 6 12 12 5 Z" fill="#2d6a37"/>
+  </g>
+  <text x="32" y="24" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#333333">Reliance</text>
+  <text x="32" y="40" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2d6a37">Foundation</text>
+</svg>

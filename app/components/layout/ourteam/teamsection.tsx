@@ -43,19 +43,19 @@ export default function TeamSection() {
           </div>
 
           {/* Heading */}
-          <h2 className="text-3xl sm:text-4xl lg:text-[2.75rem] font-bold text-[#0d3319] font-serif leading-tight">
+          <h2 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight">
             {teamData.heading}
           </h2>
 
           {/* Heart Divider */}
           <div className="flex items-center justify-center gap-2 my-2.5">
             <span className="w-8 h-[1px] bg-gray-300" />
-            <Heart className="w-4 h-4 text-[#1f5e2e] stroke-[2] fill-none" />
+            <Heart className="w-4 h-4 text-[#2c7a3f] stroke-[2] fill-none" />
             <span className="w-8 h-[1px] bg-gray-300" />
           </div>
 
           {/* Description */}
-          <p className="text-gray-600 text-xs sm:text-sm lg:text-base max-w-xl mx-auto font-sans leading-relaxed">
+          <p className="text-gray-600 text-xs sm:text-sm md:text-base max-w-xl mx-auto font-sans leading-relaxed">
             {teamData.description}
           </p>
 
@@ -66,9 +66,9 @@ export default function TeamSection() {
           {teamData.members.map((member) => (
             <div
               key={member.id}
-              className="group block rounded-2xl border border-gray-100/90 bg-white p-5 sm:p-6 shadow-xs transition-shadow hover:shadow-md"
+              className="group relative flex flex-col justify-between rounded-2xl border border-gray-100/90 bg-white p-5 sm:p-6 shadow-xs transition-shadow hover:shadow-md"
             >
-              <Link href={`/ourteam/${member.id}`} className="contents">
+              <Link href={`/ourteam/${member.id}`} className="block flex-1 cursor-pointer">
                 <div className="flex items-start gap-4 sm:gap-5">
                   {/* Member Image Avatar */}
                   <div className="relative w-22 h-22 sm:w-26 sm:h-26 rounded-full overflow-hidden shrink-0 bg-[#e8f2ea]">
@@ -77,19 +77,19 @@ export default function TeamSection() {
                       alt={member.name}
                       fill
                       sizes="(max-width: 640px) 88px, 104px"
-                      className="object-cover object-top"
+                      className="object-cover object-top transition-transform duration-300 group-hover:scale-105"
                     />
                   </div>
 
                   {/* Member Details */}
                   <div className="flex flex-col justify-between h-full min-w-0 flex-1">
                     <div>
-                      {/* Name (Badha diya gaya hai) */}
-                      <h3 className="text-lg sm:text-xl font-bold text-[#0d3319] font-sans tracking-tight">
+                      {/* Name */}
+                      <h3 className="text-lg sm:text-xl font-bold text-[#0d3319] font-sans tracking-tight group-hover:text-[#1f5e2e] transition-colors">
                         {member.name}
                       </h3>
                       
-                      {/* Role with Green Accent Line (Badha diya gaya hai) */}
+                      {/* Role with Green Accent Line */}
                       <div className="flex flex-col items-start mt-0.5 mb-2">
                         <p className="text-sm sm:text-base font-bold text-[#1f5e2e] font-sans">
                           {member.role}
@@ -97,7 +97,7 @@ export default function TeamSection() {
                         <div className="w-10 h-[2.5px] bg-[#1f5e2e] rounded-full mt-1" />
                       </div>
 
-                      {/* Bio (Badha diya gaya hai) */}
+                      {/* Bio */}
                       <p className="text-xs sm:text-sm text-gray-600 font-sans leading-relaxed line-clamp-3">
                         {member.bio}
                       </p>
@@ -106,8 +106,8 @@ export default function TeamSection() {
                 </div>
               </Link>
 
-              {/* Social Media Links (Icons & Badges badha diye gaye hain) */}
-              <div className="flex items-center gap-2 mt-4">
+              {/* Social Media Links */}
+              <div className="relative z-10 flex items-center gap-2 mt-4">
                 {member.socials.map((social, index) => (
                   <a
                     key={index}

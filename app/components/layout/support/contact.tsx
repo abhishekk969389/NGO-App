@@ -63,17 +63,17 @@ export default function Contact() {
 
               {/* Title with Green Accent Line */}
               <div className="mt-6">
-                <h2 className="font-serif text-2xl font-bold leading-tight text-[#16351d] sm:text-3xl">
-                  {titlePart1 && <span>{titlePart1}</span>}
+                <h2 className="font-serif text-2xl font-bold leading-tight text-[#0d3319] sm:text-3xl">
+                  {titlePart1 && <span>{titlePart1} </span>}
                   {titlePart2 && (
-                    <span className="block text-[#234b2c]">{titlePart2}</span>
+                    <span className="block text-[#2c7a3f]">{titlePart2}</span>
                   )}
                 </h2>
-                <div className="mt-3 h-[2.5px] w-10 rounded-full bg-[#3b6043]" />
+                <div className="mt-3 h-[2.5px] w-10 rounded-full bg-[#2c7a3f]" />
               </div>
 
               {/* Subtitle / Description */}
-              <p className="mt-5 text-xs sm:text-sm leading-relaxed text-[#59665b]">
+              <p className="mt-5 text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
                 {contactData.subtitle || contactData.description}
               </p>
 
@@ -110,11 +110,11 @@ export default function Contact() {
             {/* Right Side: Message Form */}
             <div className="p-8 sm:p-10 lg:p-12">
               <div className="mb-8">
-                <h3 className="font-serif text-2xl font-bold tracking-tight text-[#16351d] sm:text-3xl">
+                <h3 className="font-serif text-2xl font-bold tracking-tight text-[#0d3319] sm:text-3xl">
                   {formHeadingPart1}{' '}
-                  {formHeadingPart2 && <span className="text-[#234b2c]">{formHeadingPart2}</span>}
+                  {formHeadingPart2 && <span className="text-[#2c7a3f]">{formHeadingPart2}</span>}
                 </h3>
-                <div className="mt-3 h-[2.5px] w-10 rounded-full bg-[#3b6043]" />
+                <div className="mt-3 h-[2.5px] w-10 rounded-full bg-[#2c7a3f]" />
               </div>
 
               <form className="space-y-5">

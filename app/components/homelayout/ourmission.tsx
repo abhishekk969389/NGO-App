@@ -45,10 +45,9 @@ export default function OurMission() {
   return (
     <section className="relative bg-[#f7f9f5] py-8 mt-16 overflow-hidden border-t border-gray-100">
       
-      {/* Floating Paper Airplane Graphic (Updated to match Screenshot) */}
+   
       <div className="absolute top-5 right-6 sm:top-8 sm:right-12 md:right-20 lg:right-28 hidden md:block pointer-events-none">
         <svg width="240" height="130" viewBox="0 0 240 130" fill="none" className="overflow-visible">
-          {/* Smooth Curving Dotted Trail */}
           <path
             d="M 10 115 C 70 130, 140 45, 215 22"
             stroke="#2c7a3f"
@@ -57,7 +56,7 @@ export default function OurMission() {
             strokeOpacity="0.3"
             strokeLinecap="round"
           />
-          {/* Green Outline Paper Airplane at Top-Right */}
+   
           <g transform="translate(205, 2) rotate(12)">
             <svg
               width="32"
@@ -78,7 +77,7 @@ export default function OurMission() {
 
       <div className="mx-auto max-w-[1350px] px-4 sm:px-6 lg:px-8">
         
-        {/* Section Header */}
+        
         <div className="flex flex-col items-center">
           
           <div className="flex items-center justify-center gap-3 text-xs sm:text-sm font-extrabold tracking-widest text-[#2c7a3f] uppercase font-sans">
@@ -102,7 +101,7 @@ export default function OurMission() {
 
         </div>
 
-        {/* Cards Grid */}
+    
         <div className="mt-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-0">
           {ourMission.cards.map((card, index) => {
             const CardIcon = getCardIcon(card.icon);
@@ -118,25 +117,19 @@ export default function OurMission() {
                 }`}
               >
                 
-                {/* Icon Wrapper with Crescent Crescent Curve */}
                 <div className="relative mb-6 flex items-center justify-center">
                   <div className="w-20 h-20 rounded-full bg-[#e8f2e8] flex items-center justify-center z-10">
                     {CardIcon}
                   </div>
                   <div className="absolute -bottom-2 w-24 h-12 border-b-[3px] border-[#1f5e2e] rounded-b-full pointer-events-none" />
                 </div>
-
-                {/* Title */}
                 <h3 className="text-2xl font-serif font-bold text-[#083815] mb-3 tracking-tight">
                   {card.title}
                 </h3>
-
-                {/* Description */}
                 <p className="text-sm text-gray-600 font-sans leading-relaxed mb-6 max-w-[260px]">
                   {card.description}
                 </p>
 
-                {/* Green Bordered Arrow Button */}
                 <Link
                   href={card.href}
                   className="mt-auto w-10 h-10 rounded-full border border-[#1f5e2e] flex items-center justify-center text-[#1f5e2e] hover:bg-[#1f5e2e] hover:text-white transition-colors duration-200"

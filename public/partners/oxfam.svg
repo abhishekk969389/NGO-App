@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+  <g transform="translate(10, 10)">
+    <circle cx="15" cy="15" r="14" fill="#61a534"/>
+    <circle cx="15" cy="10" r="4" fill="#ffffff"/>
+    <path d="M 8 24 Q 15 16 22 24" stroke="#ffffff" stroke-width="3" fill="none"/>
+  </g>
+  <text x="48" y="34" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#61a534">OXFAM</text>
+</svg>

@@ -23,28 +23,28 @@ export default function EventSection() {
   const highlightedFeatured = featuredWords.length > 0 ? featuredWords[featuredWords.length - 1] : '';
 
   return (
-    <section className="bg-white py-12 sm:py-16">
+    <section className="mt-6 sm:mt-8 md:mt-10 lg:mt-14">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         
         {/* Main Section Header */}
         <div className="text-center">
-          <h1 className="font-serif text-3xl font-bold tracking-tight text-[#16351d] sm:text-4xl lg:text-5xl">
+          <h1 className="text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold text-[#0d3319] font-serif leading-[1.2] sm:leading-[1.18] tracking-tight mt-2 sm:mt-1">
             {primaryHeading && <span>{primaryHeading} </span>}
-            {highlightedHeading && <span className="text-[#1d5e2d]">{highlightedHeading}</span>}
+            {highlightedHeading && <span className="mt-2 font-serif text-2xl xs:text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-[#0d3319] leading-[1.2] sm:leading-[1.18]">{highlightedHeading}</span>}
           </h1>
 
           {/* Underline Bar */}
           <div className="mt-3 flex justify-center">
-            <span className="h-[2.5px] w-10 rounded-full bg-[#3b6043]" />
+            <span className="h-[2.5px] w-10 rounded-full bg-[#2c7a3f]" />
           </div>
 
-          <p className="mx-auto mt-4 max-w-xl text-xs sm:text-sm leading-relaxed text-[#59665b]">
+          <p className="mx-auto mt-4 max-w-xl text-xs sm:text-sm md:text-base leading-relaxed text-gray-600 font-sans">
             {eventData.subheading}
           </p>
         </div>
 
         {/* Featured Events Title Row & Slider Controls */}
-        <div className="mt-12 flex items-center justify-between gap-4">
+        <div className="mt-6 flex items-center justify-between gap-4">
           <h2 className="font-serif text-xl font-bold tracking-tight text-[#16351d] sm:text-2xl">
             {primaryFeatured && <span>{primaryFeatured} </span>}
             {highlightedFeatured && <span className="text-[#1d5e2d]">{highlightedFeatured}</span>}
@@ -80,7 +80,7 @@ export default function EventSection() {
                 {/* Image Relative Container (without overflow-hidden) */}
                 <div className="relative">
                   {/* Inner Image Wrapper with overflow-hidden for rounded corners */}
-                  <div className="relative h-48 w-full overflow-hidden rounded-t-2xl">
+                  <div className="relative h-48 w-full overflow-hidden rounded-t-2xl">    
                     <Image
                       src={card.image || '/banner_bg.png'}
                       alt={card.title}

@@ -11,7 +11,7 @@ export default function AchievementSection() {
   if (!certificateAchievementSection) return null;
 
   return (
-    <section className="bg-white mt-4 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
+    <section className="bg-white mt-6 sm:mt-8 md:mt-10 lg:mt-14 overflow-hidden">
       <div className="mx-auto max-w-[1380px] px-4 sm:px-6 lg:px-12 mb-6">
         {/* Main Card Container */}
         <div className="rounded-2xl sm:rounded-3xl bg-[#f6f9f5] p-5 sm:p-7 lg:p-8 flex flex-col md:flex-row items-center justify-between gap-6">
