@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 import {
   BookOpen,
@@ -92,22 +93,25 @@ export default function ServiceSection() {
           <div className="space-y-6 sm:space-y-8 lg:space-y-6 lg:col-span-4 order-1">
             {leftItems.map((item, idx) => (
               <React.Fragment key={item.id}>
-                <div className="flex items-start gap-3.5 sm:gap-4">
+                <Link
+                  href={item.href || `/servicedetails?id=${item.slug || item.id}`}
+                  className="group flex items-start gap-3.5 sm:gap-4 p-2 -mx-2 rounded-xl transition-all hover:bg-gray-50/80 cursor-pointer"
+                >
                   <div
-                    className="flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center rounded-[40%_60%_70%_30%/50%_60%_40%_50%]"
+                    className="flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center rounded-[40%_60%_70%_30%/50%_60%_40%_50%] transition-transform group-hover:scale-105"
                     style={{ backgroundColor: `${item.accent}18` }}
                   >
                     {renderIcon(item)}
                   </div>
                   <div>
-                    <h3 className="text-base font-bold sm:text-lg" style={{ color: item.accent }}>
+                    <h3 className="text-base font-bold sm:text-lg transition-colors group-hover:underline" style={{ color: item.accent }}>
                       {item.title}
                     </h3>
                     <p className="mt-1 text-xs sm:text-sm leading-relaxed text-gray-600">
                       {item.description}
                     </p>
                   </div>
-                </div>
+                </Link>
                 {idx < leftItems.length - 1 && (
                   <div className="border-b border-dashed border-gray-200" />
                 )}
@@ -134,22 +138,25 @@ export default function ServiceSection() {
           <div className="space-y-6 sm:space-y-8 lg:space-y-6 lg:col-span-4 order-3">
             {rightItems.map((item, idx) => (
               <React.Fragment key={item.id}>
-                <div className="flex items-start gap-3.5 sm:gap-4">
+                <Link
+                  href={item.href || `/servicedetails?id=${item.slug || item.id}`}
+                  className="group flex items-start gap-3.5 sm:gap-4 p-2 -mx-2 rounded-xl transition-all hover:bg-gray-50/80 cursor-pointer"
+                >
                   <div
-                    className="flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center rounded-[60%_40%_50%_50%/40%_50%_60%_50%]"
+                    className="flex h-12 w-12 sm:h-14 sm:w-14 shrink-0 items-center justify-center rounded-[60%_40%_50%_50%/40%_50%_60%_50%] transition-transform group-hover:scale-105"
                     style={{ backgroundColor: `${item.accent}18` }}
                   >
                     {renderIcon(item)}
                   </div>
                   <div>
-                    <h3 className="text-base font-bold sm:text-lg" style={{ color: item.accent }}>
+                    <h3 className="text-base font-bold sm:text-lg transition-colors group-hover:underline" style={{ color: item.accent }}>
                       {item.title}
                     </h3>
                     <p className="mt-1 text-xs sm:text-sm leading-relaxed text-gray-600">
                       {item.description}
                     </p>
                   </div>
-                </div>
+                </Link>
                 {idx < rightItems.length - 1 && (
                   <div className="border-b border-dashed border-gray-200" />
                 )}
@@ -163,22 +170,26 @@ export default function ServiceSection() {
         <div className="relative mt-8 sm:mt-10 lg:mt-12 overflow-hidden rounded-2xl bg-[#f2f7f2] border border-[#e2ede2] p-5 sm:p-6 lg:p-8">
           <div className="relative z-10 grid gap-5 sm:gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">
             {bottomItems.map((item) => (
-              <div key={item.id} className="flex items-center gap-3.5">
+              <Link
+                key={item.id}
+                href={item.href || `/servicedetails?id=${item.slug || item.id}`}
+                className="group flex items-center gap-3.5 p-2 rounded-xl transition-all hover:bg-white/60 cursor-pointer"
+              >
                 <div
-                  className="flex h-10 w-10 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-full"
+                  className="flex h-10 w-10 sm:h-12 sm:w-12 shrink-0 items-center justify-center rounded-full transition-transform group-hover:scale-105"
                   style={{ backgroundColor: `${item.accent}20` }}
                 >
                   {renderIcon(item)}
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-gray-900 sm:text-base">
+                  <h4 className="text-sm font-bold text-gray-900 sm:text-base group-hover:text-[#2c7a3f] transition-colors">
                     {item.title}
                   </h4>
                   <p className="mt-0.5 text-xs text-gray-600 leading-snug">
                     {item.description}
                   </p>
                 </div>
-              </div>
+              </Link>
             ))}
           </div>
 

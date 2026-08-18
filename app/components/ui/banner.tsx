@@ -10,8 +10,7 @@ export default function Banner({ pageKey = 'about', bannerData, className = '' }
   // Extract active banner data from props, pageKey lookup in JSON, or default JSON configuration
   const activeData: PageBannerData = 
     bannerData || 
-    (data.pageBanners && data.pageBanners[pageKey]) || 
-    data.pageBanners?.default || 
+    (data.pageBanners && data.pageBanners[pageKey]) ||  
     {
       title: '',
       backgroundImage: '',

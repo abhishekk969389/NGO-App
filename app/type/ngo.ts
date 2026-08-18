@@ -317,11 +317,111 @@ export interface MissionPageSection {
 
 export interface NgoServiceItem {
   id: number;
+  slug?: string;
+  href?: string;
   title: string;
   description: string;
   icon: string;
   accent: string;
 }
+
+export interface ServiceHeaderFeature {
+  id: number | string;
+  title: string;
+  icon: string;
+}
+
+export interface ServiceHeaderData {
+  badge: string;
+  badgeIcon?: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  features: ServiceHeaderFeature[];
+  heroImage: string;
+  heroAlt?: string;
+}
+
+export interface ServiceFeatureCard {
+  id: number | string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface ServiceApproachStep {
+  stepNumber: string;
+  title: string;
+  description: string;
+}
+
+export interface ServiceApproachData {
+  title: string;
+  description: string;
+  steps: ServiceApproachStep[];
+}
+
+export interface ServiceQuoteData {
+  quote: string;
+  author: string;
+}
+
+export interface ServiceWhatWeProvideData {
+  title: string;
+  items: string[];
+  quoteBox: ServiceQuoteData;
+}
+
+export interface ServiceFeaturesApproachData {
+  topBannerTitle: string;
+  topBannerIcon?: string;
+  featureCards: ServiceFeatureCard[];
+  approach: ServiceApproachData;
+  centerImage: string;
+  centerImageAlt?: string;
+  whatWeProvide: ServiceWhatWeProvideData;
+}
+
+export interface ServiceImpactStatItem {
+  id: number | string;
+  value: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface ServiceImpactData {
+  title: string;
+  stats: ServiceImpactStatItem[];
+}
+
+export interface ServiceCtaButton {
+  label: string;
+  href: string;
+}
+
+export interface ServiceCtaData {
+  icon?: string;
+  title: string;
+  description: string;
+  button: ServiceCtaButton;
+}
+
+export interface ServiceImpactCtaData {
+  impact: ServiceImpactData;
+  cta: ServiceCtaData;
+}
+
+export interface ServiceDetailItem {
+  id: string;
+  numericId?: number;
+  banner?: PageBannerData;
+  header: ServiceHeaderData;
+  featuresApproach: ServiceFeaturesApproachData;
+  impactCta: ServiceImpactCtaData;
+}
+
+export type ServiceDetailsMap = Record<string, ServiceDetailItem>;
 
 export interface NgoServicesSection {
   badge: string;
@@ -502,6 +602,132 @@ export interface NgoPortfolioSection {
   description: string;
   cards: NgoPortfolioCard[];
 }
+
+export interface PortfolioMetaInfo {
+  id: number | string;
+  label: string;
+  value: string;
+  icon: string;
+}
+
+export interface PortfolioHeroQuote {
+  quote: string;
+  author: string;
+  role?: string;
+}
+
+export interface PortfolioDetailHeaderData {
+  badge: string;
+  badgeIcon?: string;
+  title: string;
+  location: string;
+  locationIcon?: string;
+  description: string;
+  metaInfo: PortfolioMetaInfo[];
+  backButtonLabel: string;
+  backButtonHref: string;
+  heroImage: string;
+  heroAlt?: string;
+  heroQuote: PortfolioHeroQuote;
+}
+
+export interface PortfolioFeatureCard {
+  id: number | string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
+export interface PortfolioAboutData {
+  title: string;
+  paragraphs: string[];
+  features: PortfolioFeatureCard[];
+}
+
+export interface PortfolioImpactStat {
+  id: number | string;
+  value: string;
+  label: string;
+  icon: string;
+}
+
+export interface PortfolioImpactData {
+  title: string;
+  stats: PortfolioImpactStat[];
+}
+
+export interface PortfolioStoryCard {
+  id: number | string;
+  quote: string;
+  author: string;
+  ageOrRole: string;
+  avatar: string;
+}
+
+export interface PortfolioStoriesData {
+  title: string;
+  cards: PortfolioStoryCard[];
+}
+
+export interface PortfolioPartnerItem {
+  id: number | string;
+  name: string;
+  logo?: string;
+  icon?: string;
+}
+
+export interface PortfolioPartnersData {
+  title: string;
+  partners: PortfolioPartnerItem[];
+}
+
+export interface PortfolioDetailContentData {
+  about: PortfolioAboutData;
+  impact: PortfolioImpactData;
+  stories: PortfolioStoriesData;
+  partners: PortfolioPartnersData;
+}
+
+export interface PortfolioHighlightItem {
+  id: number | string;
+  badgeNumber?: string;
+  icon?: string;
+  title: string;
+  description: string;
+}
+
+export interface PortfolioGalleryItem {
+  id: number | string;
+  image: string;
+  alt?: string;
+}
+
+export interface PortfolioDetailSidebarData {
+  highlightsTitle: string;
+  highlights: PortfolioHighlightItem[];
+  galleryTitle: string;
+  gallery: PortfolioGalleryItem[];
+  sidebarQuote: PortfolioHeroQuote;
+}
+
+export interface PortfolioDetailCtaData {
+  icon?: string;
+  title: string;
+  description: string;
+  buttonLabel: string;
+  buttonHref: string;
+}
+
+export interface PortfolioDetailItem {
+  id: string;
+  numericId?: number;
+  header: PortfolioDetailHeaderData;
+  content: PortfolioDetailContentData;
+  sidebar: PortfolioDetailSidebarData;
+  cta: PortfolioDetailCtaData;
+}
+
+export type PortfolioDetailsMap = Record<string, PortfolioDetailItem>;
 
 export interface NgoCaseStudyCategory {
   id: number;
@@ -1246,6 +1472,7 @@ export interface NgoData {
   whatWeDoSection?: NgoWhatWeDoSection;
   missionPageSection?: MissionPageSection;
   servicesSection?: NgoServicesSection;
+  serviceDetails?: ServiceDetailsMap;
   impactSection?: NgoImpactSection;
   impactGlanceSection?: NgoImpactGlanceSection;
   focusAreaSection?: NgoFocusAreaSection;
@@ -1255,7 +1482,9 @@ export interface NgoData {
   articlesSection?: NgoArticlesSection;
   contactSection?: NgoContactSection;
   portfolioSection?: NgoPortfolioSection;
+  portfolioDetails?: PortfolioDetailsMap;
   caseStudySection?: NgoCaseStudySection;
+  caseStudyDetails?: CaseStudyDetailsMap;
   mediaSection?: NgoMediaSection;
   careersSection?: NgoCareersSection;
   partnersSection?: NgoPartnersSection;
@@ -1273,6 +1502,7 @@ export interface NgoData {
   gallerySection?: NgoGallerySection;
   videoGallerySection?: NgoVideoGallerySection;
   eventSection?: NgoEventSection;
+  eventDetails?: EventDetailsMap;
   helpSection?: NgoHelpSection;
   visionPageSection?: VisionPageSection;
   certificateSection: NgoCertificateSection;
@@ -1345,3 +1575,164 @@ export interface FooterData {
   contactInfo: ContactInfo;
   copyrightText: string;
 }
+
+export interface CaseStudyOverviewFeature {
+  id: number;
+  title: string;
+  description: string;
+  icon?: string;
+}
+
+export interface CaseStudyOverview {
+  title: string;
+  description: string;
+  icon?: string;
+  features: CaseStudyOverviewFeature[];
+}
+
+export interface CaseStudyImpactStat {
+  id: number;
+  value: string;
+  label: string;
+  description: string;
+  icon?: string;
+}
+
+export interface CaseStudyImpact {
+  badge?: string;
+  title: string;
+  stats: CaseStudyImpactStat[];
+}
+
+export interface CaseStudyStoryQuote {
+  text: string;
+  author: string;
+}
+
+export interface CaseStudyStory {
+  badge?: string;
+  title: string;
+  paragraphs: string[];
+  quote?: CaseStudyStoryQuote;
+  image: string;
+  imageAlt?: string;
+}
+
+export interface CaseStudyGalleryItem {
+  id: number;
+  image: string;
+  alt?: string;
+}
+
+export interface CaseStudyGallery {
+  badge?: string;
+  title?: string;
+  items: CaseStudyGalleryItem[];
+}
+
+export interface CaseStudyDetailItem {
+  id: string;
+  numericId?: number;
+  title: string;
+  category: string;
+  headerTitle?: string;
+  heroImage?: string;
+  overview: CaseStudyOverview;
+  impact: CaseStudyImpact;
+  story: CaseStudyStory;
+  gallery: CaseStudyGallery;
+}
+
+export type CaseStudyDetailsMap = Record<string, CaseStudyDetailItem>;
+
+export interface EventExpectation {
+  id: number;
+  text: string;
+}
+
+export interface EventDetailRow {
+  id: number;
+  label: string;
+  value: string;
+  icon?: string;
+  linkText?: string;
+  linkHref?: string;
+}
+
+export interface EventBringItem {
+  id: number;
+  icon: string;
+  label: string;
+}
+
+export interface EventGalleryImage {
+  id: number;
+  image: string;
+  alt?: string;
+}
+
+export interface EventOrganizer {
+  cardTitle?: string;
+  name: string;
+  description: string;
+  icon?: string;
+  profileLink?: string;
+  profileText?: string;
+}
+
+export interface EventSupport {
+  title: string;
+  description: string;
+  phone: string;
+  email: string;
+}
+
+export interface EventDetailItem {
+  id: string;
+  numericId?: number;
+  title: string;
+  categoryTag?: string;
+  description: string;
+  image: string;
+  date: {
+    day: number | string;
+    month: string;
+    fullDate: string;
+  };
+  time: string;
+  location: string;
+  locationMapUrl?: string;
+  viewOnMapLabel?: string;
+  shareEventLabel?: string;
+  volunteersRegistered?: string;
+  aboutTitle?: string;
+  aboutContent: string;
+  expectationsTitle?: string;
+  expectations: EventExpectation[];
+  detailsTitle?: string;
+  detailsRows: EventDetailRow[];
+  bringTitle?: string;
+  bringItems: EventBringItem[];
+  galleryTitle?: string;
+  gallery: EventGalleryImage[];
+  impactCallout?: {
+    title: string;
+    subtitle: string;
+  };
+  registrationCard?: {
+    title: string;
+    description: string;
+    buttonLabel: string;
+    buttonHref: string;
+    loginText?: string;
+    loginHref?: string;
+  };
+  organizer?: EventOrganizer;
+  shareCard?: {
+    title: string;
+    description: string;
+  };
+  support?: EventSupport;
+}
+
+export type EventDetailsMap = Record<string, EventDetailItem>;
