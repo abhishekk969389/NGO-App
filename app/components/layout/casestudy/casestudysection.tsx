@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   ArrowRight,
   BookOpenText,
@@ -152,13 +153,13 @@ export default function CaseStudySection() {
 
               {/* Bottom "Read Full Story" Link */}
               <div className="p-6 pt-0">
-                <a
+                <Link
                   href={card.href || '#'}
                   className="inline-flex items-center gap-1.5 text-xs font-bold text-[#1d5e2d] transition hover:text-[#16351d] sm:text-sm"
                 >
                   <span>{card.buttonLabel || 'Read Full Story'}</span>
                   <ArrowRight className="h-4 w-4" />
-                </a>
+                </Link>
               </div>
             </article>
           ))}

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import {
   ArrowRight,
   BookOpenText,
@@ -121,15 +122,13 @@ export default function OurPortfolio() {
                       </p>
                     </div>
 
-                    <div className="mt-4">
-                      <a
-                        href={card.href || '#'}
+                      <Link
+                        href={card.href || `/portfolio/${card.id}`}
                         className={`inline-flex items-center gap-1.5 text-xs font-bold ${theme.text} transition hover:opacity-80`}
                       >
                         <span>{card.buttonLabel || 'View Project'}</span>
                         <ArrowRight className="h-3.5 w-3.5" />
-                      </a>
-                    </div>
+                      </Link>
                   </div>
                 </div>
               </article>

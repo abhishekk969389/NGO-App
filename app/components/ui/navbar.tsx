@@ -23,7 +23,7 @@ export default function Navbar() {
         
      
         <Link href="/" className="flex items-center gap-2 xl:gap-3 flex-shrink-0">
-          <div className="relative h-10 w-10 xl:h-12 xl:w-12 flex-shrink-0">
+          <div className="relative h-12 w-12 lg:h-18 lg:w-18 flex-shrink-0">
             <Image src={data.brand.logo} alt={`${data.brand.name} logo`} fill className="object-contain" />
           </div>
           <div className="flex flex-col justify-center whitespace-nowrap">
@@ -81,14 +81,6 @@ export default function Navbar() {
         </nav>
 
         <div className="flex items-center gap-1.5 xl:gap-3 flex-shrink-0">
-          <button
-            type="button"
-            aria-label={data.actions.searchLabel}
-            className="hidden lg:block p-1.5 text-gray-700 hover:text-[#0c4d1e] transition-colors"
-          >
-            <Search className="h-4 w-4 xl:h-5 xl:w-5" />
-          </button>
-
           <Link
             href={data.actions.donate.href}
             className="hidden sm:inline-flex items-center gap-1.5 rounded-full border-[1.5px] border-[#2c7a3f] px-2.5 xl:px-4 py-1.5 text-xs xl:text-sm font-semibold text-[#2c7a3f] hover:bg-[#2c7a3f] hover:text-white whitespace-nowrap transition-all"

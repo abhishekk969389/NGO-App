@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { ArrowLeft, ArrowRight, MapPin, Clock3 } from 'lucide-react';
 import ngoDataJson from '@/app/data/ngoData.json';
 import type { NgoData, NgoEventCard, NgoEventSection } from '@/app/type/ngo';
@@ -128,12 +129,12 @@ export default function EventSection() {
 
               {/* Action Button */}
               <div className="p-5 pt-0">
-                <button
-                  type="button"
-                  className="rounded-lg bg-[#1a4325] px-4 py-2.5 text-xs font-semibold text-white transition hover:bg-[#13351d]"
+                <Link
+                  href={`/events/${card.id}`}
+                  className="inline-flex rounded-lg bg-[#1a4325] cursor-pointer px-4 py-2.5 text-xs font-semibold text-white transition hover:bg-[#13351d]"
                 >
                   {card.buttonLabel || 'Register Now'}
-                </button>
+                </Link>
               </div>
             </article>
           ))}

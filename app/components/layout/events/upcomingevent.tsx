@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import Link from 'next/link';
 import { Clock3, MapPin } from 'lucide-react';
 import ngoDataJson from '@/app/data/ngoData.json';
 import type { NgoData, NgoEventSection, NgoUpcomingEventCard } from '@/app/type/ngo';
@@ -90,12 +91,12 @@ export default function UpcomingEvent() {
 
               {/* Right Group: Action Button */}
               <div className="shrink-0 pt-2 lg:pt-0">
-                <button
-                  type="button"
+                <Link
+                  href={`/events/${card.id}`}
                   className="inline-flex w-full items-center justify-center rounded-lg border border-[#234b2c] bg-transparent px-5 py-2.5 text-xs font-semibold text-[#234b2c] transition duration-200 hover:bg-[#234b2c] hover:text-white sm:text-sm lg:w-auto"
                 >
                   {card.buttonLabel || 'View Details'}
-                </button>
+                </Link>
               </div>
             </article>
           ))}

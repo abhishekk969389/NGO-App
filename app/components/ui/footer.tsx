@@ -82,7 +82,7 @@ export default function Footer() {
           <div className="lg:col-span-3 pr-0 lg:pr-8 flex flex-col justify-between border-b border-gray-200/60 pb-8 lg:pb-0 lg:border-b-0">
             <div>
               <Link href="/" className="flex items-center gap-3 flex-shrink-0">
-                <div className="relative h-12 w-12 flex-shrink-0">
+                <div className="relative h-12 w-12 lg:h-18 lg:w-18 flex-shrink-0">
                   <Image
                     src={data.brand.logo}
                     alt={`${data.brand.name} logo`}
